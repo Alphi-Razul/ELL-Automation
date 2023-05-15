@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Instrument Creation - Suite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>485bf053-89e3-464f-a637-0a44ef4c25cc</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Hajira\\\\ELL - Testing\\\\ELL Automation\\\\File_Upload Test\\\\Test.txt'</defaultValue>
+      <description></description>
+      <id>c820e92c-e180-4329-9152-1a0245be10fa</id>
+      <masked>false</masked>
+      <name>File</name>
+   </variable>
+</TestCaseEntity>

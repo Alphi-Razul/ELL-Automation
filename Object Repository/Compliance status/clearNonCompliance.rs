@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>clearNonCompliance</name>
+   <tag></tag>
+   <elementGuidId>1e5099b6-9e0e-4c1a-a700-36bd87fc74ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='card-header-small alert-failure-notify-custom']//div[@class='row']
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ng-multiselect-dropdown[name=&quot;deptlist&quot;] > div.multiselect-dropdown > div > span.dropdown-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Show All</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;container&quot;]/notifications[@class=&quot;ng-star-inserted&quot;]/div[@id=&quot;content&quot;]/div[1]/tabset[@class=&quot;tab-container&quot;]/div[@class=&quot;tab-content&quot;]/notifications-task[@class=&quot;ng-tns-c8-2 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c8-2&quot;]/app-filter[@class=&quot;ng-tns-c8-2&quot;]/form[@class=&quot;form-inline p-2 ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;form-group ng-star-inserted&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[1]/span[@class=&quot;dropdown-btn&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/tabset/div/notifications-task/div/app-filter/form/div[2]/ng-multiselect-dropdown/div/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departments:'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Madurai - 2023/03/04 04:35:22'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show All'])[4]/preceding::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ng-multiselect-dropdown/div/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

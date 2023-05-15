@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_System Schedule</name>
+   <tag></tag>
+   <elementGuidId>ca34f43b-ceb6-4271-8c0c-fdb25e86c034</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;container&quot;]/admin[@class=&quot;ng-star-inserted&quot;]/div[@id=&quot;content&quot;]/div[1]/tabset[@class=&quot;tab-container&quot;]/div[@class=&quot;tab-content&quot;]/admin-department[@class=&quot;ng-star-inserted&quot;]/div[2]/admin-add-department[1]/div[@id=&quot;content&quot;]/div[@class=&quot;bd-example ng-star-inserted&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col ng-star-inserted&quot;]/div[@class=&quot;col-10 pl-0&quot;]/weekly-view[1]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mb-2&quot;]/div[@class=&quot;col form-group ng-star-inserted&quot;]/div[@class=&quot;col col-md-12 col-sm-12 form-inline&quot;]/input[@class=&quot;form-control ng-untouched ng-pristine ng-valid&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/form/div[3]/div/div[2]/div[16]/weekly-view/form/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>
