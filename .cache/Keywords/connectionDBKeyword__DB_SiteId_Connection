@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "6D8B9F1437359F28D3EA66096CB82FA6",
+  "keywordClasses": [
+    {
+      "name": "connectionDBKeyword.DB_SiteId_Connection",
+      "keywordMethods": [
+        {
+          "name": "exeDBQuery",
+          "parameters": [
+            {
+              "name": "query",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "closeDBConnection",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

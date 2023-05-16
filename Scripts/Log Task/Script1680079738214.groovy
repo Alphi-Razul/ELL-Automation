@@ -453,19 +453,19 @@ WebUI.waitForElementNotVisible(findTestObject('LogTask-Status-A-Z/div_Success'),
 
 WebUI.takeScreenshot()
 
-List<String>defaultStatus=driver.findElements(By.xpath("//div[@class='col']"))
-List<String>l1=new ArrayList<String>()
+List<String>defaultStatus01=driver.findElements(By.xpath("//div[@class='col']"))
+List<String>l4=new ArrayList<String>()
 
-for (int j=0;j<defaultStatus.size();j++){
-	WebElement element=defaultStatus.get(j)
+for (int j=0;j<defaultStatus01.size();j++){
+	WebElement element=defaultStatus01.get(j)
 	String ds=element.getText()
 	
 	println(ds)
 	
-	l1.add(ds)
+	l4.add(ds)
 }
 
-println(l1)
+println(l4)
 
 //Status Log Verfication + Screenshot
 WebUI.scrollToElement(findTestObject('LogTask-Status-A-Z/scrollToTask'),0)
@@ -473,23 +473,23 @@ WebUI.scrollToElement(findTestObject('LogTask-Status-A-Z/scrollToTask'),0)
 WebUI.click(findTestObject('LogTask-Status-A-Z/span_Status'))
 
 //JS is used for Scrolling purpose
-JavascriptExecutor js = (JavascriptExecutor) driver
+//JavascriptExecutor js = (JavascriptExecutor) driver
 
-List<String>status=driver.findElements(By.xpath("//div[@class='col']"))
-List<String>l2=new ArrayList<String>()
+List<String>sta=driver.findElements(By.xpath("//div[@class='col']"))
+List<String>l3=new ArrayList<String>()
 
 for(int k=0;k<status.size();k++){
-	WebElement ele=status.get(k)
+	WebElement ele=sta.get(k)
 	String st=ele.getText()
 	println(st)
 	
-	l2.add(st)
+	l3.add(st)
 }
 
-println(l2)
+println(l3)
 
 //Compare the STATUS order contain same as Default order)
-if(l1.containsAll(l2) && l2.containsAll(l1)){
+if(l4.containsAll(l3) && l4.containsAll(l1)){
 	println("The list are Equal")
 }
 

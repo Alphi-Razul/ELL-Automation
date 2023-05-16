@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "AB70E1C3EBA05C617F28E1CD6F2F2E85",
+  "keywordClasses": [
+    {
+      "name": "connectionDBKeyword.DB_Connection",
+      "keywordMethods": [
+        {
+          "name": "exeDBUpdateQuery",
+          "parameters": [
+            {
+              "name": "query",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "closeDBConnection",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
