@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Log Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab937977-cda4-44f1-9861-cde42fcc3ccb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3e30460-5f04-41c2-8a88-81e7258b7b0e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\\\Hajira\\\\ELL - Testing\\\\ELL Automation\\\\File_Upload Test\\\\Test.txt'</defaultValue>
+      <description></description>
+      <id>d3e30460-5f04-41c2-8a88-81e7258b7b0e</id>
+      <masked>false</masked>
+      <name>File</name>
+   </variable>
+</TestCaseEntity>

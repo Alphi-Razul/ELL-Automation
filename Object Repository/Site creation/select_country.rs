@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_country</name>
+   <tag></tag>
+   <elementGuidId>1dc9bacb-8de6-4bb8-a0e8-9d4a6f392e88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@formcontrolname='countryId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-control.siteFormField.ml-1.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control siteFormField ml-1 ng-untouched ng-pristine ng-invalid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>timeZoneId</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>America/New_YorkAmerica/Los_AngelesAmerica/ChicagoAmerica/DetroitAmerica/PhoenixAmerica/DenverAmerica/BoiseAmerica/AnchoragePacific/HonoluluAmerica/AdakAmerica/AnguillaAmerica/AntiguaAmerica/AraguainaAmerica/ArubaAmerica/AsuncionAmerica/AtikokanAmerica/AtkaAmerica/BahiaAmerica/Bahia_BanderasAmerica/BarbadosAmerica/BelemAmerica/BelizeAmerica/Blanc-SablonAmerica/Boa_VistaAmerica/BogotaAmerica/Buenos_AiresAmerica/Cambridge_BayAmerica/Campo_GrandeAmerica/CancunAmerica/CaracasAmerica/CatamarcaAmerica/CayenneAmerica/CaymanAmerica/ChihuahuaAmerica/Coral_HarbourAmerica/CordobaAmerica/Costa_RicaAmerica/CrestonAmerica/CuiabaAmerica/CuracaoAmerica/DanmarkshavnAmerica/DawsonAmerica/Dawson_CreekAmerica/DominicaAmerica/EdmontonAmerica/EirunepeAmerica/El_SalvadorAmerica/EnsenadaAmerica/Fort_NelsonAmerica/Fort_WayneAmerica/FortalezaAmerica/Glace_BayAmerica/GodthabAmerica/Goose_BayAmerica/Grand_TurkAmerica/GrenadaAmerica/GuadeloupeAmerica/GuatemalaAmerica/GuayaquilAmerica/GuyanaAmerica/HalifaxAmerica/HavanaAmerica/HermosilloAmerica/Indiana/IndianapolisAmerica/Indiana/KnoxAmerica/Indiana/MarengoAmerica/Indiana/PetersburgAmerica/Indiana/Tell_CityAmerica/Indiana/VevayAmerica/Indiana/VincennesAmerica/Indiana/WinamacAmerica/IndianapolisAmerica/InuvikAmerica/JamaicaAmerica/JujuyAmerica/JuneauAmerica/Kentucky/LouisvilleAmerica/Kentucky/MonticelloAmerica/Knox_INAmerica/KralendijkAmerica/La_PazAmerica/LimaAmerica/LouisvilleAmerica/Lower_PrincesAmerica/MaceioAmerica/ManaguaAmerica/MarigotAmerica/MartiniqueAmerica/MatamorosAmerica/MazatlanAmerica/MendozaAmerica/MenomineeAmerica/MeridaAmerica/MetlakatlaAmerica/Mexico_CityAmerica/MiquelonAmerica/MonctonAmerica/MonterreyAmerica/MontevideoAmerica/MontrealAmerica/MontserratAmerica/NassauAmerica/NipigonAmerica/NomeAmerica/NoronhaAmerica/North_Dakota/BeulahAmerica/North_Dakota/CenterAmerica/North_Dakota/New_SalemAmerica/OjinagaAmerica/PanamaAmerica/PangnirtungAmerica/ParamariboAmerica/Port-au-PrinceAmerica/Port_of_SpainAmerica/Porto_AcreAmerica/Porto_VelhoAmerica/Puerto_RicoAmerica/Punta_ArenasAmerica/Rainy_RiverAmerica/Rankin_InletAmerica/RecifeAmerica/ReginaAmerica/ResoluteAmerica/Rio_BrancoAmerica/RosarioAmerica/Santa_IsabelAmerica/SantaremAmerica/SantiagoAmerica/Santo_DomingoAmerica/Sao_PauloAmerica/ScoresbysundAmerica/ShiprockAmerica/SitkaAmerica/St_BarthelemyAmerica/St_JohnsAmerica/St_KittsAmerica/St_LuciaAmerica/St_ThomasAmerica/St_VincentAmerica/Swift_CurrentAmerica/TegucigalpaAmerica/ThuleAmerica/Thunder_BayAmerica/TijuanaAmerica/TorontoAmerica/TortolaAmerica/VancouverAmerica/VirginAmerica/WhitehorseAmerica/WinnipegAmerica/YakutatAmerica/YellowknifeAmerica/Argentina/Buenos_AiresAmerica/Argentina/CatamarcaAmerica/Argentina/ComodRivadaviaAmerica/Argentina/CordobaAmerica/Argentina/JujuyAmerica/Argentina/La_RiojaAmerica/Argentina/MendozaAmerica/Argentina/Rio_GallegosAmerica/Argentina/SaltaAmerica/Argentina/San_JuanAmerica/Argentina/San_LuisAmerica/Argentina/TucumanAmerica/Argentina/UshuaiaAtlantic/AzoresAtlantic/BermudaAtlantic/CanaryAtlantic/Cape_VerdeAtlantic/FaeroeAtlantic/Jan_MayenAtlantic/MadeiraAtlantic/ReykjavikAtlantic/South_GeorgiaAtlantic/St_HelenaAtlantic/StanleyCanada/AtlanticCanada/CentralCanada/EasternCanada/MountainCanada/NewfoundlandCanada/PacificCanada/SaskatchewanCanada/YukonCETCST6CDTChile/ContinentalChile/EasterIslandBrazil/AcreBrazil/DeNoronhaBrazil/EastBrazil/WestCubaEETEST5EDTEgyptEireEtc/GMTEtc/GMT+0Etc/GMT+1Etc/GMT+10Etc/GMT+11Etc/GMT+12Etc/GMT+2Etc/GMT+3Etc/GMT+4Etc/GMT+5Etc/GMT+6Etc/GMT+7Etc/GMT+8Etc/GMT+9Etc/GMT-0Etc/GMT-1Etc/GMT-10Etc/GMT-11Etc/GMT-12Etc/GMT-13Etc/GMT-14Etc/GMT-2Etc/GMT-3Etc/GMT-4Etc/GMT-5Etc/GMT-6Etc/GMT-7Etc/GMT-8Etc/GMT-9Etc/GMT0Etc/GreenwichEtc/UCTEtc/UTCEtc/UniversalEtc/ZuluAsia/AdenAsia/AlmatyAsia/AnadyrAsia/AqtauAsia/AqtobeAsia/AshgabatAsia/AshkhabadAsia/BaghdadAsia/BahrainAsia/BakuAsia/BangkokAsia/BeirutAsia/BishkekAsia/BruneiAsia/ChoibalsanAsia/ChongqingAsia/ChungkingAsia/ColomboAsia/DaccaAsia/DamascusAsia/DhakaAsia/DiliAsia/DubaiAsia/DushanbeAsia/GazaAsia/HarbinAsia/Hong_KongAsia/HovdAsia/IrkutskAsia/IstanbulAsia/JakartaAsia/JayapuraAsia/JerusalemAsia/KabulAsia/KamchatkaAsia/KarachiAsia/KashgarAsia/KatmanduAsia/KolkataAsia/KrasnoyarskAsia/Kuala_LumpurAsia/KuchingAsia/KuwaitAsia/MacaoAsia/MacauAsia/MagadanAsia/MakassarAsia/ManilaAsia/MuscatAsia/NicosiaAsia/NovosibirskAsia/OmskAsia/OralAsia/Phnom_PenhAsia/PontianakAsia/PyongyangAsia/QatarAsia/QyzylordaAsia/RangoonAsia/RiyadhAsia/SaigonAsia/SakhalinAsia/SamarkandAsia/SeoulAsia/ShanghaiAsia/SingaporeAsia/TaipeiAsia/TashkentAsia/TbilisiAsia/TehranAsia/Tel_AvivAsia/ThimbuAsia/ThimphuAsia/TokyoAsia/Ujung_PandangAsia/UlaanbaatarAsia/Ulan_BatorAsia/UrumqiAsia/VientianeAsia/VladivostokAsia/YakutskAsia/YekaterinburgAsia/YerevanAsia/AtyrauAsia/BarnaulAsia/ChitaAsia/FamagustaAsia/HebronAsia/Ho_Chi_MinhAsia/KathmanduAsia/KhandygaAsia/NovokuznetskAsia/QostanayAsia/SrednekolymskAsia/TomskAsia/Ust-NeraAsia/YangonAfrica/AbidjanAfrica/AccraAfrica/Addis_AbabaAfrica/AlgiersAfrica/AsmaraAfrica/AsmeraAfrica/BamakoAfrica/BanguiAfrica/BanjulAfrica/BissauAfrica/BlantyreAfrica/BrazzavilleAfrica/BujumburaAfrica/CairoAfrica/CasablancaAfrica/CeutaAfrica/ConakryAfrica/DakarAfrica/Dar_es_SalaamAfrica/DjiboutiAfrica/DoualaAfrica/El_AaiunAfrica/FreetownAfrica/GaboroneAfrica/HarareAfrica/JohannesburgAfrica/KampalaAfrica/KhartoumAfrica/KigaliAfrica/KinshasaAfrica/LagosAfrica/LibrevilleAfrica/LomeAfrica/LuandaAfrica/LubumbashiAfrica/LusakaAfrica/MalaboAfrica/MaputoAfrica/MaseruAfrica/MbabaneAfrica/MogadishuAfrica/MonroviaAfrica/NairobiAfrica/NdjamenaAfrica/NiameyAfrica/NouakchottAfrica/OuagadougouAfrica/Porto-NovoAfrica/Sao_TomeAfrica/TimbuktuAfrica/TripoliAfrica/TunisAfrica/WindhoekAfrica/Juba Europe/AmsterdamEurope/AndorraEurope/AstrakhanEurope/AthensEurope/BelfastEurope/BelgradeEurope/BerlinEurope/BratislavaEurope/BrusselsEurope/BucharestEurope/BudapestEurope/BusingenEurope/ChisinauEurope/CopenhagenEurope/DublinEurope/GibraltarEurope/GuernseyEurope/HelsinkiEurope/Isle_of_ManEurope/IstanbulEurope/JerseyEurope/KaliningradEurope/KievEurope/KirovEurope/LisbonEurope/LjubljanaEurope/LondonEurope/LuxembourgEurope/MadridEurope/MaltaEurope/MariehamnEurope/MinskEurope/MonacoEurope/MoscowEurope/NicosiaEurope/OsloEurope/ParisEurope/PodgoricaEurope/PragueEurope/RigaEurope/RomeEurope/SamaraEurope/San_MarinoEurope/SarajevoEurope/SaratovEurope/SimferopolEurope/SkopjeEurope/SofiaEurope/StockholmEurope/TallinnEurope/TiraneEurope/TiraspolEurope/UlyanovskEurope/UzhgorodEurope/VaduzEurope/VaticanEurope/ViennaEurope/VilniusEurope/VolgogradEurope/WarsawEurope/ZagrebEurope/ZaporozhyeEurope/ZurichAustralia/ACTAustralia/AdelaideAustralia/BrisbaneAustralia/Broken_HillAustralia/CanberraAustralia/CurrieAustralia/DarwinAustralia/EuclaAustralia/HobartAustralia/LHIAustralia/LindemanAustralia/Lord_HoweAustralia/MelbourneAustralia/NSWAustralia/NorthAustralia/PerthAustralia/QueenslandAustralia/SouthAustralia/SydneyAustralia/TasmaniaAustralia/VictoriaAustralia/WestAustralia/YancowinnaGBGB-EireGMTGMT0GreenwichHongkongIcelandIndian/AntananarivoIndian/ChagosIndian/ChristmasIndian/CocosIndian/ComoroIndian/KerguelenIndian/MaheIndian/MaldivesIndian/MayotteIndian/ReunionIranIsraelJamaicaJapanKwajaleinLibyaMETMST7MDTMexico/BajaNorteMexico/BajaSurMexico/GeneralNZNZ-CHATNavajoPRCPST8PDTPacific/ApiaPacific/AucklandPacific/BougainvillePacific/ChathamPacific/ChuukPacific/EasterPacific/EfatePacific/EnderburyPacific/FakaofoPacific/FijiPacific/FunafutiPacific/GalapagosPacific/GambierPacific/GuadalcanalPacific/GuamPacific/JohnstonPacific/KiritimatiPacific/KosraePacific/KwajaleinPacific/MajuroPacific/MarquesasPacific/MidwayPacific/NauruPacific/NiuePacific/NorfolkPacific/NoumeaPacific/PalauPacific/PitcairnPacific/PohnpeiPacific/PonapePacific/Port_MoresbyPacific/RarotongaPacific/SaipanPacific/SamoaPacific/TahitiPacific/TarawaPacific/TongatapuPacific/TrukPacific/WakePacific/WallisPacific/YapPolandPortugalROKSingaporeSystemV/AST4SystemV/AST4ADTSystemV/CST6SystemV/CST6CDTSystemV/EST5SystemV/EST5EDTSystemV/HST10SystemV/MST7SystemV/MST7MDTSystemV/PST8SystemV/PST8PDTSystemV/YST9SystemV/YST9YDTTurkeyUCTUS/AlaskaUS/AleutianUS/ArizonaUS/CentralUS/East-IndianaUS/EasternUS/HawaiiUS/Indiana-StarkeUS/MichiganUS/MountainUS/PacificUS/SamoaUTCUniversalW-SUWETZuluESTHSTMSTACTAETAGTARTASTBETBSTCATCNTCSTCTTEATECTIETISTJSTMITNETNSTPLTPNTPRTPSTSSTVST</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[1]/tabset[@class=&quot;tab-container&quot;]/div[@class=&quot;tab-content&quot;]/admin-sites[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-10 form-inline&quot;]/select[@class=&quot;form-control siteFormField ml-1 ng-untouched ng-pristine ng-invalid&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/tabset/div/admin-sites/div/div[2]/form/div[8]/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timezone'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logging Schedule'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow System Schedule'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/select</value>
+   </webElementXpaths>
+</WebElementEntity>

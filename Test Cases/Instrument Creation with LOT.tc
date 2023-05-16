@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Instrument Creation with LOT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a4a1d24-706b-4699-afb0-9ab793e47d17</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Hajira\\\\ELL - Testing\\\\ELL Automation\\\\File_Upload Test\\\\Test.txt'</defaultValue>
+      <description></description>
+      <id>27358e38-466a-4cbc-b04b-e99f1631116d</id>
+      <masked>false</masked>
+      <name>File</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>scrollTohideCalender</name>
+   <tag></tag>
+   <elementGuidId>8d1a78bd-6d8c-4188-8f65-cf819353626b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Hide Calendar']
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;container&quot;]/notifications[@class=&quot;ng-star-inserted&quot;]/div[@id=&quot;content&quot;]/div[1]/tabset[@class=&quot;tab-container&quot;]/div[@class=&quot;tab-content&quot;]/notifications-task[@class=&quot;ng-tns-c11-2 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c11-2&quot;]/app-filter[@class=&quot;ng-tns-c11-2&quot;]/form[@class=&quot;form-inline p-2 ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;form-group ng-star-inserted&quot;]/ng-multiselect-dropdown[@class=&quot;ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;multiselect-dropdown&quot;]/div[1]/span[@class=&quot;dropdown-btn&quot;]/span[2]/span[@class=&quot;dropdown-down&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/tabset/div/notifications-task/div/app-filter/form/div[2]/ng-multiselect-dropdown/div/div/span/span[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ng-multiselect-dropdown/div/div/span/span[2]/span</value>
+   </webElementXpaths>
+</WebElementEntity>

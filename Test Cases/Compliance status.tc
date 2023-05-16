@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Compliance status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5480d782-b4ee-4204-bcd1-1a3e88f4aeef</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Hajira\\\\ELL - Testing\\\\ELL Automation\\\\File_Upload Test\\\\Test.txt'</defaultValue>
+      <description></description>
+      <id>ba741889-efec-4b24-b752-939a8e945a10</id>
+      <masked>false</masked>
+      <name>File</name>
+   </variable>
+</TestCaseEntity>
