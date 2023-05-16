@@ -79,14 +79,4 @@ class Excel {
 		workbook.write(outputStream)
 		outputStream.close()
 	}
-
-	@Keyword
-	def static readData(String fileName,String sheetName,int rowNum,int cellNum,String newDataCell){
-		File file =new File("C://Hajira//ELL//Automation//Excel//"+fileName+".xlsx")
-		FileInputStream stream =new FileInputStream(file)
-		Workbook workbook=new XSSFWorkbook(stream)
-		Sheet sheet=workbook.getSheet(sheetName)
-		Row row=sheet.getRow(rowNum)
-		Cell cell=row.getCell(cellNum)
-	}
 }
