@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "DB89A479B6D5C608F2D81870DD42B5EB",
+  "keywordFileContentHash": "8786F8DAB8DCBDD745199394B65FBF80",
   "keywordClasses": [
     {
       "name": "keyword.Excel",
@@ -72,8 +72,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "readData",
@@ -143,11 +142,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
