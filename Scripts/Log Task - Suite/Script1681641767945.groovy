@@ -336,6 +336,7 @@ for (int i = 0; i < T4.size(); i++) {
 WebUI.scrollToElement(findTestObject('LogTask-Status-A-Z/button_Attach a File'), 2)
 
 filePath = findTestData('Add Inst-Type Data').getValue('Attached FilePath', 1)
+println(filePath)
 
 WebUI.uploadFile(findTestObject('LogTask-Status-A-Z/button_Attach a File'),filePath)
 	

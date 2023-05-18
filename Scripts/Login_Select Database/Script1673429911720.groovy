@@ -63,7 +63,7 @@ for (int i = 0; i < b.size(); i++) {
     System.out.println(x1.getText())
 }
 
-FileInputStream fis = new FileInputStream('C://Hajira//ELL//Automation//Excel//DataBase Selection.xlsx')
+FileInputStream fis = new FileInputStream('C://ELL//Automation//Excel//DataBase Selection.xlsx')
 
 int k = 1
 
@@ -79,7 +79,7 @@ for (int i = 0; i < b.size(); i++) {
     k++
 }
 
-FileOutputStream fos = new FileOutputStream('C://Hajira//ELL//Automation//Excel//DataBase Selection.xlsx')
+FileOutputStream fos = new FileOutputStream('C://ELL//Automation//Excel//DataBase Selection.xlsx')
 
 wb.write(fos)
 
