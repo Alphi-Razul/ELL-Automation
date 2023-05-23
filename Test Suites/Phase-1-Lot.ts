@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>8647d471-497e-4265-9e7f-7b2922c79930</testSuiteGuid>
    <testCaseLink>
-      <guid>75586620-5f34-4dd7-bf6d-14fa2c105cd1</guid>
+      <guid>cbae168b-c4bb-4b2d-a80f-7d1bf55d9849</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login_Select Database</testCaseId>

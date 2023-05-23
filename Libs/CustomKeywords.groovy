@@ -17,13 +17,13 @@ import com.katalon.plugin.keyword.connection.DBType
 
 import java.sql.ResultSet
 
-import org.apache.poi.ss.usermodel.Workbook
+import org.apache.poi.ss.usermodel.Cell
 
 import org.apache.poi.ss.usermodel.Sheet
 
-import java.lang.Object
+import org.apache.poi.ss.usermodel.Workbook
 
-import org.apache.poi.ss.usermodel.Cell
+import java.lang.Object
 
 import org.apache.poi.ss.usermodel.Row
 
@@ -266,57 +266,18 @@ def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.verifyMatch
 
 
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot"(
-    	String filename	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScreenshot(
-        	filename
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot"(
     	String filename	) {
     (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScreenshot(
         	filename)
 }
 
 
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
-    	TestObject object	
-     , 	String filename	
-     , 	java.util.List<TestObject> ignoreObjs	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
-        	object
-         , 	filename
-         , 	ignoreObjs)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
-    	TestObject object	
-     , 	String filename	
-     , 	java.util.List<TestObject> ignoreObjs	
-     , 	int timeout	
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot"(
+    	String filename	
      , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
-        	object
-         , 	filename
-         , 	ignoreObjs
-         , 	timeout
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScreenshot(
+        	filename
          , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
-    	TestObject object	
-     , 	String filename	
-     , 	java.util.List<TestObject> ignoreObjs	
-     , 	int timeout	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
-        	object
-         , 	filename
-         , 	ignoreObjs
-         , 	timeout)
 }
 
 
@@ -340,16 +301,108 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage
 }
 
 
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
-    	String filename	
-     , 	int headerToCut	
-     , 	int footerToCut	
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
+    	TestObject object	
+     , 	String filename	
+     , 	java.util.List<TestObject> ignoreObjs	
+     , 	int timeout	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
+        	object
+         , 	filename
+         , 	ignoreObjs
+         , 	timeout)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
+    	TestObject object	
+     , 	String filename	
+     , 	java.util.List<TestObject> ignoreObjs	
+     , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
-        	filename
-         , 	headerToCut
-         , 	footerToCut
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
+        	object
+         , 	filename
+         , 	ignoreObjs
+         , 	timeout
          , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
+    	TestObject object	
+     , 	String filename	
+     , 	java.util.List<TestObject> ignoreObjs	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
+        	object
+         , 	filename
+         , 	ignoreObjs)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
+    	TestObject object	
+     , 	String filename	
+     , 	int timeout	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
+        	object
+         , 	filename
+         , 	timeout
+         , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
+    	TestObject object	
+     , 	String filename	
+     , 	int timeout	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
+        	object
+         , 	filename
+         , 	timeout)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
+    	TestObject object	
+     , 	String filename	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
+        	object
+         , 	filename)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementsScreenshot"(
+    	java.util.List<TestObject> objects	
+     , 	String filename	
+     , 	int timeout	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementsScreenshot(
+        	objects
+         , 	filename
+         , 	timeout
+         , 	flowControl)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementsScreenshot"(
+    	java.util.List<TestObject> objects	
+     , 	String filename	
+     , 	int timeout	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementsScreenshot(
+        	objects
+         , 	filename
+         , 	timeout)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementsScreenshot"(
+    	java.util.List<TestObject> objects	
+     , 	String filename	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementsScreenshot(
+        	objects
+         , 	filename)
 }
 
 
@@ -361,6 +414,19 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingSc
         	filename
          , 	headerToCut
          , 	footerToCut)
+}
+
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
+    	String filename	
+     , 	int headerToCut	
+     , 	int footerToCut	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
+        	filename
+         , 	headerToCut
+         , 	footerToCut
+         , 	flowControl)
 }
 
 
@@ -400,72 +466,6 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePag
 }
 
 
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
-    	TestObject object	
-     , 	String filename	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
-        	object
-         , 	filename)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
-    	TestObject object	
-     , 	String filename	
-     , 	int timeout	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
-        	object
-         , 	filename
-         , 	timeout)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
-    	TestObject object	
-     , 	String filename	
-     , 	int timeout	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
-        	object
-         , 	filename
-         , 	timeout
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementsScreenshot"(
-    	java.util.List<TestObject> objects	
-     , 	String filename	
-     , 	int timeout	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementsScreenshot(
-        	objects
-         , 	filename
-         , 	timeout
-         , 	flowControl)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementsScreenshot"(
-    	java.util.List<TestObject> objects	
-     , 	String filename	
-     , 	int timeout	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementsScreenshot(
-        	objects
-         , 	filename
-         , 	timeout)
-}
-
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementsScreenshot"(
-    	java.util.List<TestObject> objects	
-     , 	String filename	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementsScreenshot(
-        	objects
-         , 	filename)
-}
-
-
 def static "com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword.setDate"(
     	TestObject to	
      , 	int day	
@@ -483,6 +483,15 @@ def static "com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword.setDate"(
 }
 
 
+def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDrop"(
+    	TestObject sourceObject	
+     , 	TestObject destinationObject	) {
+    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDrop(
+        	sourceObject
+         , 	destinationObject)
+}
+
+
 def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropBy"(
     	TestObject sourceObject	
      , 	TestObject destinationObject	
@@ -496,15 +505,6 @@ def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropB
 }
 
 
-def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropJquery"(
-    	TestObject sourceObject	
-     , 	TestObject destinationObject	) {
-    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDropJquery(
-        	sourceObject
-         , 	destinationObject)
-}
-
-
 def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5"(
     	TestObject sourceObject	
      , 	TestObject destinationObject	) {
@@ -514,10 +514,10 @@ def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropH
 }
 
 
-def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDrop"(
+def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropJquery"(
     	TestObject sourceObject	
      , 	TestObject destinationObject	) {
-    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDrop(
+    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDropJquery(
         	sourceObject
          , 	destinationObject)
 }
@@ -550,11 +550,6 @@ def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.executeUpdate
 }
 
 
-def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection"() {
-    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).getGlobalConnection()
-}
-
-
 def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnection"(
     	DBType type	
      , 	String server	
@@ -579,6 +574,11 @@ def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.closeConnecti
 }
 
 
+def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection"() {
+    (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).getGlobalConnection()
+}
+
+
 def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount"(
     	ResultSet rs	) {
     (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getRowCount(
@@ -590,33 +590,6 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCou
     	ResultSet rs	) {
     (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getColumnCount(
         	rs)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.exportToCSV"(
-    	ResultSet rs	
-     , 	String pathFile	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).exportToCSV(
-        	rs
-         , 	pathFile)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
-    	ResultSet rs	
-     , 	int columnIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
-        	rs
-         , 	columnIndex)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
-    	ResultSet rs	
-     , 	String columnName	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
-        	rs
-         , 	columnName)
 }
 
 
@@ -635,6 +608,42 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowVa
         	rs
          , 	fromRowIndex
          , 	toRowIndex)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.exportToCSV"(
+    	ResultSet rs	
+     , 	String pathFile	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).exportToCSV(
+        	rs
+         , 	pathFile)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
+    	ResultSet rs	
+     , 	String columnName	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
+        	rs
+         , 	columnName)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
+    	ResultSet rs	
+     , 	int columnIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
+        	rs
+         , 	columnIndex)
+}
+
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
+    	ResultSet rs	
+     , 	int rowIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
+        	rs
+         , 	rowIndex)
 }
 
 
@@ -664,15 +673,6 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCel
         	rs
          , 	rowIndex
          , 	colIndex)
-}
-
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
-    	ResultSet rs	
-     , 	int rowIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
-        	rs
-         , 	rowIndex)
 }
 
 
@@ -706,124 +706,10 @@ def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingInt
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getSheetNames"(
-    	Workbook workbook	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getSheetNames(
-        	workbook)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getWorkbook"(
-    	String filePath	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getWorkbook(
-        	filePath)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelFile"(
-    	String filePath	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelFile(
-        	filePath)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelSheet"(
-    	Workbook workbook	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelSheet(
-        	workbook)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelSheet"(
-    	Workbook workbook	
-     , 	String sheetName	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelSheet(
-        	workbook
-         , 	sheetName)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.saveWorkbook"(
-    	String filePath	
-     , 	Workbook workbook	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).saveWorkbook(
-        	filePath
-         , 	workbook)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.createWorkbook"(
-    	String filePath	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createWorkbook(
-        	filePath)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
-    	String filePath	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
-        	filePath)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
-    	Workbook wbs	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
-        	wbs)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
-    	String filePath	
-     , 	int sheetIndex	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
-        	filePath
-         , 	sheetIndex)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
-    	Workbook wbs	
-     , 	String sheetName	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
-        	wbs
-         , 	sheetName)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellByIndex"(
-    	Sheet sheet	
-     , 	int rowIdx	
-     , 	int colIdx	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellByIndex(
-        	sheet
-         , 	rowIdx
-         , 	colIdx)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.locateCell"(
-    	Sheet sheet	
-     , 	Object cellContent	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).locateCell(
-        	sheet
-         , 	cellContent)
-}
-
-
 def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValue"(
     	Cell cell	) {
     (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValue(
         	cell)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellByAddress"(
-    	Sheet sheet	
-     , 	String cellAddress	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellByAddress(
-        	sheet
-         , 	cellAddress)
 }
 
 
@@ -847,46 +733,6 @@ def static "com.kms.katalon.keyword.excel.ExcelKeywords.getTableContent"(
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoRows"(
-    	Row row1	
-     , 	Row row2	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoRows(
-        	row1
-         , 	row2)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoRows"(
-    	Row row1	
-     , 	Row row2	
-     , 	boolean isValueOnly	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoRows(
-        	row1
-         , 	row2
-         , 	isValueOnly)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoSheets"(
-    	Sheet sheet1	
-     , 	Sheet sheet2	
-     , 	boolean isValueOnly	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoSheets(
-        	sheet1
-         , 	sheet2
-         , 	isValueOnly)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoSheets"(
-    	Sheet sheet1	
-     , 	Sheet sheet2	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoSheets(
-        	sheet1
-         , 	sheet2)
-}
-
-
 def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoExcels"(
     	Workbook workbook1	
      , 	Workbook workbook2	) {
@@ -904,6 +750,55 @@ def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoExcels"(
         	workbook1
          , 	workbook2
          , 	isValueOnly)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.locateCell"(
+    	Sheet sheet	
+     , 	Object cellContent	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).locateCell(
+        	sheet
+         , 	cellContent)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoSheets"(
+    	Sheet sheet1	
+     , 	Sheet sheet2	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoSheets(
+        	sheet1
+         , 	sheet2)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoSheets"(
+    	Sheet sheet1	
+     , 	Sheet sheet2	
+     , 	boolean isValueOnly	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoSheets(
+        	sheet1
+         , 	sheet2
+         , 	isValueOnly)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellByAddress"(
+    	Sheet sheet	
+     , 	String cellAddress	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellByAddress(
+        	sheet
+         , 	cellAddress)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellByIndex"(
+    	Sheet sheet	
+     , 	int rowIdx	
+     , 	int colIdx	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellByIndex(
+        	sheet
+         , 	rowIdx
+         , 	colIdx)
 }
 
 
@@ -927,14 +822,32 @@ def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoCells"(
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValueByRangeAddress"(
-    	Sheet sheet	
-     , 	String topLeftAddress	
-     , 	String rightBottomAddress	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValueByRangeAddress(
-        	sheet
-         , 	topLeftAddress
-         , 	rightBottomAddress)
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoRows"(
+    	Row row1	
+     , 	Row row2	
+     , 	boolean isValueOnly	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoRows(
+        	row1
+         , 	row2
+         , 	isValueOnly)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoRows"(
+    	Row row1	
+     , 	Row row2	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).compareTwoRows(
+        	row1
+         , 	row2)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheetByName"(
+    	String filePath	
+     , 	String sheetName	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheetByName(
+        	filePath
+         , 	sheetName)
 }
 
 
@@ -947,12 +860,80 @@ def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellIndexByAddress"(
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelSheets"(
-    	Workbook workbook	
-     , 	java.util.List<String> sheetNames	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelSheets(
-        	workbook
-         , 	sheetNames)
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValuesByRangeIndexes"(
+    	Sheet sheet	
+     , 	int rowInd1	
+     , 	int colInd1	
+     , 	int rowInd2	
+     , 	int colInd2	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValuesByRangeIndexes(
+        	sheet
+         , 	rowInd1
+         , 	colInd1
+         , 	rowInd2
+         , 	colInd2)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getMapOfKeyValueRows"(
+    	Sheet sheet	
+     , 	int keyRowIdx	
+     , 	int valueRowIdx	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getMapOfKeyValueRows(
+        	sheet
+         , 	keyRowIdx
+         , 	valueRowIdx)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getColumnsByIndex"(
+    	Sheet sheet	
+     , 	java.util.List<java.lang.Integer> columnIndexes	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getColumnsByIndex(
+        	sheet
+         , 	columnIndexes)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValueByAddress"(
+    	Sheet sheet	
+     , 	String cellAddress	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValueByAddress(
+        	sheet
+         , 	cellAddress)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValueByIndex"(
+    	Sheet sheet	
+     , 	int rowIdx	
+     , 	int colIdx	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValueByIndex(
+        	sheet
+         , 	rowIdx
+         , 	colIdx)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValueByRangeAddress"(
+    	Sheet sheet	
+     , 	String topLeftAddress	
+     , 	String rightBottomAddress	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValueByRangeAddress(
+        	sheet
+         , 	topLeftAddress
+         , 	rightBottomAddress)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getRowIndexByCellContent"(
+    	Sheet sheet	
+     , 	String cellContent	
+     , 	int columnIdxForCell	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getRowIndexByCellContent(
+        	sheet
+         , 	cellContent
+         , 	columnIdxForCell)
 }
 
 
@@ -980,52 +961,6 @@ def static "com.kms.katalon.keyword.excel.ExcelKeywords.setValueToCellByIndex"(
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValueByIndex"(
-    	Sheet sheet	
-     , 	int rowIdx	
-     , 	int colIdx	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValueByIndex(
-        	sheet
-         , 	rowIdx
-         , 	colIdx)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getMapOfKeyValueRows"(
-    	Sheet sheet	
-     , 	int keyRowIdx	
-     , 	int valueRowIdx	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getMapOfKeyValueRows(
-        	sheet
-         , 	keyRowIdx
-         , 	valueRowIdx)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValuesByRangeIndexes"(
-    	Sheet sheet	
-     , 	int rowInd1	
-     , 	int colInd1	
-     , 	int rowInd2	
-     , 	int colInd2	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValuesByRangeIndexes(
-        	sheet
-         , 	rowInd1
-         , 	colInd1
-         , 	rowInd2
-         , 	colInd2)
-}
-
-
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheetByName"(
-    	String filePath	
-     , 	String sheetName	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheetByName(
-        	filePath
-         , 	sheetName)
-}
-
-
 def static "com.kms.katalon.keyword.excel.ExcelKeywords.setValueToCellByAddresses"(
     	Sheet sheet	
      , 	Map content	) {
@@ -1035,30 +970,95 @@ def static "com.kms.katalon.keyword.excel.ExcelKeywords.setValueToCellByAddresse
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getCellValueByAddress"(
-    	Sheet sheet	
-     , 	String cellAddress	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getCellValueByAddress(
-        	sheet
-         , 	cellAddress)
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelSheets"(
+    	Workbook workbook	
+     , 	java.util.List<String> sheetNames	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelSheets(
+        	workbook
+         , 	sheetNames)
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getRowIndexByCellContent"(
-    	Sheet sheet	
-     , 	String cellContent	
-     , 	int columnIdxForCell	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getRowIndexByCellContent(
-        	sheet
-         , 	cellContent
-         , 	columnIdxForCell)
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelFile"(
+    	String filePath	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelFile(
+        	filePath)
 }
 
 
-def static "com.kms.katalon.keyword.excel.ExcelKeywords.getColumnsByIndex"(
-    	Sheet sheet	
-     , 	java.util.List<java.lang.Integer> columnIndexes	) {
-    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getColumnsByIndex(
-        	sheet
-         , 	columnIndexes)
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getWorkbook"(
+    	String filePath	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getWorkbook(
+        	filePath)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.saveWorkbook"(
+    	String filePath	
+     , 	Workbook workbook	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).saveWorkbook(
+        	filePath
+         , 	workbook)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelSheet"(
+    	Workbook workbook	
+     , 	String sheetName	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelSheet(
+        	workbook
+         , 	sheetName)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.createExcelSheet"(
+    	Workbook workbook	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createExcelSheet(
+        	workbook)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.createWorkbook"(
+    	String filePath	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).createWorkbook(
+        	filePath)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getSheetNames"(
+    	Workbook workbook	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getSheetNames(
+        	workbook)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
+    	String filePath	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
+        	filePath)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
+    	String filePath	
+     , 	int sheetIndex	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
+        	filePath
+         , 	sheetIndex)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
+    	Workbook wbs	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
+        	wbs)
+}
+
+
+def static "com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet"(
+    	Workbook wbs	
+     , 	String sheetName	) {
+    (new com.kms.katalon.keyword.excel.ExcelKeywords()).getExcelSheet(
+        	wbs
+         , 	sheetName)
 }

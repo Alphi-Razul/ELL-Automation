@@ -14,7 +14,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+import keyword.Excel
 import keyword.ScrollIntoCreatedSite as ScrollIntoCreatedSite
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
@@ -73,7 +74,7 @@ println(Site)
 
 KeywordUtil.logInfo(Site)
 
-keyword.Excel.writeData('ELL_Departments & Units', 'Add D&U', 1, 1, Site)
+Excel.writeData('ELL_Departments & Units', 'Add D&U', 1, 1, Site)
 
 WebUI.setText(findTestObject('Site creation/input_Site Name'), Site)
 

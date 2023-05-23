@@ -54,7 +54,7 @@ class Excel {
 
 	@Keyword
 	def static writeData(String fileName,String sheetName,int rowNum,int cellNum,newDataCell){
-		File file =new File("./+fileName+".xlsx")
+		File file =new File(".//Excel//"+fileName+".xlsx")
 		FileInputStream stream =new FileInputStream(file)
 		Workbook workbook=new XSSFWorkbook(stream)
 		Sheet sheet=workbook.getSheet(sheetName)
@@ -66,6 +66,7 @@ class Excel {
 		outputStream.close()
 	}
 
+	
 	@Keyword
 	def static readData(String fileName,String sheetName,int rowNum,int cellNum,String newDataCell){
 		File file =new File(".//Excel//"+fileName+".xlsx")
