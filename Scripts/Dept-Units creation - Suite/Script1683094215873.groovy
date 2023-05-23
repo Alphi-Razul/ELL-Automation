@@ -75,7 +75,19 @@ println(D)
 
 KeywordUtil.logInfo(D)
 
-keyword.Excel.writeData("ELL_Departments & Units","Add D&U",1,2,D)
+//KEYWORD
+//keyword.Excel.writeData("ELL_Departments & Units","Add D&U",1,2,D)
+
+File file =new File(".//Excel//ELL_Departments & Units.xlsx")
+FileInputStream stream =new FileInputStream(file)
+Workbook workbook=new XSSFWorkbook(stream)
+Sheet sheet=workbook.getSheet("Add D&U")
+Row row=sheet.getRow(1)
+Cell cell=row.createCell(2)
+cell.setCellValue(D)
+FileOutputStream outputStream =new FileOutputStream(".//Excel//ELL_Departments & Units.xlsx")
+workbook.write(outputStream)
+outputStream.close()
 
 WebUI.selectOptionByLabel(findTestObject('Dept-User creation/input_Site'), findTestData('Dept_Unit Data').getValue('Site', 1), true)
 
@@ -297,4 +309,17 @@ for (int i = 0; i < li.size(); i++) {
     } 
 }
 
-keyword.ScrollIntoCreatedDpts_Units.Screenshot()
+WebUI.takeScreenshot()
+JavascriptExecutor exe =(JavascriptExecutor)driver
+WebElement elementToScroll1=driver.findElement(By.xpath("(//span[text()='CAP'])[1]"))
+exe.executeScript("arguments[0].scrollIntoView(true)",elementToScroll1)
+WebUI.takeScreenshot()
+WebElement elementToScroll2=driver.findElement(By.xpath("(//span[text()='Logging Schedule'])[1]"))
+exe.executeScript("arguments[0].scrollIntoView(true)",elementToScroll2)
+WebUI.takeScreenshot()
+WebElement elementToScroll3=driver.findElement(By.xpath("(//span[text()='CADOH'])[last()]"))
+exe.executeScript("arguments[0].scrollIntoView(true)",elementToScroll3)
+WebUI.takeScreenshot()
+
+//KEYWORD
+//keyword.ScrollIntoCreatedDpts_Units.Screenshot()

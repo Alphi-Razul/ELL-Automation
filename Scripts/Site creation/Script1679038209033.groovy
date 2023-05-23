@@ -93,7 +93,19 @@ println(Site)
 
 KeywordUtil.logInfo(Site)
 
-keyword.Excel.writeData("ELL_Departments & Units","Add D&U",1, 1,Site)
+//KEYWORD
+//Excel.writeData('ELL_Departments & Units', 'Add D&U', 1, 1, Site)
+
+File file =new File(".//Excel//ELL_Departments & Units.xlsx")
+FileInputStream stream =new FileInputStream(file)
+Workbook workbook=new XSSFWorkbook(stream)
+Sheet sheet=workbook.getSheet("Add D&U")
+Row row=sheet.getRow(1)
+Cell cell=row.createCell(1)
+cell.setCellValue(Site)
+FileOutputStream outputStream =new FileOutputStream(".//Excel//ELL_Departments & Units.xlsx")
+workbook.write(outputStream)
+outputStream.close()
 
 WebUI.setText(findTestObject('Site creation/input_Site Name'), Site)
 
@@ -137,19 +149,19 @@ z2 = WebUI.getAttribute(findTestObject('Site creation/input_Zip_zip'), 'value')
 
 WebUI.verifyEqual(z1, z2)
 
-WebUI.selectOptionByLabel(findTestObject('Site creation/select_country'), findTestData('Site Data').getValue('Country', 
-        1), true)
+WebUI.selectOptionByLabel(findTestObject('Site creation/select_country'), findTestData('Site Data').getValue('Country',
+		1), true)
 
-WebUI.verifyOptionPresentByLabel(findTestObject('Site creation/select_country'), findTestData('Site Data').getValue('Country', 
-        1), false, 0)
+WebUI.verifyOptionPresentByLabel(findTestObject('Site creation/select_country'), findTestData('Site Data').getValue('Country',
+		1), false, 0)
 
 WebUI.setText(findTestObject('Site creation/input_Phone_phone'), findTestData('Site Data').getValue('Phone', 1))
 
-WebUI.selectOptionByLabel(findTestObject('Site creation/select_Timezone'), findTestData('Site Data').getValue('Timezone', 
-        1), true)
+WebUI.selectOptionByLabel(findTestObject('Site creation/select_Timezone'), findTestData('Site Data').getValue('Timezone',
+		1), true)
 
-WebUI.verifyOptionPresentByLabel(findTestObject('Site creation/select_Timezone'), findTestData('Site Data').getValue('Timezone', 
-        1), false, 0)
+WebUI.verifyOptionPresentByLabel(findTestObject('Site creation/select_Timezone'), findTestData('Site Data').getValue('Timezone',
+		1), false, 0)
 
 WebUI.click(findTestObject('Site creation/input_system_Schedule'))
 
@@ -180,21 +192,35 @@ int op = li.size()
 println(op)
 
 for (int i = 0; i < li.size(); i++) {
-    WebElement x2 = li.get(i)
+	WebElement x2 = li.get(i)
 
-    String x3 = x2.getText()
+	String x3 = x2.getText()
 
-    println(x3)
+	println(x3)
 
-    if (Site.equals(x3)) {
-        x2.click()
+	if (Site.equals(x3)) {
+		x2.click()
 
-        executor.executeScript('arguments[0].scrollIntoView(true)', x2)
+		executor.executeScript('arguments[0].scrollIntoView(true)', x2)
 
-        break
-    }
+		break
+	}
 }
 
-ScrollIntoCreatedSite.screenshot()
+   Actions actions=new Actions(driver)
+   
+   actions.sendKeys(Keys.UP).perform()
+
+		WebUI.takeScreenshot()
+
+		for(int i=1;i<=6;i++) {
+			
+			actions.sendKeys(Keys.DOWN).perform()
+		}
+
+		WebUI.takeScreenshot()
+
+//KEYWORD
+//ScrollIntoCreatedSite.screenshot()
 
 

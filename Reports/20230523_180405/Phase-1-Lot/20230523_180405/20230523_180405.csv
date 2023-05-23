@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Phase-1-Lot,Chrome 113.0.0.0,,,2023-05-23 18:04:16,2023-05-23 18:05:54,1m - 38.082s,PASSED
+,,,,,,,
+Test Cases/Site creation,Chrome 113.0.0.0,,,2023-05-23 18:04:17,2023-05-23 18:05:54,1m - 37.423s,PASSED
+"openBrowser(findTestData(""Login"").getValue(""URL"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:04:19,2023-05-23 18:04:31,12.346s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-23 18:04:31,2023-05-23 18:04:31,0.211s,PASSED
+"setText(findTestObject(""Login_SelectDatabase/input_Sign in to your account_ng-untouched _b61fc2""), findTestData(""Login"").getValue(""UserName"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:04:31,2023-05-23 18:04:33,1.315s,PASSED
+"setEncryptedText(findTestObject(""Login_SelectDatabase/input_Email_ng-touched ng-dirty ng-valid""), findTestData(""Login"").getValue(""Password"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:04:33,2023-05-23 18:04:34,0.815s,PASSED
+"click(findTestObject(""Login_SelectDatabase/button_SIGN IN""))",Chrome 113.0.0.0,,,2023-05-23 18:04:34,2023-05-23 18:04:34,0.877s,PASSED
+"click(findTestObject(""Site creation/div_QA Automation""))",Chrome 113.0.0.0,,,2023-05-23 18:04:34,2023-05-23 18:04:41,6.254s,PASSED
+"click(findTestObject(""Site creation/button_Use Selected Database""))",Chrome 113.0.0.0,,,2023-05-23 18:04:41,2023-05-23 18:04:41,0.482s,PASSED
+delay(5),Chrome 113.0.0.0,,,2023-05-23 18:04:41,2023-05-23 18:04:46,5.108s,PASSED
+"click(findTestObject(""ELL Menu/Select_MenuIcon""))",Chrome 113.0.0.0,,,2023-05-23 18:04:46,2023-05-23 18:04:49,2.334s,PASSED
+"click(findTestObject(""ELL Menu/a_ADMINISTRATION""))",Chrome 113.0.0.0,,,2023-05-23 18:04:49,2023-05-23 18:04:49,0.855s,PASSED
+"click(findTestObject(""Site creation/button_Add Site""))",Chrome 113.0.0.0,,,2023-05-23 18:04:49,2023-05-23 18:04:51,1.411s,PASSED
+"click(findTestObject(""Site creation/input_Site Name""))",Chrome 113.0.0.0,,,2023-05-23 18:04:51,2023-05-23 18:04:53,1.758s,PASSED
+dateFormat = new java.text.SimpleDateFormat(yyyy/dd/MM HH:mm:ss),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.043s,PASSED
+date = new java.util.Date(),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.015s,PASSED
+a = dateFormat.format(date),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.010s,PASSED
+println(a),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.010s,PASSED
+"b = "" - """,Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.000s,PASSED
+"Site = findTestData(""Site Data"").getValue(""Site Name"", 1) + b + a",Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.102s,PASSED
+println(Site),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.001s,PASSED
+logInfo(Site),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.023s,PASSED
+file = new java.io.File(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.001s,PASSED
+stream = new java.io.FileInputStream(file),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.026s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(stream),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.299s,PASSED
+"sheet = workbook.getSheet(""Add D&U"")",Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.019s,PASSED
+row = sheet.getRow(1),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.077s,PASSED
+cell = row.createCell(1),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.030s,PASSED
+cell.setCellValue(Site),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.063s,PASSED
+outputStream = new java.io.FileOutputStream(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:53,0.032s,PASSED
+workbook.write(outputStream),Chrome 113.0.0.0,,,2023-05-23 18:04:53,2023-05-23 18:04:54,0.260s,PASSED
+outputStream.close(),Chrome 113.0.0.0,,,2023-05-23 18:04:54,2023-05-23 18:04:54,0.003s,PASSED
+"setText(findTestObject(""Site creation/input_Site Name""), Site)",Chrome 113.0.0.0,,,2023-05-23 18:04:54,2023-05-23 18:04:55,1.123s,PASSED
+"s1 = getAttribute(findTestObject(""Site creation/input_Site Name""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:04:55,2023-05-23 18:04:55,0.477s,PASSED
+println(s1),Chrome 113.0.0.0,,,2023-05-23 18:04:55,2023-05-23 18:04:55,0.001s,PASSED
+"verifyEqual(Site, s1)",Chrome 113.0.0.0,,,2023-05-23 18:04:55,2023-05-23 18:04:55,0.032s,PASSED
+"A1 = findTestData(""Site Data"").getValue(""Address"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:04:55,2023-05-23 18:04:55,0.138s,PASSED
+"setText(findTestObject(""Site creation/input_Address""), A1)",Chrome 113.0.0.0,,,2023-05-23 18:04:55,2023-05-23 18:04:56,0.957s,PASSED
+"A2 = getAttribute(findTestObject(""Site creation/input_Address""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:04:56,2023-05-23 18:04:57,0.472s,PASSED
+println(A2),Chrome 113.0.0.0,,,2023-05-23 18:04:57,2023-05-23 18:04:57,0.001s,PASSED
+"verifyEqual(A1, A2)",Chrome 113.0.0.0,,,2023-05-23 18:04:57,2023-05-23 18:04:57,0.004s,PASSED
+"c1 = findTestData(""Site Data"").getValue(""City"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:04:57,2023-05-23 18:04:57,0.104s,PASSED
+"setText(findTestObject(""Site creation/input_City_city""), c1)",Chrome 113.0.0.0,,,2023-05-23 18:04:57,2023-05-23 18:04:58,0.852s,PASSED
+"c2 = getAttribute(findTestObject(""Site creation/input_City_city""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:04:58,2023-05-23 18:04:58,0.403s,PASSED
+"verifyEqual(c1, c2)",Chrome 113.0.0.0,,,2023-05-23 18:04:58,2023-05-23 18:04:58,0.003s,PASSED
+"S5 = findTestData(""Site Data"").getValue(""State"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:04:58,2023-05-23 18:04:58,0.099s,PASSED
+"setText(findTestObject(""Site creation/input_State_state""), S5)",Chrome 113.0.0.0,,,2023-05-23 18:04:58,2023-05-23 18:04:59,0.822s,PASSED
+"S6 = getAttribute(findTestObject(""Site creation/input_State_state""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:04:59,2023-05-23 18:05:00,0.459s,PASSED
+"verifyEqual(S5, S6)",Chrome 113.0.0.0,,,2023-05-23 18:05:00,2023-05-23 18:05:00,0.004s,PASSED
+"z1 = findTestData(""Site Data"").getValue(""Zip"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:05:00,2023-05-23 18:05:00,0.086s,PASSED
+"setText(findTestObject(""Site creation/input_Zip_zip""), z1)",Chrome 113.0.0.0,,,2023-05-23 18:05:00,2023-05-23 18:05:01,0.836s,PASSED
+"z2 = getAttribute(findTestObject(""Site creation/input_Zip_zip""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:05:01,2023-05-23 18:05:01,0.418s,PASSED
+"verifyEqual(z1, z2)",Chrome 113.0.0.0,,,2023-05-23 18:05:01,2023-05-23 18:05:01,0.004s,PASSED
+"selectOptionByLabel(findTestObject(""Site creation/select_country""), findTestData(""Site Data"").getValue(""Country"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:05:01,2023-05-23 18:05:09,7.697s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Site creation/select_country""), findTestData(""Site Data"").getValue(""Country"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:05:09,2023-05-23 18:05:12,3.373s,PASSED
+"setText(findTestObject(""Site creation/input_Phone_phone""), findTestData(""Site Data"").getValue(""Phone"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:05:12,2023-05-23 18:05:13,0.948s,PASSED
+"selectOptionByLabel(findTestObject(""Site creation/select_Timezone""), findTestData(""Site Data"").getValue(""Timezone"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:05:13,2023-05-23 18:05:30,17.067s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Site creation/select_Timezone""), findTestData(""Site Data"").getValue(""Timezone"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:05:30,2023-05-23 18:05:38,7.782s,PASSED
+"click(findTestObject(""Site creation/input_system_Schedule""))",Chrome 113.0.0.0,,,2023-05-23 18:05:38,2023-05-23 18:05:38,0.508s,PASSED
+"click(findTestObject(""Site creation/SA_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:05:38,2023-05-23 18:05:39,0.554s,PASSED
+"click(findTestObject(""Site creation/SU_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:05:39,2023-05-23 18:05:39,0.547s,PASSED
+"click(findTestObject(""Site creation/button_Save""))",Chrome 113.0.0.0,,,2023-05-23 18:05:39,2023-05-23 18:05:40,0.583s,PASSED
+"verifyElementPresent(findTestObject(""Site creation/div_Success  Site added successfully""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:05:40,2023-05-23 18:05:43,2.820s,PASSED
+"c = getText(findTestObject(""Site creation/div_Success  Site added successfully""))",Chrome 113.0.0.0,,,2023-05-23 18:05:43,2023-05-23 18:05:43,0.418s,PASSED
+println(c),Chrome 113.0.0.0,,,2023-05-23 18:05:43,2023-05-23 18:05:43,0.000s,PASSED
+logInfo(c),Chrome 113.0.0.0,,,2023-05-23 18:05:43,2023-05-23 18:05:43,0.001s,PASSED
+"click(findTestObject(""Site creation/div_click""))",Chrome 113.0.0.0,,,2023-05-23 18:05:43,2023-05-23 18:05:44,0.464s,PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:05:44,2023-05-23 18:05:44,0.027s,PASSED
+executor = driver,Chrome 113.0.0.0,,,2023-05-23 18:05:44,2023-05-23 18:05:44,0.042s,PASSED
+"li = driver.findElements(By.xpath(""//div[@class="" + ""'col']""))",Chrome 113.0.0.0,,,2023-05-23 18:05:44,2023-05-23 18:05:44,0.326s,PASSED
+op = li.size(),Chrome 113.0.0.0,,,2023-05-23 18:05:44,2023-05-23 18:05:44,0.009s,PASSED
+println(op),Chrome 113.0.0.0,,,2023-05-23 18:05:44,2023-05-23 18:05:44,0.003s,PASSED
+"for ([i = 0, i < li.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:05:44,2023-05-23 18:05:52,7.915s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 113.0.0.0,,,2023-05-23 18:05:52,2023-05-23 18:05:52,0.023s,PASSED
+sendKeys(UP).perform(),Chrome 113.0.0.0,,,2023-05-23 18:05:52,2023-05-23 18:05:52,0.039s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:05:52,2023-05-23 18:05:53,1.186s,PASSED
+"for ([i = 1, i <= 6, (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:05:53,2023-05-23 18:05:54,0.186s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:05:54,2023-05-23 18:05:54,0.500s,PASSED

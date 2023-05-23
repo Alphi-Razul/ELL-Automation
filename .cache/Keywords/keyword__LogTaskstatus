@@ -1,30 +1,9 @@
 {
-  "keywordFileContentHash": "CC712A5C0E34E12218F0D8C2DB691384",
+  "keywordFileContentHash": "1798636C2B85BE5E0EEC5A6C903900FB",
   "keywordClasses": [
     {
-      "name": "keyword.LogTaskstatus",
-      "keywordMethods": [
-        {
-          "name": "Screenshot",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "scrollDown",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "scrollUp",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "horizontalScroll",
-          "parameters": [],
-          "javadoc": ""
-        }
-      ]
+      "name": "LogTaskstatus",
+      "keywordMethods": []
     }
   ],
   "javadocParsed": true

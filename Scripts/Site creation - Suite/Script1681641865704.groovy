@@ -47,6 +47,14 @@ import java.io.*
 import java.util.*
 import java.util.concurrent.TimeUnit as TimeUnit
 
+import java.awt.Robot
+import java.awt.event.KeyEvent
+
+import org.openqa.selenium.interactions.Actions
+import org.openqa.selenium.Keys
+
+
+
 //Suite 
 WebUI.delay(5)
 
@@ -74,7 +82,19 @@ println(Site)
 
 KeywordUtil.logInfo(Site)
 
-Excel.writeData('ELL_Departments & Units', 'Add D&U', 1, 1, Site)
+//KEYWORD
+//Excel.writeData('ELL_Departments & Units', 'Add D&U', 1, 1, Site)
+
+File file =new File(".//Excel//ELL_Departments & Units.xlsx")
+FileInputStream stream =new FileInputStream(file)
+Workbook workbook=new XSSFWorkbook(stream)
+Sheet sheet=workbook.getSheet("Add D&U")
+Row row=sheet.getRow(1)
+Cell cell=row.createCell(1)
+cell.setCellValue(Site)
+FileOutputStream outputStream =new FileOutputStream(".//Excel//ELL_Departments & Units.xlsx")
+workbook.write(outputStream)
+outputStream.close()
 
 WebUI.setText(findTestObject('Site creation/input_Site Name'), Site)
 
@@ -176,6 +196,20 @@ for (int i = 0; i < li.size(); i++) {
     }
 }
 
-ScrollIntoCreatedSite.screenshot()
+   Actions actions=new Actions(driver)
+   
+   actions.sendKeys(Keys.UP).perform()
+
+		WebUI.takeScreenshot()
+
+		for(int i=1;i<=6;i++) {
+			
+			actions.sendKeys(Keys.DOWN).perform()
+		}
+
+		WebUI.takeScreenshot()
+
+//KEYWORD
+//ScrollIntoCreatedSite.screenshot()
 
 

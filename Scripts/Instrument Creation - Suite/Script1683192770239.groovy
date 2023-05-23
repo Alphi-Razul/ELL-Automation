@@ -77,7 +77,18 @@ Ins = ((findTestData('Add Inst-Type Data').getValue('InsType_Name', 1) + b) + a)
 
 WebUI.setText(findTestObject('Add Instrument/InstrumentTypeName'), Ins)
 
-keyword.Excel.writeData("ELL_Add Instrument & Type","Add Inst-Type", 1, 1, Ins)
+//KEYWORD
+//keyword.Excel.writeData("ELL_Add Instrument & Type","Add Inst-Type", 1, 1, Ins)
+File file =new File(".//Excel//ELL_Add Instrument & Type.xlsx")
+FileInputStream stream =new FileInputStream(file)
+Workbook workbook=new XSSFWorkbook(stream)
+Sheet sheet=workbook.getSheet("Add Inst-Type")
+Row row=sheet.getRow(1)
+Cell cell=row.createCell(1)
+cell.setCellValue(Ins)
+FileOutputStream outputStream =new FileOutputStream(".//Excel//ELL_Add Instrument & Type.xlsx")
+workbook.write(outputStream)
+outputStream.close()
 
 println(Ins)
 

@@ -5,9 +5,9 @@
 
 import java.lang.String
 
-import com.kms.katalon.core.testobject.TestObject
-
 import com.kms.katalon.core.model.FailureHandling
+
+import com.kms.katalon.core.testobject.TestObject
 
 import java.util.List
 
@@ -31,31 +31,6 @@ import java.util.Map
 
 
 
-def static "keyword.ScrollIntoCreatedSite.screenshot"() {
-    (new keyword.ScrollIntoCreatedSite()).screenshot()
-}
-
-
-def static "keyword.LogTaskstatus.Screenshot"() {
-    (new keyword.LogTaskstatus()).Screenshot()
-}
-
-
-def static "keyword.LogTaskstatus.scrollDown"() {
-    (new keyword.LogTaskstatus()).scrollDown()
-}
-
-
-def static "keyword.LogTaskstatus.scrollUp"() {
-    (new keyword.LogTaskstatus()).scrollUp()
-}
-
-
-def static "keyword.LogTaskstatus.horizontalScroll"() {
-    (new keyword.LogTaskstatus()).horizontalScroll()
-}
-
-
 def static "connectionDBKeyword.DB_Connection.exeDBUpdateQuery"(
     	String query	) {
     (new connectionDBKeyword.DB_Connection()).exeDBUpdateQuery(
@@ -68,36 +43,6 @@ def static "connectionDBKeyword.DB_Connection.closeDBConnection"() {
 }
 
 
-def static "keyword.Excel.writeData"(
-    	String fileName	
-     , 	String sheetName	
-     , 	int rowNum	
-     , 	int cellNum	
-     , 	Object newDataCell	) {
-    (new keyword.Excel()).writeData(
-        	fileName
-         , 	sheetName
-         , 	rowNum
-         , 	cellNum
-         , 	newDataCell)
-}
-
-
-def static "keyword.Excel.readData"(
-    	String fileName	
-     , 	String sheetName	
-     , 	int rowNum	
-     , 	int cellNum	
-     , 	String newDataCell	) {
-    (new keyword.Excel()).readData(
-        	fileName
-         , 	sheetName
-         , 	rowNum
-         , 	cellNum
-         , 	newDataCell)
-}
-
-
 def static "connectionDBKeyword.DB_SiteId_Connection.exeDBQuery"(
     	String query	) {
     (new connectionDBKeyword.DB_SiteId_Connection()).exeDBQuery(
@@ -107,101 +52,6 @@ def static "connectionDBKeyword.DB_SiteId_Connection.exeDBQuery"(
 
 def static "connectionDBKeyword.DB_SiteId_Connection.closeDBConnection"() {
     (new connectionDBKeyword.DB_SiteId_Connection()).closeDBConnection()
-}
-
-
-def static "keyword.ScrollIntoCompliance.scrollToTopPage"() {
-    (new keyword.ScrollIntoCompliance()).scrollToTopPage()
-}
-
- /**
-	 * Refresh browser
-	 */ 
-def static "keyword.ScrollIntoCompliance.refreshBrowser"() {
-    (new keyword.ScrollIntoCompliance()).refreshBrowser()
-}
-
- /**
-	 * Click element
-	 * @param to Katalon test object
-	 */ 
-def static "keyword.ScrollIntoCompliance.clickElement"(
-    	TestObject to	) {
-    (new keyword.ScrollIntoCompliance()).clickElement(
-        	to)
-}
-
- /**
-	 * Get all rows of HTML table
-	 * @param table Katalon test object represent for HTML table
-	 * @param outerTagName outer tag name of TR tag, usually is TBODY
-	 * @return All rows inside HTML table
-	 */ 
-def static "keyword.ScrollIntoCompliance.getHtmlTableRows"(
-    	TestObject table	
-     , 	String outerTagName	) {
-    (new keyword.ScrollIntoCompliance()).getHtmlTableRows(
-        	table
-         , 	outerTagName)
-}
-
- /**
-	 * Check if element present in timeout
-	 * @param to Katalon test object
-	 * @param timeout time to wait for element to show up
-	 * @return true if element present, otherwise false
-	 */ 
-def static "keyword.ScrollIntoCompliance.isElementPresent_Mobile"(
-    	TestObject to	
-     , 	int timeout	) {
-    (new keyword.ScrollIntoCompliance()).isElementPresent_Mobile(
-        	to
-         , 	timeout)
-}
-
- /**
-	 * Get mobile driver for current session
-	 * @return mobile driver for current session
-	 */ 
-def static "keyword.ScrollIntoCompliance.getCurrentSessionMobileDriver"() {
-    (new keyword.ScrollIntoCompliance()).getCurrentSessionMobileDriver()
-}
-
- /**
-	 * Send request and verify status code
-	 * @param request request object, must be an instance of RequestObject
-	 * @param expectedStatusCode
-	 * @return a boolean to indicate whether the response status code equals the expected one
-	 */ 
-def static "keyword.ScrollIntoCompliance.verifyStatusCode"(
-    	TestObject request	
-     , 	int expectedStatusCode	) {
-    (new keyword.ScrollIntoCompliance()).verifyStatusCode(
-        	request
-         , 	expectedStatusCode)
-}
-
- /**
-	 * Add Header basic authorization field,
-	 * this field value is Base64 encoded token from user name and password
-	 * @param request object, must be an instance of RequestObject
-	 * @param username username
-	 * @param password password
-	 * @return the original request object with basic authorization header field added
-	 */ 
-def static "keyword.ScrollIntoCompliance.addBasicAuthorizationProperty"(
-    	TestObject request	
-     , 	String username	
-     , 	String password	) {
-    (new keyword.ScrollIntoCompliance()).addBasicAuthorizationProperty(
-        	request
-         , 	username
-         , 	password)
-}
-
-
-def static "keyword.ScrollIntoCreatedDpts_Units.Screenshot"() {
-    (new keyword.ScrollIntoCreatedDpts_Units()).Screenshot()
 }
 
 

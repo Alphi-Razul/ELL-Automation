@@ -1,0 +1,3011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Phase-1-Lot" time="98.082" tests="1" failures="0" errors="0">
+   <testsuite name="Phase-1-Lot" tests="1" failures="0" errors="0" time="98.082" skipped="0" timestamp="2023-05-23 18:04:16" hostname="Alphi-MohamedRazul - Alphi-MohamedRazul" id="Test Suites/Phase-1-Lot">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\ELL\\Automation\\Reports\\20230523_180405\\Phase-1-Lot\\20230523_180405"/>
+         <property name="logFiles" value="C:\\ELL\\Automation\\Reports\\20230523_180405\\Phase-1-Lot\\20230523_180405\\execution0.log"/>
+         <property name="attachments" value="C:\\ELL\\Automation\\Reports\\20230523_180405\\Phase-1-Lot\\20230523_180405\\1684845353564.png, C:\\ELL\\Automation\\Reports\\20230523_180405\\Phase-1-Lot\\20230523_180405\\1684845354298.png"/>
+         <property name="hostName" value="Alphi-MohamedRazul - Alphi-MohamedRazul"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.120"/>
+         <property name="sessionId" value="e666f1e6d6a608af21d9479fc43acacb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Site creation" time="97.423" classname="Test Cases/Site creation" status="PASSED">
+         <system-out><![CDATA[2023-05-23 18:04:17 - [TEST_CASE][PASSED] - Test Cases/Site creation: Test Cases/Site creation
+
+2023-05-23 18:04:19 - [TEST_STEP][PASSED] - openBrowser(findTestData("Login").getValue("URL", 1)): Browser is opened with url: 'https://test.lablogs.co/#/login'
+
+2023-05-23 18:04:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-23 18:04:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-23 18:04:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://test.lablogs.co/#/login'
+
+2023-05-23 18:04:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-23 18:04:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-23 18:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login_SelectDatabase/input_Sign in to your account_ng-untouched _b61fc2"), findTestData("Login").getValue("UserName", 1)): Text 'admin@lablogs.co' is set on object 'Object Repository/Login_SelectDatabase/input_Sign in to your account_ng-untouched _b61fc2'
+
+2023-05-23 18:04:33 - [MESSAGE][PASSED] - Text 'admin@lablogs.co' is set on object 'Object Repository/Login_SelectDatabase/input_Sign in to your account_ng-untouched _b61fc2'
+
+2023-05-23 18:04:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_SelectDatabase/input_Email_ng-touched ng-dirty ng-valid"), findTestData("Login").getValue("Password", 1)): Text ****** has been set on object 'Object Repository/Login_SelectDatabase/input_Email_ng-touched ng-dirty ng-valid'
+
+2023-05-23 18:04:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_SelectDatabase/input_Email_ng-touched ng-dirty ng-valid'
+
+2023-05-23 18:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Login_SelectDatabase/button_SIGN IN")): Object: 'Object Repository/Login_SelectDatabase/button_SIGN IN' is clicked on
+
+2023-05-23 18:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_SelectDatabase/button_SIGN IN' is clicked on
+
+2023-05-23 18:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/div_QA Automation")): Object: 'Object Repository/Site creation/div_QA Automation' is clicked on
+
+2023-05-23 18:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/div_QA Automation' is clicked on
+
+2023-05-23 18:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/button_Use Selected Database")): Object: 'Object Repository/Site creation/button_Use Selected Database' is clicked on
+
+2023-05-23 18:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/button_Use Selected Database' is clicked on
+
+2023-05-23 18:04:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-05-23 18:04:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-23 18:04:46 - [TEST_STEP][PASSED] - click(findTestObject("ELL Menu/Select_MenuIcon")): Object: 'Object Repository/ELL Menu/Select_MenuIcon' is clicked on
+
+2023-05-23 18:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ELL Menu/Select_MenuIcon' is clicked on
+
+2023-05-23 18:04:49 - [TEST_STEP][PASSED] - click(findTestObject("ELL Menu/a_ADMINISTRATION")): Object: 'Object Repository/ELL Menu/a_ADMINISTRATION' is clicked on
+
+2023-05-23 18:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ELL Menu/a_ADMINISTRATION' is clicked on
+
+2023-05-23 18:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/button_Add Site")): Object: 'Object Repository/Site creation/button_Add Site' is clicked on
+
+2023-05-23 18:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/button_Add Site' is clicked on
+
+2023-05-23 18:04:51 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/input_Site Name")): Object: 'Object Repository/Site creation/input_Site Name' is clicked on
+
+2023-05-23 18:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/input_Site Name' is clicked on
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - dateFormat = new java.text.SimpleDateFormat(yyyy/dd/MM HH:mm:ss): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - a = dateFormat.format(date): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - println(a): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - b = " - ": null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - Site = findTestData("Site Data").getValue("Site Name", 1) + b + a: null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - println(Site): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - logInfo(Site): Madurai - 2023/23/05 18:04:53
+
+2023-05-23 18:04:53 - [MESSAGE][INFO] - Madurai - 2023/23/05 18:04:53
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - file = new java.io.File(.//Excel//ELL_Departments & Units.xlsx): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - stream = new java.io.FileInputStream(file): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(stream): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - sheet = workbook.getSheet("Add D&U"): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - row = sheet.getRow(1): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - cell = row.createCell(1): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - cell.setCellValue(Site): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - outputStream = new java.io.FileOutputStream(.//Excel//ELL_Departments & Units.xlsx): null
+
+2023-05-23 18:04:53 - [TEST_STEP][PASSED] - workbook.write(outputStream): null
+
+2023-05-23 18:04:54 - [TEST_STEP][PASSED] - outputStream.close(): null
+
+2023-05-23 18:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("Site creation/input_Site Name"), Site): Text 'Madurai - 2023/23/05 18:04:53' is set on object 'Object Repository/Site creation/input_Site Name'
+
+2023-05-23 18:04:55 - [MESSAGE][PASSED] - Text 'Madurai - 2023/23/05 18:04:53' is set on object 'Object Repository/Site creation/input_Site Name'
+
+2023-05-23 18:04:55 - [TEST_STEP][PASSED] - s1 = getAttribute(findTestObject("Site creation/input_Site Name"), "value"): Attribute 'value' of object 'Object Repository/Site creation/input_Site Name' is: 'Madurai - 2023/23/05 18:04:53'
+
+2023-05-23 18:04:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Site creation/input_Site Name' is: 'Madurai - 2023/23/05 18:04:53'
+
+2023-05-23 18:04:55 - [TEST_STEP][PASSED] - println(s1): null
+
+2023-05-23 18:04:55 - [TEST_STEP][PASSED] - verifyEqual(Site, s1): Actual object 'Madurai - 2023/23/05 18:04:53' and expected object 'Madurai - 2023/23/05 18:04:53' are equal
+
+2023-05-23 18:04:55 - [MESSAGE][PASSED] - Actual object 'Madurai - 2023/23/05 18:04:53' and expected object 'Madurai - 2023/23/05 18:04:53' are equal
+
+2023-05-23 18:04:55 - [TEST_STEP][PASSED] - A1 = findTestData("Site Data").getValue("Address", 1): null
+
+2023-05-23 18:04:55 - [TEST_STEP][PASSED] - setText(findTestObject("Site creation/input_Address"), A1): Text '221 Hudson Street' is set on object 'Object Repository/Site creation/input_Address'
+
+2023-05-23 18:04:56 - [MESSAGE][PASSED] - Text '221 Hudson Street' is set on object 'Object Repository/Site creation/input_Address'
+
+2023-05-23 18:04:56 - [TEST_STEP][PASSED] - A2 = getAttribute(findTestObject("Site creation/input_Address"), "value"): Attribute 'value' of object 'Object Repository/Site creation/input_Address' is: '221 Hudson Street'
+
+2023-05-23 18:04:57 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Site creation/input_Address' is: '221 Hudson Street'
+
+2023-05-23 18:04:57 - [TEST_STEP][PASSED] - println(A2): null
+
+2023-05-23 18:04:57 - [TEST_STEP][PASSED] - verifyEqual(A1, A2): Actual object '221 Hudson Street' and expected object '221 Hudson Street' are equal
+
+2023-05-23 18:04:57 - [MESSAGE][PASSED] - Actual object '221 Hudson Street' and expected object '221 Hudson Street' are equal
+
+2023-05-23 18:04:57 - [TEST_STEP][PASSED] - c1 = findTestData("Site Data").getValue("City", 1): null
+
+2023-05-23 18:04:57 - [TEST_STEP][PASSED] - setText(findTestObject("Site creation/input_City_city"), c1): Text 'NY' is set on object 'Object Repository/Site creation/input_City_city'
+
+2023-05-23 18:04:58 - [MESSAGE][PASSED] - Text 'NY' is set on object 'Object Repository/Site creation/input_City_city'
+
+2023-05-23 18:04:58 - [TEST_STEP][PASSED] - c2 = getAttribute(findTestObject("Site creation/input_City_city"), "value"): Attribute 'value' of object 'Object Repository/Site creation/input_City_city' is: 'NY'
+
+2023-05-23 18:04:58 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Site creation/input_City_city' is: 'NY'
+
+2023-05-23 18:04:58 - [TEST_STEP][PASSED] - verifyEqual(c1, c2): Actual object 'NY' and expected object 'NY' are equal
+
+2023-05-23 18:04:58 - [MESSAGE][PASSED] - Actual object 'NY' and expected object 'NY' are equal
+
+2023-05-23 18:04:58 - [TEST_STEP][PASSED] - S5 = findTestData("Site Data").getValue("State", 1): null
+
+2023-05-23 18:04:58 - [TEST_STEP][PASSED] - setText(findTestObject("Site creation/input_State_state"), S5): Text 'Rochester' is set on object 'Object Repository/Site creation/input_State_state'
+
+2023-05-23 18:04:59 - [MESSAGE][PASSED] - Text 'Rochester' is set on object 'Object Repository/Site creation/input_State_state'
+
+2023-05-23 18:04:59 - [TEST_STEP][PASSED] - S6 = getAttribute(findTestObject("Site creation/input_State_state"), "value"): Attribute 'value' of object 'Object Repository/Site creation/input_State_state' is: 'Rochester'
+
+2023-05-23 18:05:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Site creation/input_State_state' is: 'Rochester'
+
+2023-05-23 18:05:00 - [TEST_STEP][PASSED] - verifyEqual(S5, S6): Actual object 'Rochester' and expected object 'Rochester' are equal
+
+2023-05-23 18:05:00 - [MESSAGE][PASSED] - Actual object 'Rochester' and expected object 'Rochester' are equal
+
+2023-05-23 18:05:00 - [TEST_STEP][PASSED] - z1 = findTestData("Site Data").getValue("Zip", 1): null
+
+2023-05-23 18:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("Site creation/input_Zip_zip"), z1): Text '14609' is set on object 'Object Repository/Site creation/input_Zip_zip'
+
+2023-05-23 18:05:01 - [MESSAGE][PASSED] - Text '14609' is set on object 'Object Repository/Site creation/input_Zip_zip'
+
+2023-05-23 18:05:01 - [TEST_STEP][PASSED] - z2 = getAttribute(findTestObject("Site creation/input_Zip_zip"), "value"): Attribute 'value' of object 'Object Repository/Site creation/input_Zip_zip' is: '14609'
+
+2023-05-23 18:05:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Site creation/input_Zip_zip' is: '14609'
+
+2023-05-23 18:05:01 - [TEST_STEP][PASSED] - verifyEqual(z1, z2): Actual object '14609' and expected object '14609' are equal
+
+2023-05-23 18:05:01 - [MESSAGE][PASSED] - Actual object '14609' and expected object '14609' are equal
+
+2023-05-23 18:05:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Site creation/select_country"), findTestData("Site Data").getValue("Country", 1), true): All options with label 'United States' are selected in object 'Object Repository/Site creation/select_country'  using regular expression
+
+2023-05-23 18:05:09 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/Site creation/select_country'  using regular expression
+
+2023-05-23 18:05:09 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Site creation/select_country"), findTestData("Site Data").getValue("Country", 1), false, 0): 1 option(s) with label 'United States' is/are present in object 'Object Repository/Site creation/select_country' 
+
+2023-05-23 18:05:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 18:05:12 - [MESSAGE][PASSED] - 1 option(s) with label 'United States' is/are present in object 'Object Repository/Site creation/select_country' 
+
+2023-05-23 18:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Site creation/input_Phone_phone"), findTestData("Site Data").getValue("Phone", 1)): Text '1234567890' is set on object 'Object Repository/Site creation/input_Phone_phone'
+
+2023-05-23 18:05:13 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Site creation/input_Phone_phone'
+
+2023-05-23 18:05:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Site creation/select_Timezone"), findTestData("Site Data").getValue("Timezone", 1), true): All options with label 'EST' are selected in object 'Object Repository/Site creation/select_Timezone'  using regular expression
+
+2023-05-23 18:05:30 - [MESSAGE][PASSED] - All options with label 'EST' are selected in object 'Object Repository/Site creation/select_Timezone'  using regular expression
+
+2023-05-23 18:05:30 - [TEST_STEP][PASSED] - verifyOptionPresentByLabel(findTestObject("Site creation/select_Timezone"), findTestData("Site Data").getValue("Timezone", 1), false, 0): 1 option(s) with label 'EST' is/are present in object 'Object Repository/Site creation/select_Timezone' 
+
+2023-05-23 18:05:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 18:05:38 - [MESSAGE][PASSED] - 1 option(s) with label 'EST' is/are present in object 'Object Repository/Site creation/select_Timezone' 
+
+2023-05-23 18:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/input_system_Schedule")): Object: 'Object Repository/Site creation/input_system_Schedule' is clicked on
+
+2023-05-23 18:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/input_system_Schedule' is clicked on
+
+2023-05-23 18:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/SA_ON")): Object: 'Object Repository/Site creation/SA_ON' is clicked on
+
+2023-05-23 18:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/SA_ON' is clicked on
+
+2023-05-23 18:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/SU_ON")): Object: 'Object Repository/Site creation/SU_ON' is clicked on
+
+2023-05-23 18:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/SU_ON' is clicked on
+
+2023-05-23 18:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/button_Save")): Object: 'Object Repository/Site creation/button_Save' is clicked on
+
+2023-05-23 18:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/button_Save' is clicked on
+
+2023-05-23 18:05:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Site creation/div_Success  Site added successfully"), 0): Object 'Object Repository/Site creation/div_Success  Site added successfully' is present
+
+2023-05-23 18:05:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-23 18:05:43 - [MESSAGE][PASSED] - Object 'Object Repository/Site creation/div_Success  Site added successfully' is present
+
+2023-05-23 18:05:43 - [TEST_STEP][PASSED] - c = getText(findTestObject("Site creation/div_Success  Site added successfully")): Text of object 'Object Repository/Site creation/div_Success  Site added successfully' is: 'Success!
+Site added successfully.'
+
+2023-05-23 18:05:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Site creation/div_Success  Site added successfully' is: 'Success!
+Site added successfully.'
+
+2023-05-23 18:05:43 - [TEST_STEP][PASSED] - println(c): null
+
+2023-05-23 18:05:43 - [TEST_STEP][PASSED] - logInfo(c): Success!
+Site added successfully.
+
+2023-05-23 18:05:43 - [MESSAGE][INFO] - Success!
+Site added successfully.
+
+2023-05-23 18:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Site creation/div_click")): Object: 'Object Repository/Site creation/div_click' is clicked on
+
+2023-05-23 18:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Site creation/div_click' is clicked on
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - executor = driver: null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - li = driver.findElements(By.xpath("//div[@class=" + "'col']")): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - op = li.size(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(op): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - for ([i = 0, i < li.size(), (i++)]): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:44 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:45 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:46 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:47 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:48 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:49 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:50 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:51 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2 = li.get(i): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x3 = x2.getText(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - println(x3): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - if (Site.equals(x3)): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - x2.click(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - executor.executeScript("arguments[0].scrollIntoView(true)", x2): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - break: null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - actions = new org.openqa.selenium.interactions.Actions(driver): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - sendKeys(UP).perform(): null
+
+2023-05-23 18:05:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-23 18:05:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\ELL\\Automation\\Reports\\20230523_180405\\Phase-1-Lot\\20230523_180405\\1684845353564.png]]
+
+2023-05-23 18:05:53 - [TEST_STEP][PASSED] - for ([i = 1, i <= 6, (i++)]): null
+
+2023-05-23 18:05:53 - [TEST_STEP][PASSED] - sendKeys(DOWN).perform(): null
+
+2023-05-23 18:05:53 - [TEST_STEP][PASSED] - sendKeys(DOWN).perform(): null
+
+2023-05-23 18:05:53 - [TEST_STEP][PASSED] - sendKeys(DOWN).perform(): null
+
+2023-05-23 18:05:53 - [TEST_STEP][PASSED] - sendKeys(DOWN).perform(): null
+
+2023-05-23 18:05:53 - [TEST_STEP][PASSED] - sendKeys(DOWN).perform(): null
+
+2023-05-23 18:05:53 - [TEST_STEP][PASSED] - sendKeys(DOWN).perform(): null
+
+2023-05-23 18:05:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-05-23 18:05:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\ELL\\Automation\\Reports\\20230523_180405\\Phase-1-Lot\\20230523_180405\\1684845354298.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-23 18:04:16 - [TEST_SUITE][PASSED] - Phase-1-Lot: Test Cases/Site creation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

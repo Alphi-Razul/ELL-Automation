@@ -1,0 +1,867 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Phase-1-Lot,Chrome 113.0.0.0,,,2023-05-23 18:06:54,2023-05-23 18:16:59,10m - 4.057s,PASSED
+,,,,,,,
+Test Cases/Login_Select Database,Chrome 113.0.0.0,,,2023-05-23 18:06:55,2023-05-23 18:07:21,25.940s,PASSED
+"openBrowser(""https://test.lablogs.co/#/login"")",Chrome 113.0.0.0,,,2023-05-23 18:06:57,2023-05-23 18:07:07,9.995s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-23 18:07:07,2023-05-23 18:07:07,0.277s,PASSED
+"setText(findTestObject(""Login_SelectDatabase/input_Sign in to your account_ng-untouched _b61fc2""), findTestData(""Login"").getValue(""UserName"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:07:07,2023-05-23 18:07:11,4.224s,PASSED
+"setEncryptedText(findTestObject(""Login_SelectDatabase/input_Email_ng-touched ng-dirty ng-valid""), findTestData(""Login"").getValue(""Password"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:07:11,2023-05-23 18:07:12,1.246s,PASSED
+"click(findTestObject(""Login_SelectDatabase/button_SIGN IN""))",Chrome 113.0.0.0,,,2023-05-23 18:07:12,2023-05-23 18:07:13,0.915s,PASSED
+delay(5),Chrome 113.0.0.0,,,2023-05-23 18:07:13,2023-05-23 18:07:18,5.072s,PASSED
+d = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:07:18,2023-05-23 18:07:18,0.027s,PASSED
+"b = d.findElements(By.xpath(""//p[@class='card-text mb-0']""))",Chrome 113.0.0.0,,,2023-05-23 18:07:18,2023-05-23 18:07:19,0.431s,PASSED
+r = b.size(),Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:19,0.002s,PASSED
+println(r),Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:19,0.006s,PASSED
+"for ([i = 0, i < b.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:19,0.254s,PASSED
+fis = new java.io.FileInputStream(C://ELL//Automation//Excel//DataBase Selection.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:19,0.028s,PASSED
+k = 1,Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:19,0.001s,PASSED
+wb = new org.apache.poi.xssf.usermodel.XSSFWorkbook(fis),Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:19,0.197s,PASSED
+"s = wb.getSheet(""Select Database"")",Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:19,0.002s,PASSED
+"for ([i = 0, i < b.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:07:19,2023-05-23 18:07:20,0.301s,PASSED
+fos = new java.io.FileOutputStream(C://ELL//Automation//Excel//DataBase Selection.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:07:20,2023-05-23 18:07:20,0.013s,PASSED
+wb.write(fos),Chrome 113.0.0.0,,,2023-05-23 18:07:20,2023-05-23 18:07:20,0.220s,PASSED
+"P1 = findTestData(""Select_Database"").getValue(""Database"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:07:20,2023-05-23 18:07:20,0.163s,PASSED
+out.println(P1),Chrome 113.0.0.0,,,2023-05-23 18:07:20,2023-05-23 18:07:20,0.001s,PASSED
+"for ([i = 0, i < b.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:07:20,2023-05-23 18:07:20,0.237s,PASSED
+"out.print(""good"")",Chrome 113.0.0.0,,,2023-05-23 18:07:20,2023-05-23 18:07:20,0.005s,PASSED
+"click(findTestObject(""Login_SelectDatabase/button_Use Selected Database""))",Chrome 113.0.0.0,,,2023-05-23 18:07:20,2023-05-23 18:07:21,0.673s,PASSED
+,,,,,,,
+Test Cases/Site creation - Suite,Chrome 113.0.0.0,,,2023-05-23 18:07:21,2023-05-23 18:08:32,1m - 10.521s,PASSED
+delay(5),Chrome 113.0.0.0,,,2023-05-23 18:07:26,2023-05-23 18:07:31,5.008s,PASSED
+"click(findTestObject(""ELL Menu/Select_MenuIcon""))",Chrome 113.0.0.0,,,2023-05-23 18:07:31,2023-05-23 18:07:31,0.710s,PASSED
+"click(findTestObject(""ELL Menu/a_ADMINISTRATION""))",Chrome 113.0.0.0,,,2023-05-23 18:07:31,2023-05-23 18:07:32,0.877s,PASSED
+"click(findTestObject(""Site creation/button_Add Site""))",Chrome 113.0.0.0,,,2023-05-23 18:07:32,2023-05-23 18:07:35,2.692s,PASSED
+"click(findTestObject(""Site creation/input_Site Name""))",Chrome 113.0.0.0,,,2023-05-23 18:07:35,2023-05-23 18:07:36,0.565s,PASSED
+dateFormat = new java.text.SimpleDateFormat(yyyy/dd/MM HH:mm:ss),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.027s,PASSED
+date = new java.util.Date(),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.012s,PASSED
+a = dateFormat.format(date),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.004s,PASSED
+println(a),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.001s,PASSED
+"b = "" - """,Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.002s,PASSED
+"Site = findTestData(""Site Data"").getValue(""Site Name"", 1) + b + a",Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.068s,PASSED
+println(Site),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.001s,PASSED
+logInfo(Site),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.029s,PASSED
+file = new java.io.File(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.002s,PASSED
+stream = new java.io.FileInputStream(file),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.001s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(stream),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.114s,PASSED
+"sheet = workbook.getSheet(""Add D&U"")",Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.001s,PASSED
+row = sheet.getRow(1),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.003s,PASSED
+cell = row.createCell(1),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.003s,PASSED
+cell.setCellValue(Site),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.004s,PASSED
+outputStream = new java.io.FileOutputStream(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.001s,PASSED
+workbook.write(outputStream),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.067s,PASSED
+outputStream.close(),Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:36,0.004s,PASSED
+"setText(findTestObject(""Site creation/input_Site Name""), Site)",Chrome 113.0.0.0,,,2023-05-23 18:07:36,2023-05-23 18:07:37,0.907s,PASSED
+"s1 = getAttribute(findTestObject(""Site creation/input_Site Name""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:07:37,2023-05-23 18:07:37,0.392s,PASSED
+println(s1),Chrome 113.0.0.0,,,2023-05-23 18:07:37,2023-05-23 18:07:37,0.001s,PASSED
+"verifyEqual(Site, s1)",Chrome 113.0.0.0,,,2023-05-23 18:07:37,2023-05-23 18:07:37,0.017s,PASSED
+"A1 = findTestData(""Site Data"").getValue(""Address"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:07:37,2023-05-23 18:07:37,0.052s,PASSED
+"setText(findTestObject(""Site creation/input_Address""), A1)",Chrome 113.0.0.0,,,2023-05-23 18:07:37,2023-05-23 18:07:38,0.881s,PASSED
+"A2 = getAttribute(findTestObject(""Site creation/input_Address""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:07:38,2023-05-23 18:07:39,0.399s,PASSED
+println(A2),Chrome 113.0.0.0,,,2023-05-23 18:07:39,2023-05-23 18:07:39,0.000s,PASSED
+"verifyEqual(A1, A2)",Chrome 113.0.0.0,,,2023-05-23 18:07:39,2023-05-23 18:07:39,0.003s,PASSED
+"c1 = findTestData(""Site Data"").getValue(""City"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:07:39,2023-05-23 18:07:39,0.053s,PASSED
+"setText(findTestObject(""Site creation/input_City_city""), c1)",Chrome 113.0.0.0,,,2023-05-23 18:07:39,2023-05-23 18:07:39,0.856s,PASSED
+"c2 = getAttribute(findTestObject(""Site creation/input_City_city""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:07:39,2023-05-23 18:07:40,0.404s,PASSED
+"verifyEqual(c1, c2)",Chrome 113.0.0.0,,,2023-05-23 18:07:40,2023-05-23 18:07:40,0.003s,PASSED
+"S5 = findTestData(""Site Data"").getValue(""State"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:07:40,2023-05-23 18:07:40,0.040s,PASSED
+"setText(findTestObject(""Site creation/input_State_state""), S5)",Chrome 113.0.0.0,,,2023-05-23 18:07:40,2023-05-23 18:07:41,0.848s,PASSED
+"S6 = getAttribute(findTestObject(""Site creation/input_State_state""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:07:41,2023-05-23 18:07:41,0.377s,PASSED
+"verifyEqual(S5, S6)",Chrome 113.0.0.0,,,2023-05-23 18:07:41,2023-05-23 18:07:41,0.003s,PASSED
+"z1 = findTestData(""Site Data"").getValue(""Zip"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:07:41,2023-05-23 18:07:41,0.075s,PASSED
+"setText(findTestObject(""Site creation/input_Zip_zip""), z1)",Chrome 113.0.0.0,,,2023-05-23 18:07:41,2023-05-23 18:07:42,0.818s,PASSED
+"z2 = getAttribute(findTestObject(""Site creation/input_Zip_zip""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:07:42,2023-05-23 18:07:42,0.389s,PASSED
+"verifyEqual(z1, z2)",Chrome 113.0.0.0,,,2023-05-23 18:07:42,2023-05-23 18:07:42,0.003s,PASSED
+"selectOptionByLabel(findTestObject(""Site creation/select_country""), findTestData(""Site Data"").getValue(""Country"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:07:42,2023-05-23 18:07:50,7.425s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Site creation/select_country""), findTestData(""Site Data"").getValue(""Country"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:07:50,2023-05-23 18:07:53,3.310s,PASSED
+"setText(findTestObject(""Site creation/input_Phone_phone""), findTestData(""Site Data"").getValue(""Phone"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:07:53,2023-05-23 18:07:54,0.895s,PASSED
+"selectOptionByLabel(findTestObject(""Site creation/select_Timezone""), findTestData(""Site Data"").getValue(""Timezone"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:07:54,2023-05-23 18:08:11,16.697s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Site creation/select_Timezone""), findTestData(""Site Data"").getValue(""Timezone"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:08:11,2023-05-23 18:08:18,7.124s,PASSED
+"click(findTestObject(""Site creation/input_system_Schedule""))",Chrome 113.0.0.0,,,2023-05-23 18:08:18,2023-05-23 18:08:18,0.497s,PASSED
+"click(findTestObject(""Site creation/SA_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:08:18,2023-05-23 18:08:19,0.582s,PASSED
+"click(findTestObject(""Site creation/SU_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:08:19,2023-05-23 18:08:19,0.528s,PASSED
+"click(findTestObject(""Site creation/button_Save""))",Chrome 113.0.0.0,,,2023-05-23 18:08:19,2023-05-23 18:08:20,0.559s,PASSED
+"verifyElementPresent(findTestObject(""Site creation/div_Success  Site added successfully""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:08:20,2023-05-23 18:08:23,2.733s,PASSED
+"c = getText(findTestObject(""Site creation/div_Success  Site added successfully""))",Chrome 113.0.0.0,,,2023-05-23 18:08:23,2023-05-23 18:08:23,0.384s,PASSED
+println(c),Chrome 113.0.0.0,,,2023-05-23 18:08:23,2023-05-23 18:08:23,0.000s,PASSED
+logInfo(c),Chrome 113.0.0.0,,,2023-05-23 18:08:23,2023-05-23 18:08:23,0.000s,PASSED
+"click(findTestObject(""Site creation/div_click""))",Chrome 113.0.0.0,,,2023-05-23 18:08:23,2023-05-23 18:08:24,0.454s,PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:08:24,2023-05-23 18:08:24,0.000s,PASSED
+executor = driver,Chrome 113.0.0.0,,,2023-05-23 18:08:24,2023-05-23 18:08:24,0.002s,PASSED
+"li = driver.findElements(By.xpath(""//div[@class="" + ""'col']""))",Chrome 113.0.0.0,,,2023-05-23 18:08:24,2023-05-23 18:08:24,0.315s,PASSED
+op = li.size(),Chrome 113.0.0.0,,,2023-05-23 18:08:24,2023-05-23 18:08:24,0.001s,PASSED
+println(op),Chrome 113.0.0.0,,,2023-05-23 18:08:24,2023-05-23 18:08:24,0.000s,PASSED
+"for ([i = 0, i < li.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:08:24,2023-05-23 18:08:30,5.950s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 113.0.0.0,,,2023-05-23 18:08:30,2023-05-23 18:08:30,0.014s,PASSED
+sendKeys(UP).perform(),Chrome 113.0.0.0,,,2023-05-23 18:08:30,2023-05-23 18:08:30,0.034s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:08:30,2023-05-23 18:08:31,1.063s,PASSED
+"for ([i = 1, i <= 6, (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:08:31,2023-05-23 18:08:31,0.120s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:08:31,2023-05-23 18:08:32,0.460s,PASSED
+,,,,,,,
+Test Cases/Dept-Units creation - Suite,Chrome 113.0.0.0,,,2023-05-23 18:08:32,2023-05-23 18:09:43,1m - 11.663s,PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:08:34,2023-05-23 18:08:34,0.001s,PASSED
+actions = sendKeys(HOME).perform(),Chrome 113.0.0.0,,,2023-05-23 18:08:34,2023-05-23 18:08:34,0.022s,PASSED
+"click(findTestObject(""Dept-User creation/Departments - Units""))",Chrome 113.0.0.0,,,2023-05-23 18:08:34,2023-05-23 18:08:34,0.777s,PASSED
+"click(findTestObject(""Dept-User creation/button_Add Department""))",Chrome 113.0.0.0,,,2023-05-23 18:08:34,2023-05-23 18:08:36,1.554s,PASSED
+dateFormat = new java.text.SimpleDateFormat(yyyy/dd/MM HH:mm:ss),Chrome 113.0.0.0,,,2023-05-23 18:08:36,2023-05-23 18:08:36,0.001s,PASSED
+date = new java.util.Date(),Chrome 113.0.0.0,,,2023-05-23 18:08:36,2023-05-23 18:08:36,0.000s,PASSED
+a = dateFormat.format(date),Chrome 113.0.0.0,,,2023-05-23 18:08:36,2023-05-23 18:08:36,0.000s,PASSED
+println(a),Chrome 113.0.0.0,,,2023-05-23 18:08:36,2023-05-23 18:08:36,0.001s,PASSED
+"b = "" - """,Chrome 113.0.0.0,,,2023-05-23 18:08:36,2023-05-23 18:08:36,0.000s,PASSED
+"D = findTestData(""Dept_Unit Data"").getValue(""Department Name"", 1) + b + a",Chrome 113.0.0.0,,,2023-05-23 18:08:36,2023-05-23 18:08:36,0.079s,PASSED
+"setText(findTestObject(""Dept-User creation/input_Department Name""), D)",Chrome 113.0.0.0,,,2023-05-23 18:08:36,2023-05-23 18:08:38,1.430s,PASSED
+println(D),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.000s,PASSED
+logInfo(D),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.001s,PASSED
+file = new java.io.File(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.000s,PASSED
+stream = new java.io.FileInputStream(file),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.001s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(stream),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.060s,PASSED
+"sheet = workbook.getSheet(""Add D&U"")",Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.000s,PASSED
+row = sheet.getRow(1),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.000s,PASSED
+cell = row.createCell(2),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.001s,PASSED
+cell.setCellValue(D),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.001s,PASSED
+outputStream = new java.io.FileOutputStream(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.001s,PASSED
+workbook.write(outputStream),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.035s,PASSED
+outputStream.close(),Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:38,0.000s,PASSED
+"selectOptionByLabel(findTestObject(""Dept-User creation/input_Site""), findTestData(""Dept_Unit Data"").getValue(""Site"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:08:38,2023-05-23 18:08:43,5.838s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Dept-User creation/input_Site""), findTestData(""Dept_Unit Data"").getValue(""Site"", 1), false, 2)",Chrome 113.0.0.0,,,2023-05-23 18:08:43,2023-05-23 18:08:47,3.297s,PASSED
+"setText(findTestObject(""Dept-User creation/input_Bench Unit Name""), findTestData(""Dept_Unit Data"").getValue(""Bench / Unit Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:08:47,2023-05-23 18:08:48,0.847s,PASSED
+"D1 = getAttribute(findTestObject(""Dept-User creation/input_Bench Unit Name""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:08:48,2023-05-23 18:08:48,0.392s,PASSED
+println(D1),Chrome 113.0.0.0,,,2023-05-23 18:08:48,2023-05-23 18:08:48,0.000s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""Bench / Unit Name"", 1), D1)",Chrome 113.0.0.0,,,2023-05-23 18:08:48,2023-05-23 18:08:48,0.053s,PASSED
+"setText(findTestObject(""Dept-User creation/input_CLIA""), findTestData(""Dept_Unit Data"").getValue(""CLIA License Number"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:08:48,2023-05-23 18:08:49,0.871s,PASSED
+"D2 = getAttribute(findTestObject(""Dept-User creation/input_CLIA""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:08:49,2023-05-23 18:08:49,0.374s,PASSED
+println(D2),Chrome 113.0.0.0,,,2023-05-23 18:08:49,2023-05-23 18:08:49,0.001s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""CLIA License Number"", 1), D2)",Chrome 113.0.0.0,,,2023-05-23 18:08:49,2023-05-23 18:08:49,0.051s,PASSED
+"setText(findTestObject(""Dept-User creation/input_Joint Commission""), findTestData(""Dept_Unit Data"").getValue(""Joint Commission"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:08:49,2023-05-23 18:08:50,0.917s,PASSED
+"D3 = getAttribute(findTestObject(""Dept-User creation/input_Joint Commission""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:08:50,2023-05-23 18:08:51,0.376s,PASSED
+println(D3),Chrome 113.0.0.0,,,2023-05-23 18:08:51,2023-05-23 18:08:51,0.001s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""Joint Commission"", 1), D3)",Chrome 113.0.0.0,,,2023-05-23 18:08:51,2023-05-23 18:08:51,0.055s,PASSED
+"setText(findTestObject(""Dept-User creation/input_CAP""), findTestData(""Dept_Unit Data"").getValue(""CAP"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:08:51,2023-05-23 18:08:52,0.847s,PASSED
+"D4 = getAttribute(findTestObject(""Dept-User creation/input_CAP""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:08:52,2023-05-23 18:08:52,0.391s,PASSED
+println(D4),Chrome 113.0.0.0,,,2023-05-23 18:08:52,2023-05-23 18:08:52,0.000s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""CAP"", 1), D4)",Chrome 113.0.0.0,,,2023-05-23 18:08:52,2023-05-23 18:08:52,0.054s,PASSED
+"setText(findTestObject(""Dept-User creation/input_COLA""), findTestData(""Dept_Unit Data"").getValue(""COLA"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:08:52,2023-05-23 18:08:53,0.854s,PASSED
+"D5 = getAttribute(findTestObject(""Dept-User creation/input_COLA""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:08:53,2023-05-23 18:08:53,0.364s,PASSED
+println(D5),Chrome 113.0.0.0,,,2023-05-23 18:08:53,2023-05-23 18:08:53,0.001s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""COLA"", 1), D5)",Chrome 113.0.0.0,,,2023-05-23 18:08:53,2023-05-23 18:08:53,0.055s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AABB""), findTestData(""Dept_Unit Data"").getValue(""AABB"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:08:53,2023-05-23 18:08:54,0.841s,PASSED
+"D6 = getAttribute(findTestObject(""Dept-User creation/input_AABB""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:08:54,2023-05-23 18:08:54,0.371s,PASSED
+println(D6),Chrome 113.0.0.0,,,2023-05-23 18:08:54,2023-05-23 18:08:54,0.001s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""AABB"", 1), D6)",Chrome 113.0.0.0,,,2023-05-23 18:08:54,2023-05-23 18:08:55,0.044s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AALA""), ""AALA"")",Chrome 113.0.0.0,,,2023-05-23 18:08:55,2023-05-23 18:08:55,0.789s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AOAHFAP""), ""AOAHFAP"")",Chrome 113.0.0.0,,,2023-05-23 18:08:55,2023-05-23 18:08:56,0.801s,PASSED
+"setText(findTestObject(""Dept-User creation/input_ASHI""), ""ASHI"")",Chrome 113.0.0.0,,,2023-05-23 18:08:56,2023-05-23 18:08:57,0.803s,PASSED
+"setText(findTestObject(""Dept-User creation/input_NYDOH""), ""NYDOH"")",Chrome 113.0.0.0,,,2023-05-23 18:08:57,2023-05-23 18:08:58,0.820s,PASSED
+"setText(findTestObject(""Dept-User creation/input_CADOH""), ""CADOH"")",Chrome 113.0.0.0,,,2023-05-23 18:08:58,2023-05-23 18:08:59,0.818s,PASSED
+"setText(findTestObject(""Dept-User creation/input_FLDOH""), ""FLDOH"")",Chrome 113.0.0.0,,,2023-05-23 18:08:59,2023-05-23 18:08:59,0.793s,PASSED
+"setText(findTestObject(""Dept-User creation/input_NYSPFI""), ""NYSPFI"")",Chrome 113.0.0.0,,,2023-05-23 18:08:59,2023-05-23 18:09:00,0.819s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AU-ID""), ""AU-ID"")",Chrome 113.0.0.0,,,2023-05-23 18:09:00,2023-05-23 18:09:01,0.840s,PASSED
+"click(findTestObject(""Dept-User creation/button_Add Bench  Unit""))",Chrome 113.0.0.0,,,2023-05-23 18:09:01,2023-05-23 18:09:01,0.500s,PASSED
+"setText(findTestObject(""Dept-User creation/input_BenchUnit_1""), findTestData(""Dept_Unit Data"").getValue(""Bench / Unit Name"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:09:01,2023-05-23 18:09:02,0.876s,PASSED
+"D15 = getAttribute(findTestObject(""Dept-User creation/input_BenchUnit_1""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:02,2023-05-23 18:09:03,0.363s,PASSED
+println(D15),Chrome 113.0.0.0,,,2023-05-23 18:09:03,2023-05-23 18:09:03,0.001s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""Bench / Unit Name"", 2), D15)",Chrome 113.0.0.0,,,2023-05-23 18:09:03,2023-05-23 18:09:03,0.045s,PASSED
+"setText(findTestObject(""Dept-User creation/input_CLIA 1""), findTestData(""Dept_Unit Data"").getValue(""CLIA License Number"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:09:03,2023-05-23 18:09:04,0.981s,PASSED
+"D16 = getAttribute(findTestObject(""Dept-User creation/input_CLIA 1""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:04,2023-05-23 18:09:04,0.367s,PASSED
+println(D16),Chrome 113.0.0.0,,,2023-05-23 18:09:04,2023-05-23 18:09:04,0.000s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""CLIA License Number"", 2), D16)",Chrome 113.0.0.0,,,2023-05-23 18:09:04,2023-05-23 18:09:04,0.084s,PASSED
+"setText(findTestObject(""Dept-User creation/input_Joint Commission 1""), findTestData(""Dept_Unit Data"").getValue(""Joint Commission"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:09:04,2023-05-23 18:09:05,0.886s,PASSED
+"D17 = getAttribute(findTestObject(""Dept-User creation/input_Joint Commission 1""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:05,2023-05-23 18:09:05,0.371s,PASSED
+println(D17),Chrome 113.0.0.0,,,2023-05-23 18:09:05,2023-05-23 18:09:05,0.000s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""Joint Commission"", 2), D17)",Chrome 113.0.0.0,,,2023-05-23 18:09:05,2023-05-23 18:09:06,0.044s,PASSED
+"setText(findTestObject(""Dept-User creation/input_CAP 1""), findTestData(""Dept_Unit Data"").getValue(""CAP"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:09:06,2023-05-23 18:09:06,0.867s,PASSED
+"D18 = getAttribute(findTestObject(""Dept-User creation/input_CAP 1""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:06,2023-05-23 18:09:07,0.387s,PASSED
+println(D18),Chrome 113.0.0.0,,,2023-05-23 18:09:07,2023-05-23 18:09:07,0.000s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""CAP"", 2), D18)",Chrome 113.0.0.0,,,2023-05-23 18:09:07,2023-05-23 18:09:07,0.053s,PASSED
+"setText(findTestObject(""Dept-User creation/input_COLA 1""), findTestData(""Dept_Unit Data"").getValue(""COLA"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:09:07,2023-05-23 18:09:08,0.880s,PASSED
+"D19 = getAttribute(findTestObject(""Dept-User creation/input_COLA 1""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:08,2023-05-23 18:09:08,0.401s,PASSED
+println(D19),Chrome 113.0.0.0,,,2023-05-23 18:09:08,2023-05-23 18:09:08,0.001s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""COLA"", 2), D19)",Chrome 113.0.0.0,,,2023-05-23 18:09:08,2023-05-23 18:09:08,0.064s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AABB 1""), findTestData(""Dept_Unit Data"").getValue(""AABB"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:09:08,2023-05-23 18:09:09,0.837s,PASSED
+"D20 = getAttribute(findTestObject(""Dept-User creation/input_AABB 1""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:09,2023-05-23 18:09:09,0.372s,PASSED
+println(D20),Chrome 113.0.0.0,,,2023-05-23 18:09:09,2023-05-23 18:09:09,0.001s,PASSED
+"verifyEqual(findTestData(""Dept_Unit Data"").getValue(""AABB"", 2), D20)",Chrome 113.0.0.0,,,2023-05-23 18:09:09,2023-05-23 18:09:09,0.042s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AALA 1""), ""AALA 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:09,2023-05-23 18:09:10,0.811s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AOAHFAP 1""), ""AOAHFAP 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:10,2023-05-23 18:09:11,0.844s,PASSED
+"setText(findTestObject(""Dept-User creation/input_ASHI 1""), ""ASHI 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:11,2023-05-23 18:09:12,0.885s,PASSED
+"setText(findTestObject(""Dept-User creation/input_NYDOH 1""), ""NYDOH 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:12,2023-05-23 18:09:13,0.850s,PASSED
+"setText(findTestObject(""Dept-User creation/input_CADOH 1""), ""CADOH 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:13,2023-05-23 18:09:14,0.814s,PASSED
+"setText(findTestObject(""Dept-User creation/input_FLDOH 1""), ""FLDOH 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:14,2023-05-23 18:09:14,0.862s,PASSED
+"setText(findTestObject(""Dept-User creation/input_NYSPFI 1""), ""NYSPFI 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:14,2023-05-23 18:09:15,0.826s,PASSED
+"setText(findTestObject(""Dept-User creation/input_AU-ID 1""), ""AU-ID 1"")",Chrome 113.0.0.0,,,2023-05-23 18:09:15,2023-05-23 18:09:16,0.831s,PASSED
+"click(findTestObject(""Dept-User creation/button_Finish""))",Chrome 113.0.0.0,,,2023-05-23 18:09:16,2023-05-23 18:09:17,0.477s,PASSED
+"Text = getText(findTestObject(""Dept-User creation/div_Success Dpt Created""))",Chrome 113.0.0.0,,,2023-05-23 18:09:17,2023-05-23 18:09:18,1.817s,PASSED
+println(Text),Chrome 113.0.0.0,,,2023-05-23 18:09:18,2023-05-23 18:09:18,0.001s,PASSED
+logInfo(Text),Chrome 113.0.0.0,,,2023-05-23 18:09:18,2023-05-23 18:09:18,0.000s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:09:18,2023-05-23 18:09:20,2.011s,PASSED
+"scrollToElement(findTestObject(""Dept-User creation/input_ADD""), 2)",Chrome 113.0.0.0,,,2023-05-23 18:09:20,2023-05-23 18:09:21,0.388s,PASSED
+"click(findTestObject(""Dept-User creation/input_ADD""))",Chrome 113.0.0.0,,,2023-05-23 18:09:21,2023-05-23 18:09:21,0.431s,PASSED
+"click(findTestObject(""Dept-User creation/click_AddUser_button""))",Chrome 113.0.0.0,,,2023-05-23 18:09:21,2023-05-23 18:09:22,0.564s,PASSED
+"setText(findTestObject(""Dept-User creation/input_Search_SignOffUser""), findTestData(""SignOff User Data"").getValue(""SignOff Users"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:09:22,2023-05-23 18:09:23,1.381s,PASSED
+"D21 = getAttribute(findTestObject(""Dept-User creation/input_Search_SignOffUser""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:23,2023-05-23 18:09:24,1.246s,PASSED
+println(D21),Chrome 113.0.0.0,,,2023-05-23 18:09:24,2023-05-23 18:09:24,0.000s,PASSED
+"verifyEqual(findTestData(""SignOff User Data"").getValue(""SignOff Users"", 1), D21)",Chrome 113.0.0.0,,,2023-05-23 18:09:24,2023-05-23 18:09:24,0.037s,PASSED
+"click(findTestObject(""Dept-User creation/click_search_SignOffUser""))",Chrome 113.0.0.0,,,2023-05-23 18:09:24,2023-05-23 18:09:25,0.441s,PASSED
+"click(findTestObject(""Dept-User creation/input_Add_SignInUser""))",Chrome 113.0.0.0,,,2023-05-23 18:09:25,2023-05-23 18:09:25,0.443s,PASSED
+"click(findTestObject(""Dept-User creation/input_AddOptional""))",Chrome 113.0.0.0,,,2023-05-23 18:09:25,2023-05-23 18:09:26,1.021s,PASSED
+"setText(findTestObject(""Dept-User creation/input_Search_SignOffUser""), findTestData(""SignOff User Data"").getValue(""SignOff Users"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:09:26,2023-05-23 18:09:27,0.941s,PASSED
+"D22 = getAttribute(findTestObject(""Dept-User creation/input_Search_SignOffUser""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:27,2023-05-23 18:09:29,1.246s,PASSED
+println(D22),Chrome 113.0.0.0,,,2023-05-23 18:09:29,2023-05-23 18:09:29,0.000s,PASSED
+"verifyEqual(findTestData(""SignOff User Data"").getValue(""SignOff Users"", 2), D22)",Chrome 113.0.0.0,,,2023-05-23 18:09:29,2023-05-23 18:09:29,0.043s,PASSED
+"click(findTestObject(""Dept-User creation/click_search_SignOffUser""))",Chrome 113.0.0.0,,,2023-05-23 18:09:29,2023-05-23 18:09:29,0.403s,PASSED
+"click(findTestObject(""Dept-User creation/input_Add_SignInUser""))",Chrome 113.0.0.0,,,2023-05-23 18:09:29,2023-05-23 18:09:29,0.403s,PASSED
+"click(findTestObject(""Dept-User creation/input_Add Next User""))",Chrome 113.0.0.0,,,2023-05-23 18:09:29,2023-05-23 18:09:30,0.998s,PASSED
+"setText(findTestObject(""Dept-User creation/input_Search_SignOffUser""), findTestData(""SignOff User Data"").getValue(""SignOff Users"", 3))",Chrome 113.0.0.0,,,2023-05-23 18:09:30,2023-05-23 18:09:31,0.924s,PASSED
+"D23 = getAttribute(findTestObject(""Dept-User creation/input_Search_SignOffUser""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:31,2023-05-23 18:09:33,1.256s,PASSED
+println(D23),Chrome 113.0.0.0,,,2023-05-23 18:09:33,2023-05-23 18:09:33,0.001s,PASSED
+"verifyEqual(findTestData(""SignOff User Data"").getValue(""SignOff Users"", 3), D23)",Chrome 113.0.0.0,,,2023-05-23 18:09:33,2023-05-23 18:09:33,0.034s,PASSED
+"click(findTestObject(""Dept-User creation/click_search_SignOffUser""))",Chrome 113.0.0.0,,,2023-05-23 18:09:33,2023-05-23 18:09:33,0.392s,PASSED
+"click(findTestObject(""Dept-User creation/input_Add_SignInUser""))",Chrome 113.0.0.0,,,2023-05-23 18:09:33,2023-05-23 18:09:33,0.433s,PASSED
+"click(findTestObject(""Dept-User creation/input_Save SignOffUser""))",Chrome 113.0.0.0,,,2023-05-23 18:09:33,2023-05-23 18:09:35,1.035s,PASSED
+"signOffUsers = getText(findTestObject(""Dept-User creation/div_Success Sign-off Chain""))",Chrome 113.0.0.0,,,2023-05-23 18:09:35,2023-05-23 18:09:36,1.478s,PASSED
+logInfo(signOffUsers),Chrome 113.0.0.0,,,2023-05-23 18:09:36,2023-05-23 18:09:36,0.001s,PASSED
+"click(findTestObject(""Dept-User creation/input_click_ReturnToDptment""))",Chrome 113.0.0.0,,,2023-05-23 18:09:36,2023-05-23 18:09:36,0.438s,PASSED
+"click(findTestObject(""Dept-User creation/input_click_ReturnToList""))",Chrome 113.0.0.0,,,2023-05-23 18:09:36,2023-05-23 18:09:37,0.647s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:09:37,2023-05-23 18:09:39,2.010s,PASSED
+"li = driver.findElements(By.xpath(""//div[@class="" + ""'col']""))",Chrome 113.0.0.0,,,2023-05-23 18:09:39,2023-05-23 18:09:39,0.284s,PASSED
+"x1 = D + ""- "" + findTestData(""Dept_Unit Data"").getValue(""Site"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:09:39,2023-05-23 18:09:39,0.048s,PASSED
+println(x1),Chrome 113.0.0.0,,,2023-05-23 18:09:39,2023-05-23 18:09:39,0.000s,PASSED
+"for ([i = 0, i < li.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:09:39,2023-05-23 18:09:40,0.258s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:09:40,2023-05-23 18:09:41,1.341s,PASSED
+exe = driver,Chrome 113.0.0.0,,,2023-05-23 18:09:41,2023-05-23 18:09:41,0.000s,PASSED
+"elementToScroll1 = driver.findElement(By.xpath(""(//span[text()='CAP'])[1]""))",Chrome 113.0.0.0,,,2023-05-23 18:09:41,2023-05-23 18:09:41,0.284s,PASSED
+"exe.executeScript(""arguments[0].scrollIntoView(true)"", elementToScroll1)",Chrome 113.0.0.0,,,2023-05-23 18:09:41,2023-05-23 18:09:41,0.025s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:09:41,2023-05-23 18:09:42,0.458s,PASSED
+"elementToScroll2 = driver.findElement(By.xpath(""(//span[text()='Logging Schedule'])[1]""))",Chrome 113.0.0.0,,,2023-05-23 18:09:42,2023-05-23 18:09:42,0.271s,PASSED
+"exe.executeScript(""arguments[0].scrollIntoView(true)"", elementToScroll2)",Chrome 113.0.0.0,,,2023-05-23 18:09:42,2023-05-23 18:09:42,0.026s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:09:42,2023-05-23 18:09:43,0.458s,PASSED
+"elementToScroll3 = driver.findElement(By.xpath(""(//span[text()='CADOH'])[last()]""))",Chrome 113.0.0.0,,,2023-05-23 18:09:43,2023-05-23 18:09:43,0.274s,PASSED
+"exe.executeScript(""arguments[0].scrollIntoView(true)"", elementToScroll3)",Chrome 113.0.0.0,,,2023-05-23 18:09:43,2023-05-23 18:09:43,0.025s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:09:43,2023-05-23 18:09:43,0.409s,PASSED
+,,,,,,,
+Test Cases/Instrument Creation - Suite,Chrome 113.0.0.0,,,2023-05-23 18:09:43,2023-05-23 18:12:55,3m - 12.106s,PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:09:45,2023-05-23 18:09:45,0.001s,PASSED
+actions = sendKeys(HOME).perform(),Chrome 113.0.0.0,,,2023-05-23 18:09:45,2023-05-23 18:09:45,0.015s,PASSED
+"click(findTestObject(""Add Instrument/span_Instruments""))",Chrome 113.0.0.0,,,2023-05-23 18:09:45,2023-05-23 18:09:46,0.565s,PASSED
+"click(findTestObject(""Add Instrument/button_Add Instrument Type""))",Chrome 113.0.0.0,,,2023-05-23 18:09:46,2023-05-23 18:09:49,3.157s,PASSED
+dateFormat = new java.text.SimpleDateFormat(yyyy/dd/MM HH:mm:ss),Chrome 113.0.0.0,,,2023-05-23 18:09:49,2023-05-23 18:09:49,0.001s,PASSED
+date = new java.util.Date(),Chrome 113.0.0.0,,,2023-05-23 18:09:49,2023-05-23 18:09:49,0.000s,PASSED
+a = dateFormat.format(date),Chrome 113.0.0.0,,,2023-05-23 18:09:49,2023-05-23 18:09:49,0.000s,PASSED
+println(a),Chrome 113.0.0.0,,,2023-05-23 18:09:49,2023-05-23 18:09:49,0.000s,PASSED
+"b = "" - """,Chrome 113.0.0.0,,,2023-05-23 18:09:49,2023-05-23 18:09:49,0.001s,PASSED
+"Ins = findTestData(""Add Inst-Type Data"").getValue(""InsType_Name"", 1) + b + a",Chrome 113.0.0.0,,,2023-05-23 18:09:49,2023-05-23 18:09:49,0.051s,PASSED
+"setText(findTestObject(""Add Instrument/InstrumentTypeName""), Ins)",Chrome 113.0.0.0,,,2023-05-23 18:09:49,2023-05-23 18:09:50,0.843s,PASSED
+file = new java.io.File(.//Excel//ELL_Add Instrument & Type.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.001s,PASSED
+stream = new java.io.FileInputStream(file),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(stream),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.033s,PASSED
+"sheet = workbook.getSheet(""Add Inst-Type"")",Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.000s,PASSED
+row = sheet.getRow(1),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.001s,PASSED
+cell = row.createCell(1),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.001s,PASSED
+cell.setCellValue(Ins),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.001s,PASSED
+outputStream = new java.io.FileOutputStream(.//Excel//ELL_Add Instrument & Type.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.001s,PASSED
+workbook.write(outputStream),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.044s,PASSED
+outputStream.close(),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.000s,PASSED
+println(Ins),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.000s,PASSED
+logInfo(Ins),Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:50,0.001s,PASSED
+"setText(findTestObject(""Add Instrument/input_Manufacturer""), ""Lot Manufacture"")",Chrome 113.0.0.0,,,2023-05-23 18:09:50,2023-05-23 18:09:51,0.838s,PASSED
+"setText(findTestObject(""Add Instrument/input_Model""), ""LO-01"")",Chrome 113.0.0.0,,,2023-05-23 18:09:51,2023-05-23 18:09:52,0.906s,PASSED
+"click(findTestObject(""Add Instrument/button_Next""))",Chrome 113.0.0.0,,,2023-05-23 18:09:52,2023-05-23 18:09:52,0.445s,PASSED
+"click(findTestObject(""LOT/click-addReagentControlBtn""))",Chrome 113.0.0.0,,,2023-05-23 18:09:52,2023-05-23 18:09:53,0.549s,PASSED
+"setText(findTestObject(""LOT/enter-LotName""), findTestData(""Lot Data"").getValue(""Lot Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:09:53,2023-05-23 18:09:54,0.939s,PASSED
+"setText(findTestObject(""LOT/enter-Lot Notes""), ""Checking Lot Notes"")",Chrome 113.0.0.0,,,2023-05-23 18:09:54,2023-05-23 18:09:55,0.795s,PASSED
+"click(findTestObject(""LOT/btn-Save Lot""))",Chrome 113.0.0.0,,,2023-05-23 18:09:55,2023-05-23 18:09:55,0.481s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:09:55,2023-05-23 18:09:56,0.596s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Lot Data"").getValue(""Lot-Task Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:09:56,2023-05-23 18:09:57,0.912s,PASSED
+"MTName_01 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:09:57,2023-05-23 18:09:57,0.384s,PASSED
+println(MTName_01),Chrome 113.0.0.0,,,2023-05-23 18:09:57,2023-05-23 18:09:57,0.000s,PASSED
+"verifyEqual(findTestData(""Lot Data"").getValue(""Lot-Task Name"", 1), MTName_01)",Chrome 113.0.0.0,,,2023-05-23 18:09:57,2023-05-23 18:09:57,0.037s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:09:57,2023-05-23 18:09:58,1.370s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:09:58,2023-05-23 18:09:59,0.874s,PASSED
+"selectOptionByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false)",Chrome 113.0.0.0,,,2023-05-23 18:09:59,2023-05-23 18:10:00,0.786s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:00,2023-05-23 18:10:01,0.739s,PASSED
+"click(findTestObject(""Add Instrument/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:01,2023-05-23 18:10:01,0.425s,PASSED
+"scrollToElement(findTestObject(""LOT/scrollIntoField Label""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:01,2023-05-23 18:10:02,0.494s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T1-PH Value 1"")",Chrome 113.0.0.0,,,2023-05-23 18:10:02,2023-05-23 18:10:03,0.812s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""1"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:03,2023-05-23 18:10:04,1.161s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:04,2023-05-23 18:10:04,0.437s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T1-PH Value 2"")",Chrome 113.0.0.0,,,2023-05-23 18:10:04,2023-05-23 18:10:05,0.946s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""2"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:05,2023-05-23 18:10:06,1.144s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:06,2023-05-23 18:10:07,0.435s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T1-PH Value 3"")",Chrome 113.0.0.0,,,2023-05-23 18:10:07,2023-05-23 18:10:08,0.936s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""3"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:08,2023-05-23 18:10:09,1.160s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:09,2023-05-23 18:10:09,0.572s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T1-PH Value 4"")",Chrome 113.0.0.0,,,2023-05-23 18:10:09,2023-05-23 18:10:10,0.886s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""5"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:10,2023-05-23 18:10:11,1.200s,PASSED
+"click(findTestObject(""LOT/Lot-Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:10:11,2023-05-23 18:10:12,0.495s,PASSED
+"click(findTestObject(""LOT/Lot-Clone""))",Chrome 113.0.0.0,,,2023-05-23 18:10:12,2023-05-23 18:10:12,0.611s,PASSED
+"scrollToElement(findTestObject(""LOT/scrollIntoField Label""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:12,2023-05-23 18:10:13,0.674s,PASSED
+"Clone_MTName_02 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:13,2023-05-23 18:10:14,0.369s,PASSED
+println(Clone_MTName_02),Chrome 113.0.0.0,,,2023-05-23 18:10:14,2023-05-23 18:10:14,0.001s,PASSED
+"verifyEqual(findTestData(""Lot Data"").getValue(""Lot-Task Name"", 1) + "" (Copy)"", Clone_MTName_02)",Chrome 113.0.0.0,,,2023-05-23 18:10:14,2023-05-23 18:10:14,0.036s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:14,2023-05-23 18:10:14,0.857s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:14,2023-05-23 18:10:15,0.715s,PASSED
+"clone_DF_ValT1 = getAttribute(findTestObject(""LOT/clone_DF -T1""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:15,2023-05-23 18:10:16,0.370s,PASSED
+"verifyEqual(""T1-PH Value 1"", clone_DF_ValT1)",Chrome 113.0.0.0,,,2023-05-23 18:10:16,2023-05-23 18:10:16,0.003s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/clone_FT-F1""), ""Text"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:16,2023-05-23 18:10:16,0.691s,PASSED
+"clone_DF_ValT2 = getAttribute(findTestObject(""LOT/clone_DF - T2""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:16,2023-05-23 18:10:17,0.371s,PASSED
+"verifyEqual(""T1-PH Value 2"", clone_DF_ValT2)",Chrome 113.0.0.0,,,2023-05-23 18:10:17,2023-05-23 18:10:17,0.002s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/clone_FT-F2""), ""Text Area"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:17,2023-05-23 18:10:17,0.702s,PASSED
+"clone_DF_ValT3 = getAttribute(findTestObject(""LOT/clone_DF - T3""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:17,2023-05-23 18:10:18,0.398s,PASSED
+"verifyEqual(""T1-PH Value 3"", clone_DF_ValT3)",Chrome 113.0.0.0,,,2023-05-23 18:10:18,2023-05-23 18:10:18,0.002s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/clone_FT-F3""), ""Number"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:18,2023-05-23 18:10:18,0.698s,PASSED
+"clone_DF_ValT4 = getAttribute(findTestObject(""LOT/clone_DF - T4""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:18,2023-05-23 18:10:19,0.371s,PASSED
+"verifyEqual(""T1-PH Value 4"", clone_DF_ValT4)",Chrome 113.0.0.0,,,2023-05-23 18:10:19,2023-05-23 18:10:19,0.002s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/clone_FT-F4""), ""File Attachment"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:19,2023-05-23 18:10:19,0.724s,PASSED
+"click(findTestObject(""LOT/Lot-Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:10:19,2023-05-23 18:10:20,0.430s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:10:20,2023-05-23 18:10:21,0.596s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Lot Data"").getValue(""Lot-Task Name"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:10:21,2023-05-23 18:10:22,0.998s,PASSED
+"MTName_03 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:22,2023-05-23 18:10:22,0.398s,PASSED
+println(MTName_03),Chrome 113.0.0.0,,,2023-05-23 18:10:22,2023-05-23 18:10:22,0.000s,PASSED
+"verifyEqual(findTestData(""Lot Data"").getValue(""Lot-Task Name"", 2), MTName_03)",Chrome 113.0.0.0,,,2023-05-23 18:10:22,2023-05-23 18:10:22,0.043s,PASSED
+"click(findTestObject(""Add Instrument/Fixed""))",Chrome 113.0.0.0,,,2023-05-23 18:10:22,2023-05-23 18:10:22,0.462s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FixedFreq""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 2), true)",Chrome 113.0.0.0,,,2023-05-23 18:10:22,2023-05-23 18:10:24,1.272s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FixedFreq""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 2), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:24,2023-05-23 18:10:24,0.759s,PASSED
+"selectOptionByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false)",Chrome 113.0.0.0,,,2023-05-23 18:10:24,2023-05-23 18:10:25,0.748s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:25,2023-05-23 18:10:26,0.842s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:26,2023-05-23 18:10:26,0.409s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T2-PH Value 1"")",Chrome 113.0.0.0,,,2023-05-23 18:10:26,2023-05-23 18:10:27,0.903s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""3"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:27,2023-05-23 18:10:29,1.214s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:29,2023-05-23 18:10:29,0.449s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T2-PH Value 2"")",Chrome 113.0.0.0,,,2023-05-23 18:10:29,2023-05-23 18:10:30,0.881s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""3"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:30,2023-05-23 18:10:31,1.132s,PASSED
+"click(findTestObject(""LOT/click-RequiredField""))",Chrome 113.0.0.0,,,2023-05-23 18:10:31,2023-05-23 18:10:32,0.553s,PASSED
+"click(findTestObject(""LOT/click-ValidateField""))",Chrome 113.0.0.0,,,2023-05-23 18:10:32,2023-05-23 18:10:32,0.598s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:32,2023-05-23 18:10:33,0.515s,PASSED
+"setText(findTestObject(""LOT/input_Text_Defined Value""), ""T2-PH Value 3"")",Chrome 113.0.0.0,,,2023-05-23 18:10:33,2023-05-23 18:10:34,1.009s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select__Text_Defined Value""), ""4"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:34,2023-05-23 18:10:35,1.173s,PASSED
+"scrollToElement(findTestObject(""LOT/scroll-Add Data field""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:35,2023-05-23 18:10:35,0.518s,PASSED
+"setText(findTestObject(""Lot/txt_Validation""), ""5"")",Chrome 113.0.0.0,,,2023-05-23 18:10:35,2023-05-23 18:10:36,0.762s,PASSED
+"click(findTestObject(""LOT/click-AddMoreValidation""))",Chrome 113.0.0.0,,,2023-05-23 18:10:36,2023-05-23 18:10:37,0.449s,PASSED
+"setText(findTestObject(""Lot/txt_Validation""), ""15"")",Chrome 113.0.0.0,,,2023-05-23 18:10:37,2023-05-23 18:10:38,0.910s,PASSED
+"click(findTestObject(""LOT/click-AddMoreValidation""))",Chrome 113.0.0.0,,,2023-05-23 18:10:38,2023-05-23 18:10:38,0.428s,PASSED
+"setText(findTestObject(""Lot/txt_Validation""), ""25"")",Chrome 113.0.0.0,,,2023-05-23 18:10:38,2023-05-23 18:10:39,0.898s,PASSED
+"click(findTestObject(""LOT/Lot-Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:10:39,2023-05-23 18:10:39,0.537s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:10:39,2023-05-23 18:10:40,1.022s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Lot Data"").getValue(""Lot-Task Name"", 3))",Chrome 113.0.0.0,,,2023-05-23 18:10:40,2023-05-23 18:10:41,0.899s,PASSED
+"MTName_04 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:41,2023-05-23 18:10:42,0.380s,PASSED
+println(MTName_04),Chrome 113.0.0.0,,,2023-05-23 18:10:42,2023-05-23 18:10:42,0.000s,PASSED
+"verifyEqual(findTestData(""Lot Data"").getValue(""Lot-Task Name"", 3), MTName_04)",Chrome 113.0.0.0,,,2023-05-23 18:10:42,2023-05-23 18:10:42,0.035s,PASSED
+"click(findTestObject(""Add Instrument/Fixed""))",Chrome 113.0.0.0,,,2023-05-23 18:10:42,2023-05-23 18:10:42,0.407s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FixedFreq""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 3), true)",Chrome 113.0.0.0,,,2023-05-23 18:10:42,2023-05-23 18:10:43,1.184s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FixedFreq""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 3), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:43,2023-05-23 18:10:44,0.755s,PASSED
+"scrollToElement(findTestObject(""LOT/scroll-Add Data field""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:44,2023-05-23 18:10:44,0.367s,PASSED
+"click(findTestObject(""LOT/click-Use a LOT""))",Chrome 113.0.0.0,,,2023-05-23 18:10:44,2023-05-23 18:10:45,0.439s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:10:45,2023-05-23 18:10:45,0.411s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T3-PH Value 1"")",Chrome 113.0.0.0,,,2023-05-23 18:10:45,2023-05-23 18:10:46,0.933s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""3"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:46,2023-05-23 18:10:47,1.209s,PASSED
+"selectOptionByValue(findTestObject(""LOT/Greater Than-Value""), ""1"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:47,2023-05-23 18:10:49,1.167s,PASSED
+"setText(findTestObject(""LOT/txtbox-greaterThan""), ""12"")",Chrome 113.0.0.0,,,2023-05-23 18:10:49,2023-05-23 18:10:49,0.774s,PASSED
+"click(findTestObject(""LOT/click-AddMoreValidation""))",Chrome 113.0.0.0,,,2023-05-23 18:10:49,2023-05-23 18:10:50,0.442s,PASSED
+"selectOptionByLabel(findTestObject(""LOT/condition""), ""AND"", false)",Chrome 113.0.0.0,,,2023-05-23 18:10:50,2023-05-23 18:10:51,0.820s,PASSED
+"selectOptionByValue(findTestObject(""LOT/Less Than-Value""), ""2"", true)",Chrome 113.0.0.0,,,2023-05-23 18:10:51,2023-05-23 18:10:52,1.168s,PASSED
+"setText(findTestObject(""LOT/txtbox-lessThan""), ""20"")",Chrome 113.0.0.0,,,2023-05-23 18:10:52,2023-05-23 18:10:53,0.800s,PASSED
+"click(findTestObject(""LOT/DF_Clone""))",Chrome 113.0.0.0,,,2023-05-23 18:10:53,2023-05-23 18:10:53,0.459s,PASSED
+"clone_DFText = getAttribute(findTestObject(""LOT/clone_DF""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:53,2023-05-23 18:10:54,0.509s,PASSED
+"verifyEqual(""T3-PH Value 1"" + "" (Copy)"", clone_DFText)",Chrome 113.0.0.0,,,2023-05-23 18:10:54,2023-05-23 18:10:54,0.003s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""LOT/clone_FT-F2""), ""Number"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:54,2023-05-23 18:10:55,1.348s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""LOT/clone_greaterThan""), ""Greater Than"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:55,2023-05-23 18:10:56,1.396s,PASSED
+"clone_VF01 = getAttribute(findTestObject(""LOT/txtbox-greaterThan""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:56,2023-05-23 18:10:57,0.363s,PASSED
+println(clone_VF01),Chrome 113.0.0.0,,,2023-05-23 18:10:57,2023-05-23 18:10:57,0.001s,PASSED
+"verifyEqual(""12"", clone_VF01)",Chrome 113.0.0.0,,,2023-05-23 18:10:57,2023-05-23 18:10:57,0.002s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""LOT/clone_condition""), ""AND"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:57,2023-05-23 18:10:58,1.262s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""LOT/clone_lessThan""), ""Less Than"", false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:10:58,2023-05-23 18:10:59,1.396s,PASSED
+"clone_VF02 = getAttribute(findTestObject(""LOT/txtbox-lessThan""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:10:59,2023-05-23 18:11:00,0.384s,PASSED
+println(clone_VF02),Chrome 113.0.0.0,,,2023-05-23 18:11:00,2023-05-23 18:11:00,0.000s,PASSED
+"verifyEqual(""20"", clone_VF02)",Chrome 113.0.0.0,,,2023-05-23 18:11:00,2023-05-23 18:11:00,0.002s,PASSED
+"click(findTestObject(""LOT/Lot-Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:00,2023-05-23 18:11:00,0.467s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:00,2023-05-23 18:11:01,0.559s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Lot Data"").getValue(""Lot-Task Name"", 4))",Chrome 113.0.0.0,,,2023-05-23 18:11:01,2023-05-23 18:11:02,0.879s,PASSED
+"MTName_05 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:02,2023-05-23 18:11:02,0.375s,PASSED
+println(MTName_05),Chrome 113.0.0.0,,,2023-05-23 18:11:02,2023-05-23 18:11:02,0.000s,PASSED
+"verifyEqual(findTestData(""Lot Data"").getValue(""Lot-Task Name"", 4), MTName_05)",Chrome 113.0.0.0,,,2023-05-23 18:11:02,2023-05-23 18:11:02,0.033s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 4), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:02,2023-05-23 18:11:04,1.509s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 4), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:04,2023-05-23 18:11:05,0.979s,PASSED
+"selectOptionByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false)",Chrome 113.0.0.0,,,2023-05-23 18:11:05,2023-05-23 18:11:05,0.750s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:05,2023-05-23 18:11:06,0.813s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:11:06,2023-05-23 18:11:06,0.408s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T4-PH Value 1"")",Chrome 113.0.0.0,,,2023-05-23 18:11:06,2023-05-23 18:11:07,0.910s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""3"", true)",Chrome 113.0.0.0,,,2023-05-23 18:11:07,2023-05-23 18:11:09,1.301s,PASSED
+"click(findTestObject(""LOT/Lot-Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:09,2023-05-23 18:11:09,0.475s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:09,2023-05-23 18:11:10,0.561s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Lot Data"").getValue(""Lot-Task Name"", 5))",Chrome 113.0.0.0,,,2023-05-23 18:11:10,2023-05-23 18:11:11,0.871s,PASSED
+"MTName_06 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:11,2023-05-23 18:11:11,0.369s,PASSED
+println(MTName_06),Chrome 113.0.0.0,,,2023-05-23 18:11:11,2023-05-23 18:11:11,0.000s,PASSED
+"verifyEqual(findTestData(""Lot Data"").getValue(""Lot-Task Name"", 5), MTName_06)",Chrome 113.0.0.0,,,2023-05-23 18:11:11,2023-05-23 18:11:11,0.034s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 5), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:11,2023-05-23 18:11:12,1.395s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 5), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:12,2023-05-23 18:11:13,0.885s,PASSED
+"click(findTestObject(""LOT/click-Use a LOT""))",Chrome 113.0.0.0,,,2023-05-23 18:11:13,2023-05-23 18:11:14,0.407s,PASSED
+"click(findTestObject(""LOT/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:11:14,2023-05-23 18:11:14,0.413s,PASSED
+"setText(findTestObject(""LOT/input_Field Label_Number""), ""T4-PH Value 1"")",Chrome 113.0.0.0,,,2023-05-23 18:11:14,2023-05-23 18:11:15,0.928s,PASSED
+"selectOptionByValue(findTestObject(""LOT/select_Text_Number""), ""4"", true)",Chrome 113.0.0.0,,,2023-05-23 18:11:15,2023-05-23 18:11:16,1.207s,PASSED
+"setText(findTestObject(""LOT/VF_DV_Yes""), ""Yes"")",Chrome 113.0.0.0,,,2023-05-23 18:11:16,2023-05-23 18:11:17,0.906s,PASSED
+"click(findTestObject(""LOT/Acceptable checkBox""))",Chrome 113.0.0.0,,,2023-05-23 18:11:17,2023-05-23 18:11:18,0.444s,PASSED
+"click(findTestObject(""LOT/click-AddMoreValidation""))",Chrome 113.0.0.0,,,2023-05-23 18:11:18,2023-05-23 18:11:18,0.419s,PASSED
+"setText(findTestObject(""LOT/VF_DV_No""), ""No"")",Chrome 113.0.0.0,,,2023-05-23 18:11:18,2023-05-23 18:11:19,0.902s,PASSED
+"click(findTestObject(""LOT/Lot-Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:19,2023-05-23 18:11:19,0.486s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:19,2023-05-23 18:11:20,1.031s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Lot Data"").getValue(""Lot-Task Name"", 6))",Chrome 113.0.0.0,,,2023-05-23 18:11:20,2023-05-23 18:11:21,0.855s,PASSED
+"MTName_07 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:21,2023-05-23 18:11:22,0.363s,PASSED
+println(MTName_07),Chrome 113.0.0.0,,,2023-05-23 18:11:22,2023-05-23 18:11:22,0.000s,PASSED
+"verifyEqual(findTestData(""Lot Data"").getValue(""Lot-Task Name"", 6), MTName_07)",Chrome 113.0.0.0,,,2023-05-23 18:11:22,2023-05-23 18:11:22,0.033s,PASSED
+"click(findTestObject(""Add Instrument/Fixed""))",Chrome 113.0.0.0,,,2023-05-23 18:11:22,2023-05-23 18:11:22,0.412s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FixedFreq""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 6), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:22,2023-05-23 18:11:23,1.184s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FixedFreq""), findTestData(""Lot Data"").getValue(""Lot-Frequency"", 6), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:23,2023-05-23 18:11:24,0.776s,PASSED
+"selectOptionByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false)",Chrome 113.0.0.0,,,2023-05-23 18:11:24,2023-05-23 18:11:25,0.771s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""LOT/Link-lotList""), findTestData(""Lot Data"").getValue(""Lot Name"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:25,2023-05-23 18:11:26,0.765s,PASSED
+"click(findTestObject(""LOT/Lot-Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:26,2023-05-23 18:11:26,0.422s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:26,2023-05-23 18:11:27,0.562s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:11:27,2023-05-23 18:11:28,0.962s,PASSED
+"R3 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:28,2023-05-23 18:11:28,0.419s,PASSED
+println(R3),Chrome 113.0.0.0,,,2023-05-23 18:11:28,2023-05-23 18:11:28,0.000s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 1), R3)",Chrome 113.0.0.0,,,2023-05-23 18:11:28,2023-05-23 18:11:28,0.035s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Add Inst-Type Data"").getValue(""Frequency"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:28,2023-05-23 18:11:29,1.318s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Add Inst-Type Data"").getValue(""Frequency"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:29,2023-05-23 18:11:30,0.868s,PASSED
+"click(findTestObject(""Add Instrument/button_Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:30,2023-05-23 18:11:31,0.432s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:31,2023-05-23 18:11:31,0.561s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:11:31,2023-05-23 18:11:32,0.950s,PASSED
+"R4 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:32,2023-05-23 18:11:33,0.372s,PASSED
+println(R4),Chrome 113.0.0.0,,,2023-05-23 18:11:33,2023-05-23 18:11:33,0.000s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 2), R4)",Chrome 113.0.0.0,,,2023-05-23 18:11:33,2023-05-23 18:11:33,0.036s,PASSED
+"click(findTestObject(""Add Instrument/Fixed""))",Chrome 113.0.0.0,,,2023-05-23 18:11:33,2023-05-23 18:11:33,0.484s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FixedFreq""), findTestData(""Add Inst-Type Data"").getValue(""Frequency"", 2), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:33,2023-05-23 18:11:34,1.229s,PASSED
+"click(findTestObject(""Add Instrument/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:11:34,2023-05-23 18:11:35,0.424s,PASSED
+exe = driver,Chrome 113.0.0.0,,,2023-05-23 18:11:35,2023-05-23 18:11:35,0.001s,PASSED
+"elementToScroll1 = driver.findElement(By.xpath(""//span[text()='Field Label']""))",Chrome 113.0.0.0,,,2023-05-23 18:11:35,2023-05-23 18:11:35,0.520s,PASSED
+"exe.executeScript(""arguments[0].scrollIntoView(true)"", elementToScroll1)",Chrome 113.0.0.0,,,2023-05-23 18:11:35,2023-05-23 18:11:35,0.031s,PASSED
+"setText(findTestObject(""Add Instrument/input_Field Label""), findTestData(""Add Inst-Type Data"").getValue(""FieldLable"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:11:35,2023-05-23 18:11:36,0.806s,PASSED
+"R5 = getAttribute(findTestObject(""Add Instrument/input_Field Label""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:36,2023-05-23 18:11:36,0.403s,PASSED
+println(R5),Chrome 113.0.0.0,,,2023-05-23 18:11:36,2023-05-23 18:11:36,0.000s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""FieldLable"", 2), R5)",Chrome 113.0.0.0,,,2023-05-23 18:11:36,2023-05-23 18:11:36,0.035s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/select_FieldType_Definedvalue""), findTestData(""Add Inst-Type Data"").getValue(""FieldType"", 2), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:36,2023-05-23 18:11:38,1.168s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/select_FieldType_Definedvalue""), findTestData(""Add Inst-Type Data"").getValue(""FieldType"", 2), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:38,2023-05-23 18:11:38,0.765s,PASSED
+"setText(findTestObject(""Add Instrument/input_Validate Field_txtDefinedvalue""), findTestData(""Add Inst-Type Data"").getValue(""ValidateField"", 2))",Chrome 113.0.0.0,,,2023-05-23 18:11:38,2023-05-23 18:11:39,0.818s,PASSED
+"R6 = getAttribute(findTestObject(""Add Instrument/input_Validate Field_txtDefinedvalue""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:39,2023-05-23 18:11:40,0.367s,PASSED
+println(R6),Chrome 113.0.0.0,,,2023-05-23 18:11:40,2023-05-23 18:11:40,0.000s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""ValidateField"", 2), R6)",Chrome 113.0.0.0,,,2023-05-23 18:11:40,2023-05-23 18:11:40,0.036s,PASSED
+"click(findTestObject(""Add Instrument/button_Add More Validation""))",Chrome 113.0.0.0,,,2023-05-23 18:11:40,2023-05-23 18:11:40,0.422s,PASSED
+"setText(findTestObject(""Add Instrument/input_remove_txtDefinedvalue""), findTestData(""Add Inst-Type Data"").getValue(""ValidateField"", 3))",Chrome 113.0.0.0,,,2023-05-23 18:11:40,2023-05-23 18:11:41,0.948s,PASSED
+"R7 = getAttribute(findTestObject(""Add Instrument/input_remove_txtDefinedvalue""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:41,2023-05-23 18:11:41,0.381s,PASSED
+println(R7),Chrome 113.0.0.0,,,2023-05-23 18:11:41,2023-05-23 18:11:41,0.000s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""ValidateField"", 3), R7)",Chrome 113.0.0.0,,,2023-05-23 18:11:41,2023-05-23 18:11:41,0.034s,PASSED
+"click(findTestObject(""Add Instrument/input_Acceptable_Checkbox""))",Chrome 113.0.0.0,,,2023-05-23 18:11:41,2023-05-23 18:11:42,0.424s,PASSED
+"click(findTestObject(""Add Instrument/button_Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:42,2023-05-23 18:11:42,0.502s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:42,2023-05-23 18:11:43,0.977s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 4))",Chrome 113.0.0.0,,,2023-05-23 18:11:43,2023-05-23 18:11:44,0.908s,PASSED
+"R3 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:44,2023-05-23 18:11:45,0.409s,PASSED
+println(R3),Chrome 113.0.0.0,,,2023-05-23 18:11:45,2023-05-23 18:11:45,0.001s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 4), R3)",Chrome 113.0.0.0,,,2023-05-23 18:11:45,2023-05-23 18:11:45,0.034s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Add Inst-Type Data"").getValue(""Frequency"", 4), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:45,2023-05-23 18:11:46,1.293s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Add Inst-Type Data"").getValue(""Frequency"", 4), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:46,2023-05-23 18:11:47,0.871s,PASSED
+"click(findTestObject(""Add Instrument/button_Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:47,2023-05-23 18:11:47,0.457s,PASSED
+"click(findTestObject(""Add Instrument/span_Add Maintenance Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:47,2023-05-23 18:11:48,1.069s,PASSED
+"setText(findTestObject(""Add Instrument/input_Maintenance Task""), findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 5))",Chrome 113.0.0.0,,,2023-05-23 18:11:48,2023-05-23 18:11:49,0.984s,PASSED
+"R8 = getAttribute(findTestObject(""Add Instrument/input_Maintenance Task""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:49,2023-05-23 18:11:50,0.376s,PASSED
+println(R8),Chrome 113.0.0.0,,,2023-05-23 18:11:50,2023-05-23 18:11:50,0.000s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 5), R8)",Chrome 113.0.0.0,,,2023-05-23 18:11:50,2023-05-23 18:11:50,0.033s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Add Inst-Type Data"").getValue(""Frequency"", 5), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:50,2023-05-23 18:11:51,1.485s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/FrequencyList""), findTestData(""Add Inst-Type Data"").getValue(""Frequency"", 5), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:51,2023-05-23 18:11:52,0.907s,PASSED
+"click(findTestObject(""Add Instrument/button_Add Data Field""))",Chrome 113.0.0.0,,,2023-05-23 18:11:52,2023-05-23 18:11:53,0.420s,PASSED
+"click(findTestObject(""Add Instrument/chkrequired""))",Chrome 113.0.0.0,,,2023-05-23 18:11:53,2023-05-23 18:11:53,0.567s,PASSED
+"setText(findTestObject(""Add Instrument/input_Field Label""), findTestData(""Add Inst-Type Data"").getValue(""FieldLable"", 5))",Chrome 113.0.0.0,,,2023-05-23 18:11:53,2023-05-23 18:11:54,0.799s,PASSED
+"R9 = getAttribute(findTestObject(""Add Instrument/input_Field Label""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:11:54,2023-05-23 18:11:54,0.428s,PASSED
+println(R9),Chrome 113.0.0.0,,,2023-05-23 18:11:54,2023-05-23 18:11:54,0.000s,PASSED
+"verifyEqual(findTestData(""Add Inst-Type Data"").getValue(""FieldLable"", 5), R9)",Chrome 113.0.0.0,,,2023-05-23 18:11:54,2023-05-23 18:11:54,0.036s,PASSED
+"selectOptionByLabel(findTestObject(""Add Instrument/select_FieldType_Definedvalue""), findTestData(""Add Inst-Type Data"").getValue(""FieldType"", 5), true)",Chrome 113.0.0.0,,,2023-05-23 18:11:54,2023-05-23 18:11:56,1.174s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Instrument/select_FieldType_Definedvalue""), findTestData(""Add Inst-Type Data"").getValue(""FieldType"", 5), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:56,2023-05-23 18:11:56,0.828s,PASSED
+"click(findTestObject(""Add Instrument/button_Save Task""))",Chrome 113.0.0.0,,,2023-05-23 18:11:56,2023-05-23 18:11:57,0.454s,PASSED
+"click(findTestObject(""Add Instrument/button_Finish""))",Chrome 113.0.0.0,,,2023-05-23 18:11:57,2023-05-23 18:11:58,1.065s,PASSED
+"click(findTestObject(""Add Instrument/button_Yes""))",Chrome 113.0.0.0,,,2023-05-23 18:11:58,2023-05-23 18:11:58,0.541s,PASSED
+"scrollToElement(findTestObject(""Add Instrument/scrollToTop""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:11:58,2023-05-23 18:12:01,2.849s,PASSED
+"setText(findTestObject(""Add Inst-Type/input_SearchString""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:12:01,2023-05-23 18:12:02,0.959s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:12:02,2023-05-23 18:12:04,2.011s,PASSED
+"createdInstType = findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:12:04,2023-05-23 18:12:04,0.038s,PASSED
+"InstType = driver.findElements(By.xpath(""//div[@class='col']//span""))",Chrome 113.0.0.0,,,2023-05-23 18:12:04,2023-05-23 18:12:05,0.278s,PASSED
+"for ([i = 0, i < InstType.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:12:05,2023-05-23 18:12:05,0.109s,PASSED
+"click(findTestObject(""Add Inst-Type/button_Add Instrument""))",Chrome 113.0.0.0,,,2023-05-23 18:12:05,2023-05-23 18:12:06,1.074s,PASSED
+"selectOptionByLabel(findTestObject(""Add Inst-Type/Select_Site""), findTestData(""Dept_Unit Data"").getValue(""Site"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:12:06,2023-05-23 18:12:12,6.184s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Inst-Type/Select_Site""), findTestData(""Dept_Unit Data"").getValue(""Site"", 1), true, 0)",Chrome 113.0.0.0,,,2023-05-23 18:12:12,2023-05-23 18:12:15,3.158s,PASSED
+"selectOptionByLabel(findTestObject(""Add Inst-Type/select Department Core Lab""), findTestData(""Dept_Unit Data"").getValue(""Created-Dept Name"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:12:15,2023-05-23 18:12:16,1.095s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Inst-Type/select Department Core Lab""), findTestData(""Dept_Unit Data"").getValue(""Created-Dept Name"", 1), true, 0)",Chrome 113.0.0.0,,,2023-05-23 18:12:16,2023-05-23 18:12:17,1.264s,PASSED
+"selectOptionByLabel(findTestObject(""Add Inst-Type/select_UnitCore Lab""), findTestData(""Dept_Unit Data"").getValue(""Bench / Unit Name"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:12:17,2023-05-23 18:12:19,1.068s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Add Inst-Type/select_UnitCore Lab""), findTestData(""Dept_Unit Data"").getValue(""Bench / Unit Name"", 1), true, 0)",Chrome 113.0.0.0,,,2023-05-23 18:12:19,2023-05-23 18:12:20,1.307s,PASSED
+"setText(findTestObject(""Add Inst-Type/input_Instrument Label""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:12:20,2023-05-23 18:12:21,0.870s,PASSED
+"setText(findTestObject(""Add Inst-Type/instrumentSerialNumber""), findTestData(""Add Inst-Type Data"").getValue(""Instrument Serial Number"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:12:21,2023-05-23 18:12:22,0.830s,PASSED
+"scrollToElement(findTestObject(""Add Instrument/scrollToSystemscheduled""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:12:22,2023-05-23 18:12:22,0.385s,PASSED
+"click(findTestObject(""Add Instrument/input_fixedScheduled""))",Chrome 113.0.0.0,,,2023-05-23 18:12:22,2023-05-23 18:12:22,0.427s,PASSED
+"click(findTestObject(""Add Instrument/SA_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:12:22,2023-05-23 18:12:23,0.524s,PASSED
+"click(findTestObject(""Add Instrument/SU_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:12:23,2023-05-23 18:12:23,0.527s,PASSED
+"click(findTestObject(""Add Instrument/button_Save Instrument""))",Chrome 113.0.0.0,,,2023-05-23 18:12:23,2023-05-23 18:12:24,0.563s,PASSED
+"click(findTestObject(""Add Inst-Type/select_Logo""))",Chrome 113.0.0.0,,,2023-05-23 18:12:24,2023-05-23 18:12:26,1.635s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:12:26,2023-05-23 18:12:28,2.010s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:12:28,2023-05-23 18:12:28,0.457s,PASSED
+"click(findTestObject(""LOT/click_ControlandReagents""))",Chrome 113.0.0.0,,,2023-05-23 18:12:28,2023-05-23 18:12:29,0.452s,PASSED
+"click(findTestObject(""LOT/button-EditLot""))",Chrome 113.0.0.0,,,2023-05-23 18:12:29,2023-05-23 18:12:30,1.099s,PASSED
+"verifyElementText(findTestObject(""LOT/Verify-LogNotes""), ""Checking Lot Notes"")",Chrome 113.0.0.0,,,2023-05-23 18:12:30,2023-05-23 18:12:31,1.044s,PASSED
+"click(findTestObject(""LOT/btn_Add-New""))",Chrome 113.0.0.0,,,2023-05-23 18:12:31,2023-05-23 18:12:31,0.427s,PASSED
+"setText(findTestObject(""LOT/txtBox-LotNo""), ""123RD5"")",Chrome 113.0.0.0,,,2023-05-23 18:12:31,2023-05-23 18:12:33,1.458s,PASSED
+"timeZone = findTestData(""Add Inst-Type Data"").getValue(""Log -TimeZone"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.038s,PASSED
+dateTime = LocalDateTime.now(ZoneId.of(timeZone)),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.034s,PASSED
+Days = dateTime.plusDays(10),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.004s,PASSED
+DIU = dateTime.plusDays(9),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.001s,PASSED
+pastDay = dateTime.minusDays(3),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.000s,PASSED
+"dtf = DateTimeFormatter.ofPattern(""MM/dd/yyyy"")",Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.021s,PASSED
+expDate = Days.format(dtf),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.004s,PASSED
+println(expDate),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.001s,PASSED
+DateOpened = dtf.format(dateTime),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.001s,PASSED
+println(DateOpened),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.000s,PASSED
+DateReceived = pastDay.format(dtf),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.000s,PASSED
+println(DateReceived),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.001s,PASSED
+DateInUse = DIU.format(dtf),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.000s,PASSED
+println(DateInUse),Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:33,0.001s,PASSED
+"setText(findTestObject(""LOT/txtBox-Expiration Date""), expDate)",Chrome 113.0.0.0,,,2023-05-23 18:12:33,2023-05-23 18:12:34,0.891s,PASSED
+"setText(findTestObject(""LOT/txtBox-Opened Expiration""), expDate)",Chrome 113.0.0.0,,,2023-05-23 18:12:34,2023-05-23 18:12:34,0.836s,PASSED
+"setText(findTestObject(""LOT/txtBox-Other Identifier""), ""012345678910111213141516171819202122232425262728"")",Chrome 113.0.0.0,,,2023-05-23 18:12:34,2023-05-23 18:12:35,0.974s,PASSED
+"setText(findTestObject(""LOT/txtBox-Manufacture""), ""Lot-L1"")",Chrome 113.0.0.0,,,2023-05-23 18:12:35,2023-05-23 18:12:36,0.785s,PASSED
+"setText(findTestObject(""LOT/txtBox-Description""), ""Checking Text"")",Chrome 113.0.0.0,,,2023-05-23 18:12:36,2023-05-23 18:12:37,0.813s,PASSED
+"setText(findTestObject(""LOT/txtBox-Date Received""), DateReceived)",Chrome 113.0.0.0,,,2023-05-23 18:12:37,2023-05-23 18:12:38,0.833s,PASSED
+"setText(findTestObject(""LOT/txtBox-Date Opened""), DateOpened)",Chrome 113.0.0.0,,,2023-05-23 18:12:38,2023-05-23 18:12:39,0.875s,PASSED
+"setText(findTestObject(""LOT/txtBox-Date In Use""), DateOpened)",Chrome 113.0.0.0,,,2023-05-23 18:12:39,2023-05-23 18:12:40,0.830s,PASSED
+"setText(findTestObject(""LOT/txtBox-DateDiscarded""), DateInUse)",Chrome 113.0.0.0,,,2023-05-23 18:12:40,2023-05-23 18:12:40,0.813s,PASSED
+"setText(findTestObject(""LOT/txtBox-Product""), ""ELL"")",Chrome 113.0.0.0,,,2023-05-23 18:12:40,2023-05-23 18:12:41,0.789s,PASSED
+"selectOptionByValue(findTestObject(""LOT/Condition-Equals""), ""4"", true)",Chrome 113.0.0.0,,,2023-05-23 18:12:41,2023-05-23 18:12:42,1.268s,PASSED
+"setText(findTestObject(""LOT/txtBox-Condition-Equals""), ""22"")",Chrome 113.0.0.0,,,2023-05-23 18:12:42,2023-05-23 18:12:43,0.797s,PASSED
+"click(findTestObject(""LOT/checkBox-Acceptable""))",Chrome 113.0.0.0,,,2023-05-23 18:12:43,2023-05-23 18:12:44,0.452s,PASSED
+"selectOptionByValue(findTestObject(""LOT/Condition-Between""), ""3"", true)",Chrome 113.0.0.0,,,2023-05-23 18:12:44,2023-05-23 18:12:45,1.196s,PASSED
+"setText(findTestObject(""LOT/txtBox-Condition-Between""), ""10"")",Chrome 113.0.0.0,,,2023-05-23 18:12:45,2023-05-23 18:12:46,0.912s,PASSED
+"setText(findTestObject(""LOT/txtBox-Condition-Between 2""), ""20"")",Chrome 113.0.0.0,,,2023-05-23 18:12:46,2023-05-23 18:12:47,0.791s,PASSED
+"selectOptionByValue(findTestObject(""LOT/Condition-Greater Than or Equal""), ""6"", true)",Chrome 113.0.0.0,,,2023-05-23 18:12:47,2023-05-23 18:12:48,1.128s,PASSED
+"setText(findTestObject(""LOT/txtbox-greaterThan or Equal""), ""10"")",Chrome 113.0.0.0,,,2023-05-23 18:12:48,2023-05-23 18:12:49,0.847s,PASSED
+"click(findTestObject(""LOT/btn-Add More Validation (control-Reagent)""))",Chrome 113.0.0.0,,,2023-05-23 18:12:49,2023-05-23 18:12:49,0.450s,PASSED
+"selectOptionByLabel(findTestObject(""LOT/condition-OR""), ""OR"", false)",Chrome 113.0.0.0,,,2023-05-23 18:12:49,2023-05-23 18:12:50,0.825s,PASSED
+"selectOptionByValue(findTestObject(""LOT/Condition-Less Than or Equal""), ""7"", true)",Chrome 113.0.0.0,,,2023-05-23 18:12:50,2023-05-23 18:12:51,1.159s,PASSED
+"setText(findTestObject(""LOT/txtbox-lessThan or Equal""), ""20"")",Chrome 113.0.0.0,,,2023-05-23 18:12:51,2023-05-23 18:12:52,0.787s,PASSED
+"click(findTestObject(""LOT/btn-Save_Edit-control-Reagent""))",Chrome 113.0.0.0,,,2023-05-23 18:12:52,2023-05-23 18:12:52,0.456s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:12:52,2023-05-23 18:12:54,2.155s,PASSED
+"click(findTestObject(""LOT/span_""))",Chrome 113.0.0.0,,,2023-05-23 18:12:54,2023-05-23 18:12:55,0.517s,PASSED
+"click(findTestObject(""LOT/button_Cancel""))",Chrome 113.0.0.0,,,2023-05-23 18:12:55,2023-05-23 18:12:55,0.494s,PASSED
+,,,,,,,
+Test Cases/Log Task - Suite,Chrome 113.0.0.0,,,2023-05-23 18:12:55,2023-05-23 18:14:08,1m - 12.247s,PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:12:57,2023-05-23 18:12:57,0.001s,PASSED
+"click(findTestObject(""LogTask-Ready_Status/click_View Instrument""))",Chrome 113.0.0.0,,,2023-05-23 18:12:57,2023-05-23 18:12:57,0.421s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:12:57,2023-05-23 18:12:59,2.012s,PASSED
+"Task1 = findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:12:59,2023-05-23 18:13:00,0.031s,PASSED
+println(Task1),Chrome 113.0.0.0,,,2023-05-23 18:13:00,2023-05-23 18:13:00,0.001s,PASSED
+"T1 = driver.findElements(By.xpath(""//div[@class='col']//span""))",Chrome 113.0.0.0,,,2023-05-23 18:13:00,2023-05-23 18:13:01,1.678s,PASSED
+"for ([i = 0, i < T1.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:13:01,2023-05-23 18:13:02,0.416s,PASSED
+"scrollToElement(findTestObject(""LogTask-Ready_Status/span_Fixedfrequency(Verification)""), 2)",Chrome 113.0.0.0,,,2023-05-23 18:13:02,2023-05-23 18:13:02,0.541s,PASSED
+"setText(findTestObject(""LogTask-Ready_Status/textarea_T1""), ""Checking"")",Chrome 113.0.0.0,,,2023-05-23 18:13:02,2023-05-23 18:13:03,0.782s,PASSED
+"click(findTestObject(""LogTask-Ready_Status/a_Edit""))",Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.468s,PASSED
+"timeZone = findTestData(""Add Inst-Type Data"").getValue(""Log -TimeZone"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.053s,PASSED
+Ready_ldt = LocalDateTime.now(ZoneId.of(timeZone)),Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.004s,PASSED
+Ready_minusHours = Ready_ldt.minusHours(22),Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.001s,PASSED
+println(Ready_minusHours),Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.001s,PASSED
+"Ready_dtfHH = DateTimeFormatter.ofPattern(""MM/dd/yyyy,HH"")",Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.002s,PASSED
+Ready_formatedDateTimeHH = Ready_minusHours.format(Ready_dtfHH),Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.001s,PASSED
+"DateTime = Ready_formatedDateTimeHH.split("","")",Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.003s,PASSED
+readyDate = DateTime[0],Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.000s,PASSED
+readyTimeHH = DateTime[1],Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.001s,PASSED
+println(readyDate),Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.000s,PASSED
+println(readyTimeHH),Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:03,0.001s,PASSED
+"setText(findTestObject(""LogTask-Ready_Status/input_Date""), readyDate)",Chrome 113.0.0.0,,,2023-05-23 18:13:03,2023-05-23 18:13:05,1.107s,PASSED
+"setText(findTestObject(""LogTask-Ready_Status/input__HH""), readyTimeHH)",Chrome 113.0.0.0,,,2023-05-23 18:13:05,2023-05-23 18:13:06,1.089s,PASSED
+"setText(findTestObject(""LogTask-Ready_Status/textarea_ReasonTxtBox""), ""Ready Status Log-checking"")",Chrome 113.0.0.0,,,2023-05-23 18:13:06,2023-05-23 18:13:07,0.907s,PASSED
+"click(findTestObject(""LogTask-Ready_Status/button_Mark as Complete""))",Chrome 113.0.0.0,,,2023-05-23 18:13:07,2023-05-23 18:13:07,0.431s,PASSED
+"verifyElementText(findTestObject(""LogTask-Ready_Status/verify_Ready status""), ""Ready"")",Chrome 113.0.0.0,,,2023-05-23 18:13:07,2023-05-23 18:13:09,2.423s,PASSED
+"click(findTestObject(""ELL Menu/Select_MenuIcon""))",Chrome 113.0.0.0,,,2023-05-23 18:13:09,2023-05-23 18:13:10,0.421s,PASSED
+"click(findTestObject(""LogTask-Ready_Status/click_logInstrumentMenu""))",Chrome 113.0.0.0,,,2023-05-23 18:13:10,2023-05-23 18:13:11,0.943s,PASSED
+"setText(findTestObject(""LogTask-Ready_Status/span_searchInstTextBox""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:13:11,2023-05-23 18:13:15,3.769s,PASSED
+"verifyElementText(findTestObject(""LogTask-Ready_Status/verifyReadySt_inInstrument""), ""Ready"")",Chrome 113.0.0.0,,,2023-05-23 18:13:15,2023-05-23 18:13:15,0.375s,PASSED
+"scrollToElement(findTestObject(""LogTask-Ready_Status/verify_InstrumentLabel""), 2)",Chrome 113.0.0.0,,,2023-05-23 18:13:15,2023-05-23 18:13:15,0.396s,PASSED
+"waitForElementVisible(findTestObject(""LogTask-Ready_Status/verifyReadySt_inInstrument""), 1)",Chrome 113.0.0.0,,,2023-05-23 18:13:15,2023-05-23 18:13:17,1.369s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:13:17,2023-05-23 18:13:17,0.431s,PASSED
+"click(findTestObject(""LogTask-Ready_Status/verify_InstrumentLabel""))",Chrome 113.0.0.0,,,2023-05-23 18:13:17,2023-05-23 18:13:18,0.488s,PASSED
+"Task2 = findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 2)",Chrome 113.0.0.0,,,2023-05-23 18:13:18,2023-05-23 18:13:18,0.044s,PASSED
+println(Task2),Chrome 113.0.0.0,,,2023-05-23 18:13:18,2023-05-23 18:13:18,0.001s,PASSED
+"T2 = driver.findElements(By.xpath(""//div[@class='col']//span""))",Chrome 113.0.0.0,,,2023-05-23 18:13:18,2023-05-23 18:13:20,2.578s,PASSED
+"for ([i = 0, i < T2.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:13:20,2023-05-23 18:13:21,0.555s,PASSED
+"scrollToElement(findTestObject(""LogTask-DueNow_Status/span_scroll-FixedSchedule""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:13:21,2023-05-23 18:13:21,0.515s,PASSED
+"ValidateField = findTestData(""Add Inst-Type Data"").getValue(""ValidateField"", 2)",Chrome 113.0.0.0,,,2023-05-23 18:13:21,2023-05-23 18:13:21,0.043s,PASSED
+println(ValidateField),Chrome 113.0.0.0,,,2023-05-23 18:13:21,2023-05-23 18:13:21,0.001s,PASSED
+"vf = driver.findElements(By.xpath(""//div//label[@aria-pressed='false']""))",Chrome 113.0.0.0,,,2023-05-23 18:13:21,2023-05-23 18:13:22,0.268s,PASSED
+"for ([i = 0, i < vf.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:13:22,2023-05-23 18:13:22,0.099s,PASSED
+"setText(findTestObject(""LogTask-DueNow_Status/textarea_T2""), ""Checking"")",Chrome 113.0.0.0,,,2023-05-23 18:13:22,2023-05-23 18:13:23,0.921s,PASSED
+"click(findTestObject(""LogTask-DueNow_Status/a_Edit""))",Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.447s,PASSED
+DueNow_ldt = LocalDateTime.now(ZoneId.of(timeZone)),Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.001s,PASSED
+DueNow_minusHours = DueNow_ldt.minusHours(49),Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.000s,PASSED
+println(DueNow_minusHours),Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.000s,PASSED
+"DueNow_dtfHH = DateTimeFormatter.ofPattern(""MM/dd/yyyy,HH"")",Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.001s,PASSED
+formatedDateTimeHH = DueNow_minusHours.format(DueNow_dtfHH),Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.001s,PASSED
+"dueNowDateTime = formatedDateTimeHH.split("","")",Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.001s,PASSED
+dueNowDate = dueNowDateTime[0],Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.000s,PASSED
+dueNowHH = dueNowDateTime[1],Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.001s,PASSED
+println(dueNowDate),Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.002s,PASSED
+println(dueNowHH),Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:23,0.000s,PASSED
+"setText(findTestObject(""LogTask-DueNow_Status/input_Date""), dueNowDate)",Chrome 113.0.0.0,,,2023-05-23 18:13:23,2023-05-23 18:13:24,1.139s,PASSED
+"setText(findTestObject(""LogTask-DueNow_Status/input__HH""), dueNowHH)",Chrome 113.0.0.0,,,2023-05-23 18:13:24,2023-05-23 18:13:25,0.999s,PASSED
+"setText(findTestObject(""LogTask-DueNow_Status/textarea_ReasonTxtBox""), ""Due Now Status Log-checking"")",Chrome 113.0.0.0,,,2023-05-23 18:13:25,2023-05-23 18:13:26,0.906s,PASSED
+"click(findTestObject(""LogTask-DueNow_Status/button_Mark as Complete""))",Chrome 113.0.0.0,,,2023-05-23 18:13:26,2023-05-23 18:13:27,0.438s,PASSED
+"verifyElementText(findTestObject(""LogTask-DueNow_Status/verify_DueNow status""), ""Due Now"")",Chrome 113.0.0.0,,,2023-05-23 18:13:27,2023-05-23 18:13:29,2.220s,PASSED
+"click(findTestObject(""ELL Menu/Select_MenuIcon""))",Chrome 113.0.0.0,,,2023-05-23 18:13:29,2023-05-23 18:13:29,0.403s,PASSED
+"click(findTestObject(""LogTask-DueNow_Status/click_logInstrumentMenu""))",Chrome 113.0.0.0,,,2023-05-23 18:13:29,2023-05-23 18:13:30,0.936s,PASSED
+"setText(findTestObject(""LogTask-DueNow_Status/span_searchInstTextBox""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:13:30,2023-05-23 18:13:33,3.267s,PASSED
+"verifyElementText(findTestObject(""LogTask-DueNow_Status/verifyDueNowSt_Instrument""), ""Due Now"")",Chrome 113.0.0.0,,,2023-05-23 18:13:33,2023-05-23 18:13:34,0.371s,PASSED
+"scrollToElement(findTestObject(""LogTask-DueNow_Status/verify_InstrumentLabel""), 2)",Chrome 113.0.0.0,,,2023-05-23 18:13:34,2023-05-23 18:13:34,0.357s,PASSED
+"waitForElementVisible(findTestObject(""LogTask-DueNow_Status/verifyDueNowSt_Instrument""), 1)",Chrome 113.0.0.0,,,2023-05-23 18:13:34,2023-05-23 18:13:36,1.381s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:13:36,2023-05-23 18:13:36,0.425s,PASSED
+"click(findTestObject(""LogTask-DueNow_Status/verify_InstrumentLabel""))",Chrome 113.0.0.0,,,2023-05-23 18:13:36,2023-05-23 18:13:36,0.463s,PASSED
+"Task3 = findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 4)",Chrome 113.0.0.0,,,2023-05-23 18:13:36,2023-05-23 18:13:36,0.037s,PASSED
+println(Task3),Chrome 113.0.0.0,,,2023-05-23 18:13:36,2023-05-23 18:13:36,0.001s,PASSED
+"T3 = driver.findElements(By.xpath(""//div[@class='col']//span""))",Chrome 113.0.0.0,,,2023-05-23 18:13:36,2023-05-23 18:13:38,2.052s,PASSED
+"for ([i = 0, i < T3.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:13:38,2023-05-23 18:13:39,0.514s,PASSED
+"setText(findTestObject(""LogTask-OverDue_Status/textarea_T3""), ""Checking"")",Chrome 113.0.0.0,,,2023-05-23 18:13:39,2023-05-23 18:13:40,0.991s,PASSED
+"click(findTestObject(""LogTask-OverDue_Status/a_Edit""))",Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.451s,PASSED
+Overdue_ldt = LocalDateTime.now(ZoneId.of(timeZone)),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.000s,PASSED
+"currentDate = DateTimeFormatter.ofPattern(""MM/dd/yyyy"")",Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.000s,PASSED
+endDate = currentDate.format(Overdue_ldt),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.001s,PASSED
+"dateTimeFor = DateTimeFormatter.ofPattern(""dd"")",Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.001s,PASSED
+CD = dateTimeFor.format(Overdue_ldt),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.000s,PASSED
+Overdue_minusHours = Overdue_ldt.minusHours(72),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.001s,PASSED
+println(Overdue_minusHours),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.001s,PASSED
+"Overdue_dtfHH = DateTimeFormatter.ofPattern(""MM/dd/yyyy,HH"")",Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.001s,PASSED
+Overdue_formatedDateTimeHH = Overdue_minusHours.format(Overdue_dtfHH),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.000s,PASSED
+"Overdue_DateTime = Overdue_formatedDateTimeHH.split("","")",Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.000s,PASSED
+OverdueDate = Overdue_DateTime[0],Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.001s,PASSED
+OverdueHH = Overdue_DateTime[1],Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.000s,PASSED
+println(OverdueDate),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.000s,PASSED
+println(OverdueHH),Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:40,0.001s,PASSED
+"setText(findTestObject(""LogTask-OverDue_Status/input_Date""), OverdueDate)",Chrome 113.0.0.0,,,2023-05-23 18:13:40,2023-05-23 18:13:42,1.144s,PASSED
+"setText(findTestObject(""LogTask-OverDue_Status/input__HH""), OverdueHH)",Chrome 113.0.0.0,,,2023-05-23 18:13:42,2023-05-23 18:13:43,1.015s,PASSED
+"setText(findTestObject(""LogTask-OverDue_Status/textarea_ReasonTxtBox""), ""Over Due Status Log-checking"")",Chrome 113.0.0.0,,,2023-05-23 18:13:43,2023-05-23 18:13:44,0.903s,PASSED
+"click(findTestObject(""LogTask-OverDue_Status/button_Mark as Complete""))",Chrome 113.0.0.0,,,2023-05-23 18:13:44,2023-05-23 18:13:44,0.447s,PASSED
+"click(findTestObject(""LogTask-OverDue_Status/div_Success-OK""))",Chrome 113.0.0.0,,,2023-05-23 18:13:44,2023-05-23 18:13:46,2.192s,PASSED
+"verifyElementText(findTestObject(""LogTask-OverDue_Status/verify_OverDue status""), ""Overdue"")",Chrome 113.0.0.0,,,2023-05-23 18:13:46,2023-05-23 18:13:47,0.726s,PASSED
+"click(findTestObject(""ELL Menu/Select_MenuIcon""))",Chrome 113.0.0.0,,,2023-05-23 18:13:47,2023-05-23 18:13:47,0.397s,PASSED
+"click(findTestObject(""LogTask-OverDue_Status/click_logInstrumentMenu""))",Chrome 113.0.0.0,,,2023-05-23 18:13:47,2023-05-23 18:13:48,0.946s,PASSED
+"setText(findTestObject(""LogTask-OverDue_Status/span_searchInstTextBox""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:13:48,2023-05-23 18:13:51,3.063s,PASSED
+"verifyElementText(findTestObject(""LogTask-OverDue_Status/verify-OverdueSt_Instrument""), ""Overdue"")",Chrome 113.0.0.0,,,2023-05-23 18:13:51,2023-05-23 18:13:52,0.374s,PASSED
+"scrollToElement(findTestObject(""LogTask-OverDue_Status/verify_InstrumentLabel""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:13:52,2023-05-23 18:13:52,0.360s,PASSED
+"waitForElementVisible(findTestObject(""LogTask-OverDue_Status/verify_InstrumentLabel""), 1)",Chrome 113.0.0.0,,,2023-05-23 18:13:52,2023-05-23 18:13:53,1.273s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:13:53,2023-05-23 18:13:54,0.451s,PASSED
+"click(findTestObject(""LogTask-OverDue_Status/verify_InstrumentLabel""))",Chrome 113.0.0.0,,,2023-05-23 18:13:54,2023-05-23 18:13:54,0.465s,PASSED
+"Task4 = findTestData(""Add Inst-Type Data"").getValue(""Task Name"", 5)",Chrome 113.0.0.0,,,2023-05-23 18:13:54,2023-05-23 18:13:54,0.037s,PASSED
+println(Task4),Chrome 113.0.0.0,,,2023-05-23 18:13:54,2023-05-23 18:13:54,0.001s,PASSED
+"T4 = driver.findElements(By.xpath(""//div[@class='col']//span""))",Chrome 113.0.0.0,,,2023-05-23 18:13:54,2023-05-23 18:13:57,2.346s,PASSED
+"for ([i = 0, i < T4.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:13:57,2023-05-23 18:13:57,0.541s,PASSED
+"scrollToElement(findTestObject(""LogTask-Status-A-Z/button_Attach a File""), 2)",Chrome 113.0.0.0,,,2023-05-23 18:13:57,2023-05-23 18:13:58,0.518s,PASSED
+"filePath = findTestData(""Add Inst-Type Data"").getValue(""Attached FilePath"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:13:58,2023-05-23 18:13:58,0.032s,PASSED
+println(filePath),Chrome 113.0.0.0,,,2023-05-23 18:13:58,2023-05-23 18:13:58,0.000s,PASSED
+"uploadFile(findTestObject(""LogTask-Status-A-Z/button_Attach a File""), filePath)",Chrome 113.0.0.0,,,2023-05-23 18:13:58,2023-05-23 18:13:58,0.423s,PASSED
+"setText(findTestObject(""LogTask-OverDue_Status/textarea_T3""), ""Checking"")",Chrome 113.0.0.0,,,2023-05-23 18:13:58,2023-05-23 18:13:59,0.913s,PASSED
+"click(findTestObject(""LogTask-OverDue_Status/button_Mark as Complete""))",Chrome 113.0.0.0,,,2023-05-23 18:13:59,2023-05-23 18:13:59,0.428s,PASSED
+"click(findTestObject(""LogTask-Status-A-Z/click_HeaderTag""))",Chrome 113.0.0.0,,,2023-05-23 18:13:59,2023-05-23 18:14:02,2.221s,PASSED
+"scrollToElement(findTestObject(""LOT/button-EditLot""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:14:02,2023-05-23 18:14:02,0.384s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:14:02,2023-05-23 18:14:03,0.434s,PASSED
+"scrollToElement(findTestObject(""LogTask-DueNow_Status/verify_DueNow status""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:14:03,2023-05-23 18:14:03,0.395s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:14:03,2023-05-23 18:14:04,0.760s,PASSED
+"defaultStatus = driver.findElements(By.xpath(""//div[@class='col']""))",Chrome 113.0.0.0,,,2023-05-23 18:14:04,2023-05-23 18:14:04,0.279s,PASSED
+l1 = new java.util.ArrayList(),Chrome 113.0.0.0,,,2023-05-23 18:14:04,2023-05-23 18:14:04,0.001s,PASSED
+"for ([j = 0, j < defaultStatus.size(), (j++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:04,2023-05-23 18:14:04,0.204s,PASSED
+println(l1),Chrome 113.0.0.0,,,2023-05-23 18:14:04,2023-05-23 18:14:04,0.000s,PASSED
+"scrollToElement(findTestObject(""LOT/button-EditLot""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:14:04,2023-05-23 18:14:05,0.371s,PASSED
+"click(findTestObject(""LogTask-Status-A-Z/span_Status""))",Chrome 113.0.0.0,,,2023-05-23 18:14:05,2023-05-23 18:14:05,0.603s,PASSED
+js = driver,Chrome 113.0.0.0,,,2023-05-23 18:14:05,2023-05-23 18:14:05,0.002s,PASSED
+"status = driver.findElements(By.xpath(""//div[@class='col']""))",Chrome 113.0.0.0,,,2023-05-23 18:14:05,2023-05-23 18:14:06,0.494s,PASSED
+l2 = new java.util.ArrayList(),Chrome 113.0.0.0,,,2023-05-23 18:14:06,2023-05-23 18:14:06,0.000s,PASSED
+"for ([k = 0, k < status.size(), (k++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:06,2023-05-23 18:14:06,0.290s,PASSED
+println(l2),Chrome 113.0.0.0,,,2023-05-23 18:14:06,2023-05-23 18:14:06,0.000s,PASSED
+if (l1.containsAll(l2) && l2.containsAll(l1)),Chrome 113.0.0.0,,,2023-05-23 18:14:06,2023-05-23 18:14:06,0.003s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:14:06,2023-05-23 18:14:06,0.450s,PASSED
+"click(findTestObject(""LogTask-Status-A-Z/A-Z""))",Chrome 113.0.0.0,,,2023-05-23 18:14:06,2023-05-23 18:14:07,0.579s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:14:07,2023-05-23 18:14:08,0.677s,PASSED
+,,,,,,,
+Test Cases/Compliance status - Suite,Chrome 113.0.0.0,,,2023-05-23 18:14:08,2023-05-23 18:15:33,1m - 25.849s,PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.001s,PASSED
+js = driver,Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.000s,PASSED
+"timeZone = findTestData(""Add Inst-Type Data"").getValue(""Log -TimeZone"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.036s,PASSED
+"ValidateField = findTestData(""Add Inst-Type Data"").getValue(""ValidateField"", 2)",Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.044s,PASSED
+Overdue_ldt = LocalDateTime.now(ZoneId.of(timeZone)),Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.002s,PASSED
+"currentDate = DateTimeFormatter.ofPattern(""MM/dd/yyyy"")",Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.002s,PASSED
+endDate = currentDate.format(Overdue_ldt),Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.000s,PASSED
+"dateTimeFor = DateTimeFormatter.ofPattern(""dd"")",Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.001s,PASSED
+CD = dateTimeFor.format(Overdue_ldt),Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.000s,PASSED
+Overdue_minusHours = Overdue_ldt.minusHours(72),Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.001s,PASSED
+"Overdue_dtfHH = DateTimeFormatter.ofPattern(""MM/dd/yyyy,HH"")",Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.001s,PASSED
+Overdue_formatedDateTimeHH = Overdue_minusHours.format(Overdue_dtfHH),Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.000s,PASSED
+"Overdue_DateTime = Overdue_formatedDateTimeHH.split("","")",Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.000s,PASSED
+OverdueDate = Overdue_DateTime[0],Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:09,0.000s,PASSED
+"scrollTopReport = driver.findElement(By.xpath(""//a//span[text()='Reports']""))",Chrome 113.0.0.0,,,2023-05-23 18:14:09,2023-05-23 18:14:10,0.296s,PASSED
+"js.executeScript(""arguments[0].scrollIntoView(false)"", scrollTopReport)",Chrome 113.0.0.0,,,2023-05-23 18:14:10,2023-05-23 18:14:10,0.025s,PASSED
+"click(findTestObject(""Compliance status/click_Reports""))",Chrome 113.0.0.0,,,2023-05-23 18:14:10,2023-05-23 18:14:10,0.521s,PASSED
+"setText(findTestObject(""Compliance status/fromDate""), OverdueDate)",Chrome 113.0.0.0,,,2023-05-23 18:14:10,2023-05-23 18:14:14,3.550s,PASSED
+"setText(findTestObject(""Compliance status/toDate""), endDate)",Chrome 113.0.0.0,,,2023-05-23 18:14:14,2023-05-23 18:14:14,0.857s,PASSED
+"click(findTestObject(""Compliance status/click_Apply""))",Chrome 113.0.0.0,,,2023-05-23 18:14:14,2023-05-23 18:14:15,0.459s,PASSED
+num = Integer.parseInt(CD),Chrome 113.0.0.0,,,2023-05-23 18:14:15,2023-05-23 18:14:15,0.001s,PASSED
+println(num),Chrome 113.0.0.0,,,2023-05-23 18:14:15,2023-05-23 18:14:15,0.001s,PASSED
+now = LocalTime.now(ZoneId.of(timeZone)),Chrome 113.0.0.0,,,2023-05-23 18:14:15,2023-05-23 18:14:15,0.014s,PASSED
+"if (num == 3 && now.isAfter(LocalTime.parse(""12:00"")) && now.isBefore(LocalTime.parse(""23:59"")))",Chrome 113.0.0.0,,,2023-05-23 18:14:15,2023-05-23 18:14:15,0.000s,PASSED
+"scrollToElement(findTestObject(""Compliance status/scrollDown""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:14:15,2023-05-23 18:14:17,2.133s,PASSED
+"lo = driver.findElements(By.xpath(""//div[@title='Non-Compliance Not Yet Reviewed']""))",Chrome 113.0.0.0,,,2023-05-23 18:14:17,2023-05-23 18:14:17,0.272s,PASSED
+"for ([i = 0, i < lo.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:17,2023-05-23 18:14:17,0.088s,PASSED
+"click(findTestObject(""Compliance status/click_Overdue""))",Chrome 113.0.0.0,,,2023-05-23 18:14:17,2023-05-23 18:14:19,1.438s,PASSED
+"click(findTestObject(""Compliance status/click_Resolve""))",Chrome 113.0.0.0,,,2023-05-23 18:14:19,2023-05-23 18:14:20,0.782s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:14:20,2023-05-23 18:14:21,1.182s,PASSED
+"l = driver.findElements(By.xpath(""//div[@aria-expanded='true']//label[contains(@class,'white')]""))",Chrome 113.0.0.0,,,2023-05-23 18:14:21,2023-05-23 18:14:21,0.291s,PASSED
+"for ([i = 0, i < l.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:21,2023-05-23 18:14:21,0.000s,PASSED
+"setText(findTestObject(""Compliance status/setTextForReason-Resolve""), ""Checking Resolve Status"")",Chrome 113.0.0.0,,,2023-05-23 18:14:21,2023-05-23 18:14:22,0.893s,PASSED
+"click(findTestObject(""Compliance status/btn_MarkasComplete""))",Chrome 113.0.0.0,,,2023-05-23 18:14:22,2023-05-23 18:14:22,0.422s,PASSED
+"click(findTestObject(""ELL Menu/Select_MenuIcon""))",Chrome 113.0.0.0,,,2023-05-23 18:14:22,2023-05-23 18:14:24,1.834s,PASSED
+"click(findTestObject(""ELL Menu/a_Dashboard""))",Chrome 113.0.0.0,,,2023-05-23 18:14:24,2023-05-23 18:14:25,0.860s,PASSED
+"setText(findTestObject(""Compliance status/input_SearchString""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:14:25,2023-05-23 18:14:30,5.124s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:14:30,2023-05-23 18:14:32,2.017s,PASSED
+"Actual = getText(findTestObject(""Compliance status/verifi_ExpvsAct""))",Chrome 113.0.0.0,,,2023-05-23 18:14:32,2023-05-23 18:14:34,1.912s,PASSED
+println(Actual),Chrome 113.0.0.0,,,2023-05-23 18:14:34,2023-05-23 18:14:34,0.000s,PASSED
+"expected = findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:14:34,2023-05-23 18:14:34,0.032s,PASSED
+println(expected),Chrome 113.0.0.0,,,2023-05-23 18:14:34,2023-05-23 18:14:34,0.000s,PASSED
+"verifyEqual(Actual, expected)",Chrome 113.0.0.0,,,2023-05-23 18:14:34,2023-05-23 18:14:34,0.003s,PASSED
+"scrollToElement(findTestObject(""Compliance status/scrollToNonCompliance(1)""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:14:34,2023-05-23 18:14:35,0.371s,PASSED
+"click(findTestObject(""Compliance status/click_NT""))",Chrome 113.0.0.0,,,2023-05-23 18:14:35,2023-05-23 18:14:35,0.450s,PASSED
+"scrollToElement(findTestObject(""Compliance status/scroll_viewInst""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:14:35,2023-05-23 18:14:38,2.872s,PASSED
+"click(findTestObject(""Compliance status/click_shownCalender""))",Chrome 113.0.0.0,,,2023-05-23 18:14:38,2023-05-23 18:14:39,0.897s,PASSED
+"scrollToElement(findTestObject(""Compliance status/scrollToCalenderView""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:14:39,2023-05-23 18:14:39,0.428s,PASSED
+robot = new java.awt.Robot(),Chrome 113.0.0.0,,,2023-05-23 18:14:39,2023-05-23 18:14:39,0.073s,PASSED
+if (num <= 2 || num <= 1),Chrome 113.0.0.0,,,2023-05-23 18:14:39,2023-05-23 18:14:39,0.000s,PASSED
+else if (num >= 17),Chrome 113.0.0.0,,,2023-05-23 18:14:39,2023-05-23 18:14:40,0.525s,PASSED
+"expStatus = ""NT""",Chrome 113.0.0.0,,,2023-05-23 18:14:40,2023-05-23 18:14:40,0.001s,PASSED
+"NT = driver.findElements(By.xpath(""//span[@class='glyphicon glyphicon-remove text-danger ng-star-inserted'] |//span[@class='glyphicon glyphicon-remove bg-dark ng-star-inserted']""))",Chrome 113.0.0.0,,,2023-05-23 18:14:40,2023-05-23 18:14:40,0.330s,PASSED
+"for ([k = 0, k < NT.size(), (k++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:40,2023-05-23 18:14:40,0.077s,PASSED
+"NoTesting1 = driver.findElements(By.xpath(""//span[contains(@class,'rounded-pill-button p-1')]""))",Chrome 113.0.0.0,,,2023-05-23 18:14:40,2023-05-23 18:14:42,1.273s,PASSED
+"for ([i = 0, i < NoTesting1.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:42,2023-05-23 18:14:42,0.467s,PASSED
+"NoTesting2 = driver.findElements(By.xpath(""//span[contains(@class,'rounded-pill-button p-1')]""))",Chrome 113.0.0.0,,,2023-05-23 18:14:42,2023-05-23 18:14:42,0.271s,PASSED
+"for ([j = 0, j < NoTesting2.size(), (j++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:42,2023-05-23 18:14:43,0.459s,PASSED
+"click(findTestObject(""Compliance status/click_cancel""))",Chrome 113.0.0.0,,,2023-05-23 18:14:43,2023-05-23 18:14:43,0.443s,PASSED
+"lol = driver.findElements(By.xpath(""//div[@title='Non-Compliance Not Yet Reviewed']""))",Chrome 113.0.0.0,,,2023-05-23 18:14:43,2023-05-23 18:14:43,0.309s,PASSED
+"for ([i = 0, i < lol.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:14:43,2023-05-23 18:14:44,0.174s,PASSED
+"click(findTestObject(""Compliance status/click_overdue-Ignore""))",Chrome 113.0.0.0,,,2023-05-23 18:14:44,2023-05-23 18:14:45,0.891s,PASSED
+"click(findTestObject(""Compliance status/click_Ignore""))",Chrome 113.0.0.0,,,2023-05-23 18:14:45,2023-05-23 18:14:45,0.815s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:14:45,2023-05-23 18:14:46,0.673s,PASSED
+"setText(findTestObject(""Compliance status/setTextForReason-Ignore""), ""Checking Ignore Status"")",Chrome 113.0.0.0,,,2023-05-23 18:14:46,2023-05-23 18:14:47,0.986s,PASSED
+"click(findTestObject(""Compliance status/btn_MarkasOverride-Ignore""))",Chrome 113.0.0.0,,,2023-05-23 18:14:47,2023-05-23 18:14:47,0.457s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:14:47,2023-05-23 18:14:50,2.011s,PASSED
+"scrollTop = driver.findElement(By.xpath(""//a//span[text()='Non-Compliance']""))",Chrome 113.0.0.0,,,2023-05-23 18:14:50,2023-05-23 18:14:50,0.279s,PASSED
+"js.executeScript(""arguments[0].scrollIntoView(false)"", scrollTop)",Chrome 113.0.0.0,,,2023-05-23 18:14:50,2023-05-23 18:14:50,0.027s,PASSED
+"click(findTestObject(""Compliance status/scrollToNoncompliance(Top)""))",Chrome 113.0.0.0,,,2023-05-23 18:14:50,2023-05-23 18:14:50,0.561s,PASSED
+"setText(findTestObject(""Compliance status/input_SearchString""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:14:50,2023-05-23 18:14:54,3.170s,PASSED
+"verifyEqual(Actual, expected)",Chrome 113.0.0.0,,,2023-05-23 18:14:54,2023-05-23 18:14:54,0.003s,PASSED
+"setText(findTestObject(""Compliance status/fromDate""), OverdueDate)",Chrome 113.0.0.0,,,2023-05-23 18:14:54,2023-05-23 18:14:54,0.843s,PASSED
+"setText(findTestObject(""Compliance status/toDate""), endDate)",Chrome 113.0.0.0,,,2023-05-23 18:14:54,2023-05-23 18:14:56,1.728s,PASSED
+"click(findTestObject(""Compliance status/click_submit""))",Chrome 113.0.0.0,,,2023-05-23 18:14:56,2023-05-23 18:14:57,0.463s,PASSED
+"executeJavaScript(""window.scrollBy(0,document.body.scrollHeight)"", null)",Chrome 113.0.0.0,,,2023-05-23 18:14:57,2023-05-23 18:14:57,0.050s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:14:57,2023-05-23 18:14:59,2.016s,PASSED
+"click(findTestObject(""Compliance status/click_Confirm""))",Chrome 113.0.0.0,,,2023-05-23 18:14:59,2023-05-23 18:14:59,0.441s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:14:59,2023-05-23 18:15:00,0.661s,PASSED
+"setText(findTestObject(""Compliance status/setTextForReason-Confirm""), ""Checking Confirm Status"")",Chrome 113.0.0.0,,,2023-05-23 18:15:00,2023-05-23 18:15:01,0.911s,PASSED
+"click(findTestObject(""Compliance status/click_btnConfirm""))",Chrome 113.0.0.0,,,2023-05-23 18:15:01,2023-05-23 18:15:01,0.421s,PASSED
+"scrollToTask = driver.findElement(By.xpath(""//a//span[text()='Tasks']""))",Chrome 113.0.0.0,,,2023-05-23 18:15:01,2023-05-23 18:15:03,1.586s,PASSED
+"js.executeScript(""arguments[0].scrollIntoView(false)"", scrollToTask)",Chrome 113.0.0.0,,,2023-05-23 18:15:03,2023-05-23 18:15:03,0.023s,PASSED
+"click(findTestObject(""Compliance status/click_Top-Task""))",Chrome 113.0.0.0,,,2023-05-23 18:15:03,2023-05-23 18:15:03,0.759s,PASSED
+"setText(findTestObject(""Compliance status/input_SearchString""), findTestData(""Add Inst-Type Data"").getValue(""Created-InsType_Name"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:15:03,2023-05-23 18:15:09,5.176s,PASSED
+"verifyEqual(Actual, expected)",Chrome 113.0.0.0,,,2023-05-23 18:15:09,2023-05-23 18:15:09,0.003s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-23 18:15:09,2023-05-23 18:15:11,2.002s,PASSED
+"click(findTestObject(""Compliance status/click_Confirm""))",Chrome 113.0.0.0,,,2023-05-23 18:15:11,2023-05-23 18:15:13,1.984s,PASSED
+"setText(findTestObject(""Compliance status/setTextForReason-Confirm""), ""Checking extra Confirm Status"")",Chrome 113.0.0.0,,,2023-05-23 18:15:13,2023-05-23 18:15:14,1.034s,PASSED
+"click(findTestObject(""Compliance status/click_btnConfirm""))",Chrome 113.0.0.0,,,2023-05-23 18:15:14,2023-05-23 18:15:17,3.413s,PASSED
+"scrollToElement(findTestObject(""Compliance status/scroll_viewInst""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:15:17,2023-05-23 18:15:20,2.736s,PASSED
+"waitForElementClickable(findTestObject(""Compliance status/scroll_shownCalender""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:15:20,2023-05-23 18:15:20,0.390s,PASSED
+"click(findTestObject(""Compliance status/scroll_shownCalender""))",Chrome 113.0.0.0,,,2023-05-23 18:15:20,2023-05-23 18:15:21,0.619s,PASSED
+if (num == 1),Chrome 113.0.0.0,,,2023-05-23 18:15:21,2023-05-23 18:15:21,0.000s,PASSED
+else if (num >= 17),Chrome 113.0.0.0,,,2023-05-23 18:15:21,2023-05-23 18:15:21,0.505s,PASSED
+"NC = driver.findElements(By.xpath(""//span[@class='glyphicon glyphicon-remove text-danger ng-star-inserted'] |//span[@class='glyphicon glyphicon-remove bg-dark ng-star-inserted']""))",Chrome 113.0.0.0,,,2023-05-23 18:15:21,2023-05-23 18:15:22,0.310s,PASSED
+"for ([i = 0, i < NC.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:15:22,2023-05-23 18:15:22,0.084s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:15:22,2023-05-23 18:15:23,1.455s,PASSED
+"click(findTestObject(""Compliance status/click_cancel""))",Chrome 113.0.0.0,,,2023-05-23 18:15:23,2023-05-23 18:15:24,0.429s,PASSED
+if (num <= 2 || num <= 1),Chrome 113.0.0.0,,,2023-05-23 18:15:24,2023-05-23 18:15:24,0.000s,PASSED
+else if (num == 3),Chrome 113.0.0.0,,,2023-05-23 18:15:24,2023-05-23 18:15:24,0.001s,PASSED
+else,Chrome 113.0.0.0,,,2023-05-23 18:15:24,2023-05-23 18:15:29,5.165s,PASSED
+"executeJavaScript(""window.scrollBy(0,document.body.scrollHeight)"", null)",Chrome 113.0.0.0,,,2023-05-23 18:15:29,2023-05-23 18:15:29,0.027s,PASSED
+"click(findTestObject(""Compliance status/click_HideCalender""))",Chrome 113.0.0.0,,,2023-05-23 18:15:29,2023-05-23 18:15:29,0.533s,PASSED
+"scrollToElement(findTestObject(""Compliance status/scroll_shownCalender""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:15:29,2023-05-23 18:15:33,3.408s,PASSED
+"scrollToOvrdue = driver.findElement(By.xpath(""//strong[text()='Overdue']""))",Chrome 113.0.0.0,,,2023-05-23 18:15:33,2023-05-23 18:15:33,0.277s,PASSED
+"js.executeScript(""arguments[0].scrollIntoView(false)"", scrollToOvrdue)",Chrome 113.0.0.0,,,2023-05-23 18:15:33,2023-05-23 18:15:33,0.020s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:15:33,2023-05-23 18:15:33,0.443s,PASSED
+,,,,,,,
+Test Cases/Site creation,Chrome 113.0.0.0,,,2023-05-23 18:15:33,2023-05-23 18:16:59,1m - 25.047s,PASSED
+"openBrowser(findTestData(""Login"").getValue(""URL"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:15:35,2023-05-23 18:15:43,7.975s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-23 18:15:43,2023-05-23 18:15:43,0.143s,PASSED
+"setText(findTestObject(""Login_SelectDatabase/input_Sign in to your account_ng-untouched _b61fc2""), findTestData(""Login"").getValue(""UserName"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:15:43,2023-05-23 18:15:45,1.296s,PASSED
+"setEncryptedText(findTestObject(""Login_SelectDatabase/input_Email_ng-touched ng-dirty ng-valid""), findTestData(""Login"").getValue(""Password"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:15:45,2023-05-23 18:15:46,1.331s,PASSED
+"click(findTestObject(""Login_SelectDatabase/button_SIGN IN""))",Chrome 113.0.0.0,,,2023-05-23 18:15:46,2023-05-23 18:15:47,0.668s,PASSED
+"click(findTestObject(""Site creation/div_QA Automation""))",Chrome 113.0.0.0,,,2023-05-23 18:15:47,2023-05-23 18:15:52,5.284s,PASSED
+"click(findTestObject(""Site creation/button_Use Selected Database""))",Chrome 113.0.0.0,,,2023-05-23 18:15:52,2023-05-23 18:15:52,0.507s,PASSED
+delay(5),Chrome 113.0.0.0,,,2023-05-23 18:15:52,2023-05-23 18:15:57,5.014s,PASSED
+"click(findTestObject(""ELL Menu/Select_MenuIcon""))",Chrome 113.0.0.0,,,2023-05-23 18:15:57,2023-05-23 18:16:00,2.341s,PASSED
+"click(findTestObject(""ELL Menu/a_ADMINISTRATION""))",Chrome 113.0.0.0,,,2023-05-23 18:16:00,2023-05-23 18:16:01,0.914s,PASSED
+"click(findTestObject(""Site creation/button_Add Site""))",Chrome 113.0.0.0,,,2023-05-23 18:16:01,2023-05-23 18:16:03,2.484s,PASSED
+"click(findTestObject(""Site creation/input_Site Name""))",Chrome 113.0.0.0,,,2023-05-23 18:16:03,2023-05-23 18:16:04,0.554s,PASSED
+dateFormat = new java.text.SimpleDateFormat(yyyy/dd/MM HH:mm:ss),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+date = new java.util.Date(),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.000s,PASSED
+a = dateFormat.format(date),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+println(a),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+"b = "" - """,Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+"Site = findTestData(""Site Data"").getValue(""Site Name"", 1) + b + a",Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.039s,PASSED
+println(Site),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+logInfo(Site),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.000s,PASSED
+file = new java.io.File(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+stream = new java.io.FileInputStream(file),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(stream),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.044s,PASSED
+"sheet = workbook.getSheet(""Add D&U"")",Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.000s,PASSED
+row = sheet.getRow(1),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+cell = row.createCell(1),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.000s,PASSED
+cell.setCellValue(Site),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+outputStream = new java.io.FileOutputStream(.//Excel//ELL_Departments & Units.xlsx),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+workbook.write(outputStream),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.029s,PASSED
+outputStream.close(),Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:04,0.001s,PASSED
+"setText(findTestObject(""Site creation/input_Site Name""), Site)",Chrome 113.0.0.0,,,2023-05-23 18:16:04,2023-05-23 18:16:05,0.845s,PASSED
+"s1 = getAttribute(findTestObject(""Site creation/input_Site Name""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:16:05,2023-05-23 18:16:05,0.354s,PASSED
+println(s1),Chrome 113.0.0.0,,,2023-05-23 18:16:05,2023-05-23 18:16:05,0.001s,PASSED
+"verifyEqual(Site, s1)",Chrome 113.0.0.0,,,2023-05-23 18:16:05,2023-05-23 18:16:05,0.002s,PASSED
+"A1 = findTestData(""Site Data"").getValue(""Address"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:16:05,2023-05-23 18:16:05,0.030s,PASSED
+"setText(findTestObject(""Site creation/input_Address""), A1)",Chrome 113.0.0.0,,,2023-05-23 18:16:05,2023-05-23 18:16:06,0.829s,PASSED
+"A2 = getAttribute(findTestObject(""Site creation/input_Address""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:16:06,2023-05-23 18:16:06,0.394s,PASSED
+println(A2),Chrome 113.0.0.0,,,2023-05-23 18:16:06,2023-05-23 18:16:06,0.000s,PASSED
+"verifyEqual(A1, A2)",Chrome 113.0.0.0,,,2023-05-23 18:16:06,2023-05-23 18:16:06,0.002s,PASSED
+"c1 = findTestData(""Site Data"").getValue(""City"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:16:06,2023-05-23 18:16:06,0.038s,PASSED
+"setText(findTestObject(""Site creation/input_City_city""), c1)",Chrome 113.0.0.0,,,2023-05-23 18:16:06,2023-05-23 18:16:07,0.837s,PASSED
+"c2 = getAttribute(findTestObject(""Site creation/input_City_city""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:16:07,2023-05-23 18:16:07,0.377s,PASSED
+"verifyEqual(c1, c2)",Chrome 113.0.0.0,,,2023-05-23 18:16:07,2023-05-23 18:16:07,0.002s,PASSED
+"S5 = findTestData(""Site Data"").getValue(""State"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:16:07,2023-05-23 18:16:08,0.036s,PASSED
+"setText(findTestObject(""Site creation/input_State_state""), S5)",Chrome 113.0.0.0,,,2023-05-23 18:16:08,2023-05-23 18:16:08,0.798s,PASSED
+"S6 = getAttribute(findTestObject(""Site creation/input_State_state""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:16:08,2023-05-23 18:16:09,0.403s,PASSED
+"verifyEqual(S5, S6)",Chrome 113.0.0.0,,,2023-05-23 18:16:09,2023-05-23 18:16:09,0.003s,PASSED
+"z1 = findTestData(""Site Data"").getValue(""Zip"", 1)",Chrome 113.0.0.0,,,2023-05-23 18:16:09,2023-05-23 18:16:09,0.033s,PASSED
+"setText(findTestObject(""Site creation/input_Zip_zip""), z1)",Chrome 113.0.0.0,,,2023-05-23 18:16:09,2023-05-23 18:16:10,0.827s,PASSED
+"z2 = getAttribute(findTestObject(""Site creation/input_Zip_zip""), ""value"")",Chrome 113.0.0.0,,,2023-05-23 18:16:10,2023-05-23 18:16:10,0.389s,PASSED
+"verifyEqual(z1, z2)",Chrome 113.0.0.0,,,2023-05-23 18:16:10,2023-05-23 18:16:10,0.002s,PASSED
+"selectOptionByLabel(findTestObject(""Site creation/select_country""), findTestData(""Site Data"").getValue(""Country"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:16:10,2023-05-23 18:16:17,7.344s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Site creation/select_country""), findTestData(""Site Data"").getValue(""Country"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:16:17,2023-05-23 18:16:21,3.440s,PASSED
+"setText(findTestObject(""Site creation/input_Phone_phone""), findTestData(""Site Data"").getValue(""Phone"", 1))",Chrome 113.0.0.0,,,2023-05-23 18:16:21,2023-05-23 18:16:22,0.887s,PASSED
+"selectOptionByLabel(findTestObject(""Site creation/select_Timezone""), findTestData(""Site Data"").getValue(""Timezone"", 1), true)",Chrome 113.0.0.0,,,2023-05-23 18:16:22,2023-05-23 18:16:38,16.476s,PASSED
+"verifyOptionPresentByLabel(findTestObject(""Site creation/select_Timezone""), findTestData(""Site Data"").getValue(""Timezone"", 1), false, 0)",Chrome 113.0.0.0,,,2023-05-23 18:16:38,2023-05-23 18:16:45,7.315s,PASSED
+"click(findTestObject(""Site creation/input_system_Schedule""))",Chrome 113.0.0.0,,,2023-05-23 18:16:45,2023-05-23 18:16:46,0.460s,PASSED
+"click(findTestObject(""Site creation/SA_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:16:46,2023-05-23 18:16:46,0.557s,PASSED
+"click(findTestObject(""Site creation/SU_ON""))",Chrome 113.0.0.0,,,2023-05-23 18:16:46,2023-05-23 18:16:47,0.528s,PASSED
+"click(findTestObject(""Site creation/button_Save""))",Chrome 113.0.0.0,,,2023-05-23 18:16:47,2023-05-23 18:16:48,0.561s,PASSED
+"verifyElementPresent(findTestObject(""Site creation/div_Success  Site added successfully""), 0)",Chrome 113.0.0.0,,,2023-05-23 18:16:48,2023-05-23 18:16:50,2.802s,PASSED
+"c = getText(findTestObject(""Site creation/div_Success  Site added successfully""))",Chrome 113.0.0.0,,,2023-05-23 18:16:50,2023-05-23 18:16:51,0.364s,PASSED
+println(c),Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.001s,PASSED
+logInfo(c),Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.000s,PASSED
+"click(findTestObject(""Site creation/div_click""))",Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.451s,PASSED
+driver = getWebDriver(),Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.000s,PASSED
+executor = driver,Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.001s,PASSED
+"li = driver.findElements(By.xpath(""//div[@class="" + ""'col']""))",Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.305s,PASSED
+op = li.size(),Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.001s,PASSED
+println(op),Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:51,0.000s,PASSED
+"for ([i = 0, i < li.size(), (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:16:51,2023-05-23 18:16:57,5.366s,PASSED
+actions = new org.openqa.selenium.interactions.Actions(driver),Chrome 113.0.0.0,,,2023-05-23 18:16:57,2023-05-23 18:16:57,0.000s,PASSED
+sendKeys(UP).perform(),Chrome 113.0.0.0,,,2023-05-23 18:16:57,2023-05-23 18:16:57,0.021s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:16:57,2023-05-23 18:16:58,1.077s,PASSED
+"for ([i = 1, i <= 6, (i++)])",Chrome 113.0.0.0,,,2023-05-23 18:16:58,2023-05-23 18:16:58,0.140s,PASSED
+takeScreenshot(),Chrome 113.0.0.0,,,2023-05-23 18:16:58,2023-05-23 18:16:59,0.451s,PASSED

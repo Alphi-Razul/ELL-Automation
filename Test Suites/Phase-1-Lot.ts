@@ -71,4 +71,11 @@
          <variableId>12fac2ca-542e-47c3-a900-ace6a7dc4719</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4aec603a-f8ff-4cfa-8748-06edcbf155fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Site creation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

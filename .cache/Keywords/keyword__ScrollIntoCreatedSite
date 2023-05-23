@@ -1,15 +1,9 @@
 {
-  "keywordFileContentHash": "801B10E0DF1E87302F5A58E2677B1C78",
+  "keywordFileContentHash": "C7F194E177E069E54CE3DEA61FDF9003",
   "keywordClasses": [
     {
-      "name": "keyword.ScrollIntoCreatedSite",
-      "keywordMethods": [
-        {
-          "name": "screenshot",
-          "parameters": [],
-          "javadoc": ""
-        }
-      ]
+      "name": "ScrollIntoCreatedSite",
+      "keywordMethods": []
     }
   ],
   "javadocParsed": true

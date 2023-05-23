@@ -177,6 +177,7 @@ WebUI.click(findTestObject('Compliance status/click_shownCalender'))
 
 WebUI.scrollToElement(findTestObject('Compliance status/scrollToCalenderView'), 0)
 
+Robot robot=new Robot()
 //NEW CHANGES MADE FOR SS
 if(num<=2 || num<=1){
 
@@ -184,7 +185,14 @@ if(num<=2 || num<=1){
 
 	WebUI.click(findTestObject('Compliance status/click_cal'))
 
-	LogTaskstatus.horizontalScroll()
+	//KEYWORD
+	//LogTaskstatus.horizontalScroll()
+
+	for(int i=1;i<=15;i++){
+		robot.keyPress(KeyEvent.VK_RIGHT)
+		robot.keyRelease(KeyEvent.VK_RIGHT)
+	}
+	
 	println("The current date is below 1,2")
 }
 
@@ -192,7 +200,13 @@ else if(num >= 17){
 
 WebUI.click(findTestObject('Compliance status/click_cal'))
 
-LogTaskstatus.horizontalScroll()
+//KEYWORD
+//LogTaskstatus.horizontalScroll()
+for(int i=1;i<=15;i++){
+	robot.keyPress(KeyEvent.VK_RIGHT)
+	robot.keyRelease(KeyEvent.VK_RIGHT)
+}
+
 println("The current date is equal or above 17")
 
 	}else{
@@ -344,8 +358,14 @@ if(num == 1){
 	WebUI.click(findTestObject('Compliance status/click_leftArrow'))
 
 	WebUI.click(findTestObject('Compliance status/click_cal'))
-
-	LogTaskstatus.horizontalScroll()
+	
+    //KEYWORD
+	//LogTaskstatus.horizontalScroll()
+	for(int i=1;i<=15;i++){
+		robot.keyPress(KeyEvent.VK_RIGHT)
+		robot.keyRelease(KeyEvent.VK_RIGHT)
+	}
+	
 	println("The current date is below 1,2")
 }
 
@@ -353,7 +373,13 @@ else if(num >= 17){
 
 WebUI.click(findTestObject('Compliance status/click_cal'))
 
-LogTaskstatus.horizontalScroll()
+//KEYWORD
+	//LogTaskstatus.horizontalScroll()
+	for(int i=1;i<=15;i++){
+		robot.keyPress(KeyEvent.VK_RIGHT)
+		robot.keyRelease(KeyEvent.VK_RIGHT)
+	}
+	
 println("The current date is equal or above 17")
 
 }else{
@@ -380,7 +406,13 @@ if(num<=2 || num<=1){
 
 	WebUI.click(findTestObject('Compliance status/click_cal'))
 
-	LogTaskstatus.horizontalScroll()
+	//KEYWORD
+	//LogTaskstatus.horizontalScroll()
+	for(int i=1;i<=15;i++){
+		robot.keyPress(KeyEvent.VK_RIGHT)
+		robot.keyRelease(KeyEvent.VK_RIGHT)
+	}
+	
 	println("The current date is below 1,2")
 	
 	List<String>missing=driver.findElements(By.xpath("//span[@class='glyphicon glyphicon-remove text-danger ng-star-inserted']| (//span[@class='glyphicon glyphicon-ok text-warning ng-star-inserted'])[2]"))
@@ -425,7 +457,13 @@ WebUI.click(findTestObject('Compliance status/click_leftArrow'))
 
 	WebUI.click(findTestObject('Compliance status/click_cal'))
 
-	LogTaskstatus.horizontalScroll()
+	//KEYWORD
+	//LogTaskstatus.horizontalScroll()
+	for(int i=1;i<=15;i++){
+		robot.keyPress(KeyEvent.VK_RIGHT)
+		robot.keyRelease(KeyEvent.VK_RIGHT)
+	}
+	
 	println("The current date is 3")
 	
 	List<String>mng=driver.findElements(By.xpath("//span[@class='glyphicon glyphicon-remove text-danger ng-star-inserted']| (//span[@class='glyphicon glyphicon-ok text-warning ng-star-inserted'])[1]"))
